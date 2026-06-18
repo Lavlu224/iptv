@@ -15,16 +15,19 @@
         "url": "https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8"
     },
     {
-        "name": "GO LIVE - English",
-        "logo": "https://rtb-images.glueapi.io/320x0/live/GoLiveNew.png",
-        "group": "FIFA",
-        "url": "https://d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist.m3u8"
-    },
-    {
         "name": "Football World Cup 2026 4K",
         "logo": "https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg",
         "group": "FIFA",
         "url": "http://starhub.pro/live/farhat-3379/67897-913379/744527.ts"
+    },
+    {
+        "name": "World Cup TV",
+        "logo": "https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg",
+        "group": "FIFA",
+        "url": "https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/pp_ch2_pri/default/index.mpd",
+        "type": "dash",
+        "kid": "4fef00332d7e4fbc8f7005dfbf851a59",
+        "key": "a6368c181358f3e527411a6c452c6a1a"
     },
     {
         "name": "CAZE TV",

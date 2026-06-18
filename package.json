@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "get-qualities": "node scripts/get_qualities.js",
+    "json-to-m3u": "node scripts/json-to-m3u.js"
   },
   "dependencies": {
     "next": "16.2.9",
