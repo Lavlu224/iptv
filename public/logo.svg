@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#7c3aed" />
+    </linearGradient>
+    <filter id="logoGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <!-- Background TV Shape with gradient and subtle glow -->
+  <rect x="12" y="24" width="76" height="56" rx="16" fill="url(#logoGrad)" filter="url(#logoGlow)" />
+  <!-- Screen Area -->
+  <rect x="18" y="30" width="64" height="44" rx="10" fill="#09090b" fill-opacity="0.85" />
+  <!-- TV Antennae -->
+  <path d="M40 24 L28 12 M60 24 L72 12" stroke="white" stroke-width="4" stroke-linecap="round" opacity="0.9" />
+  <!-- Inner Play / Streaming Icon -->
+  <polygon points="44,42 62,52 44,62" fill="url(#logoGrad)" />
+</svg>
