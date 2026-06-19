@@ -1,14 +1,5 @@
 [
     {
-        "name": "D Sports",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5a/DSports.png",
-        "group": "FIFA",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/ubehitlwzo/out/v1/8e09c381a51f4366a19e979418112e8f/cenc.mpd",
-        "type": "dash",
-        "kid": "a7d11d37a1f7611ee88d4db880171f32",
-        "key": "68f96d618b0b956b008c445896a25a79"
-    },
-    {
         "name": "FOX",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Fox_Broadcasting_Company_logo_%282019%29.svg/250px-Fox_Broadcasting_Company_logo_%282019%29.svg.png",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/9crxia693u/out/v1/fc40f22f10374517a2784e1d97cb23f4/cenc.mpd",
@@ -36,15 +27,6 @@
         "logo": "https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg",
         "group": "FIFA",
         "url": "http://starhub.pro/live/farhat-3379/67897-913379/744527.ts"
-    },
-    {
-        "name": "World Cup TV",
-        "logo": "https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg",
-        "group": "FIFA",
-        "url": "https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/pp_ch2_pri/default/index.mpd",
-        "type": "dash",
-        "kid": "4fef00332d7e4fbc8f7005dfbf851a59",
-        "key": "a6368c181358f3e527411a6c452c6a1a"
     },
     {
         "name": "CAZE TV",
@@ -75,24 +57,6 @@
         "logo": "https://i.postimg.cc/Kc3mP7Qt/cbimage.png",
         "group": "FIFA",
         "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8"
-    },
-    {
-        "name": "TUDN",
-        "logo": "https://i.imgur.com/oT5CAvd.png",
-        "group": "FIFA",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/8u9cregwlt/out/v1/687f6b2a559943549be271504a948ffd/cenc.mpd",
-        "type": "dash",
-        "kid": "1710ac2bbfcd3032d0f6533850968f47",
-        "key": "d2548dacc8efcd1cd0af0373060c82dc"
-    },
-    {
-        "name": "Telemundo",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Telemundo_logo_2018.svg/960px-Telemundo_logo_2018.svg.png",
-        "group": "FIFA",
-        "url": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kvea)/master.mpd",
-        "type": "dash",
-        "kid": "ce7ab3022e753307997f58afe001bac4",
-        "key": "72d631a66e635c60829a0fe7705516c1"
     },
     {
         "name": "FIFA CTV - English (1080p)",
