@@ -50,6 +50,13 @@ function convertFile(inputPath, outputPath) {
       extinf += `,${channel.name || 'Unnamed Channel'}`;
 
       m3uLines.push(extinf);
+
+      // If the channel has a custom referer, add VLC options for compatibility
+      if (channel.referer) {
+        m3uLines.push(`#EXTVLCOPT:http-referrer=${channel.referer}`);
+        m3uLines.push(`#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36`);
+      }
+
       m3uLines.push(channel.url);
     });
 

@@ -82,7 +82,19 @@ async function getStreamQualities() {
     }
 
     try {
-      const response = await fetch(stream.url);
+      const fetchOptions = {};
+      if (stream.referer) {
+        try {
+          const parsedReferer = new URL(stream.referer);
+          fetchOptions.headers = {
+            'Referer': parsedReferer.origin + '/',
+            'Origin': parsedReferer.origin,
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36',
+          };
+        } catch { /* invalid referer URL, skip */ }
+      }
+
+      const response = await fetch(stream.url, fetchOptions);
       if (!response.ok) {
         console.error(`  [!] Failed to fetch stream: ${response.status} ${response.statusText}`);
         console.log('');
