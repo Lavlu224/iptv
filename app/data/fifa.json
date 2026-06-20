@@ -1,5 +1,11 @@
 [
     {
+        "name": "TVP Sport",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Logo_TVP_Sport.jpg/1280px-Logo_TVP_Sport.jpg",
+        "url": "https://1nyaler.streamhostingcdn.top/stream/89/index.m3u8",
+        "group": "FIFA"
+    },
+    {
         "name": "FOX",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Fox_Broadcasting_Company_logo_%282019%29.svg/250px-Fox_Broadcasting_Company_logo_%282019%29.svg.png",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/9crxia693u/out/v1/fc40f22f10374517a2784e1d97cb23f4/cenc.mpd",
