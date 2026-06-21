@@ -70,6 +70,9 @@ async function getStreamQualities() {
     const url = stream.url || stream.link;
     if (!url) continue;
     if (!stream.url) stream.url = url;
+    if (stream.no_proxy === undefined) {
+      stream.no_proxy = true;
+    }
 
     const normalizedUrl = url.trim();
     if (seenUrls.has(normalizedUrl)) {
