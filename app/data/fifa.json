@@ -1,5 +1,15 @@
 [
     {
+        "name": "FOX [No VPN]",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Fox_Broadcasting_Company_logo_%282019%29.svg/250px-Fox_Broadcasting_Company_logo_%282019%29.svg.png",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/enc/hb3qqzxz0j/out/v1/40b31d7224c4457fbbd23fc02ada6e11/cenc.mpd",
+        "type": "dash",
+        "group": "FIFA",
+        "kid": "a6164ea0967b4bbbb51fdd6c4f83a64f",
+        "key": "b431d9ed821ca93df596168601ae5b00",
+        "no_proxy": true
+    },
+    {
         "name": "TSN Sports 4 - English",
         "logo": "https://i.imgur.com/qJyAWU8.png",
         "group": "FIFA",
