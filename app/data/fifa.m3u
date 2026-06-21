@@ -1,43 +1,43 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://elmarada.org/wp-content/uploads/2022/03/download-247x200.png" group-title="Bein Sports",BeIN Sports 1
+#EXTINF:-1 tvg-logo="https://elmarada.org/wp-content/uploads/2022/03/download-247x200.png" group-title="FIFA",BeIN Sports 1
 http://41.205.70.146/BEINSPORT1/index.m3u8
-#EXTINF:-1 tvg-logo="https://elmarada.org/wp-content/uploads/2022/03/download-247x200.png" group-title="Bein Sports",BeIN Sports 2
+#EXTINF:-1 tvg-logo="https://elmarada.org/wp-content/uploads/2022/03/download-247x200.png" group-title="FIFA",BeIN Sports 2
 http://41.205.70.146/BEINSPORT2/index.m3u8
-#EXTINF:-1 tvg-logo="https://elmarada.org/wp-content/uploads/2022/03/download-247x200.png" group-title="Bein Sports",BeIN Sports 3
+#EXTINF:-1 tvg-logo="https://elmarada.org/wp-content/uploads/2022/03/download-247x200.png" group-title="FIFA",BeIN Sports 3
 http://41.205.70.146/BEINSPORT3/index.m3u8
-#EXTINF:-1 tvg-logo="https://elmarada.org/wp-content/uploads/2022/03/download-247x200.png" group-title="Bein Sports",BeIN Sports 4
+#EXTINF:-1 tvg-logo="https://elmarada.org/wp-content/uploads/2022/03/download-247x200.png" group-title="FIFA",BeIN Sports 4
 http://41.205.70.146/BEINSPORT4/index.m3u8
-#EXTINF:-1 tvg-logo="https://elmarada.org/wp-content/uploads/2022/03/download-247x200.png" group-title="Bein Sports",BeIN Sports 5
+#EXTINF:-1 tvg-logo="https://elmarada.org/wp-content/uploads/2022/03/download-247x200.png" group-title="FIFA",BeIN Sports 5
 http://41.205.70.146/BEINSPORT5/index.m3u8
-#EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2023/12/sport_tv1-logo_brandlogos.net_k6b5q.png" group-title="FIFA World Cup TV Channel",Sport TV1
+#EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2023/12/sport_tv1-logo_brandlogos.net_k6b5q.png" group-title="FIFA",Sport TV 1
 #EXTVLCOPT:http-referrer=https://foottime.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://t7.ultrastream.vip/sporttv1/index.m3u8?
-#EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2023/12/sport_tv1-logo_brandlogos.net_k6b5q.png" group-title="FIFA World Cup TV Channel",Sport TV1 - Sport TV2
+#EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2023/12/sport_tv1-logo_brandlogos.net_k6b5q.png" group-title="FIFA",Sport TV 2
 #EXTVLCOPT:http-referrer=https://foottime.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://t7.ultrastream.vip/sporttv2/index.m3u8?
-#EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2023/12/sport_tv1-logo_brandlogos.net_k6b5q.png" group-title="FIFA World Cup TV Channel",Sport TV1 - Sport TV3
+#EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2023/12/sport_tv1-logo_brandlogos.net_k6b5q.png" group-title="FIFA",Sport TV 3
 #EXTVLCOPT:http-referrer=https://foottime.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://t7.ultrastream.vip/sporttv3/index.m3u8?
-#EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2023/12/sport_tv1-logo_brandlogos.net_k6b5q.png" group-title="FIFA World Cup TV Channel",Sport TV1 - Sport TV4
+#EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2023/12/sport_tv1-logo_brandlogos.net_k6b5q.png" group-title="FIFA",Sport TV 4
 #EXTVLCOPT:http-referrer=https://foottime.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://t7.ultrastream.vip/sporttv4/index.m3u8?
-#EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2023/12/sport_tv1-logo_brandlogos.net_k6b5q.png" group-title="FIFA World Cup TV Channel",Sport TV1 - Sport TV5
+#EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2023/12/sport_tv1-logo_brandlogos.net_k6b5q.png" group-title="FIFA",Sport TV 5
 #EXTVLCOPT:http-referrer=https://foottime.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://t7.ultrastream.vip/sporttv5/index.m3u8?
-#EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2023/12/sport_tv1-logo_brandlogos.net_k6b5q.png" group-title="FIFA World Cup TV Channel",Sport TV1 - Sport TV6
+#EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2023/12/sport_tv1-logo_brandlogos.net_k6b5q.png" group-title="FIFA",Sport TV 6
 #EXTVLCOPT:http-referrer=https://foottime.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://t7.ultrastream.vip/sporttv6/index.m3u8?
-#EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2023/12/sport_tv1-logo_brandlogos.net_k6b5q.png" group-title="FIFA World Cup TV Channel",Sport TV1 - Sport TV7
+#EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2023/12/sport_tv1-logo_brandlogos.net_k6b5q.png" group-title="FIFA",Sport TV 7
 #EXTVLCOPT:http-referrer=https://foottime.top/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://t7.ultrastream.vip/sporttv7/index.m3u8?
-#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/26/2/trt-1-logo-png_seeklogo-260967.png" group-title="FIFA World Cup TV Channel",TRT 1
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/26/2/trt-1-logo-png_seeklogo-260967.png" group-title="FIFA",TRT 1
 https://tv-trt1.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/w_480,q_75,f_webp/Xi_Ga5oBNnOkwJLWkhKP/posters/ef2899d5-1ae0-4fee-aee5-45f9b0b3ba80.png" group-title="FIFA World Cup TV Channel",Somoy TV
+#EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/w_480,q_75,f_webp/Xi_Ga5oBNnOkwJLWkhKP/posters/ef2899d5-1ae0-4fee-aee5-45f9b0b3ba80.png" group-title="FIFA",Somoy TV
 https://bldcmprod-cdn.toffeelive.com/cdn/live/somoy_tv/playlist.m3u8

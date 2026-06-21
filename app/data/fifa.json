@@ -3,82 +3,82 @@
         "name": "BeIN Sports 1",
         "logo": "https://elmarada.org/wp-content/uploads/2022/03/download-247x200.png",
         "url": "http://41.205.70.146/BEINSPORT1/index.m3u8",
-        "group": "Bein Sports"
+        "group": "FIFA"
     },
     {
         "name": "BeIN Sports 2",
         "logo": "https://elmarada.org/wp-content/uploads/2022/03/download-247x200.png",
         "url": "http://41.205.70.146/BEINSPORT2/index.m3u8",
-        "group": "Bein Sports"
+        "group": "FIFA"
     },
     {
         "name": "BeIN Sports 3",
         "logo": "https://elmarada.org/wp-content/uploads/2022/03/download-247x200.png",
         "url": "http://41.205.70.146/BEINSPORT3/index.m3u8",
-        "group": "Bein Sports"
+        "group": "FIFA"
     },
     {
         "name": "BeIN Sports 4",
         "logo": "https://elmarada.org/wp-content/uploads/2022/03/download-247x200.png",
         "url": "http://41.205.70.146/BEINSPORT4/index.m3u8",
-        "group": "Bein Sports"
+        "group": "FIFA"
     },
     {
         "name": "BeIN Sports 5",
         "logo": "https://elmarada.org/wp-content/uploads/2022/03/download-247x200.png",
         "url": "http://41.205.70.146/BEINSPORT5/index.m3u8",
-        "group": "Bein Sports"
+        "group": "FIFA"
     },
     {
         "name": "CazéTV",
         "logo": "https://images.seeklogo.com/logo-png/61/2/cazetv-logo-png_seeklogo-619708.png",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd?amznDtid=AOAGZA014O5RE&encoding=segmentBase?",
-        "group": "FIFA World Cup TV Channel",
+        "group": "FIFA",
         "type": "dash",
         "kid": "34475edab991ad5e92548aebd710410a",
         "key": "501b209cccd323ac00bf5ac15b406cb4"
     },
     {
-        "name": "D SPORTS",
+        "name": "D Sports",
         "logo": "https://pbs.twimg.com/profile_images/1606267731682238464/oOV7mhc6_400x400.jpg",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ubehitlwzo/out/v1/8e09c381a51f4366a19e979418112e8f/cenc.mpd",
-        "group": "FIFA World Cup TV Channel",
+        "group": "FIFA",
         "type": "dash",
         "kid": "a7d11d37a1f7611ee88d4db880171f32",
         "key": "68f96d618b0b956b008c445896a25a79"
     },
     {
-        "name": "SporTV 1 BR - SporTV BR",
+        "name": "SporTV 1",
         "logo": "https://images.seeklogo.com/logo-png/42/2/sportv-logo-png_seeklogo-424355.png",
         "url": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd?amznDtid=AOAGZA014O5RE&encoding=segmentBase?",
-        "group": "FIFA World Cup TV Channel",
+        "group": "FIFA",
         "type": "dash",
         "kid": "4bbcff3289d457b4dd5dbdd21221de9a",
         "key": "c4906b9a9f8dda3c0725bddb8c497733"
     },
     {
-        "name": "SporTV 1 BR - SporTV 2 BR",
+        "name": "SporTV 2",
         "logo": "https://images.seeklogo.com/logo-png/42/2/sportv-logo-png_seeklogo-424355.png",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/4yiko4it8k/out/v1/b77dd424c745443aba2f3f88d418f797/cenc-sd.mpd?amznDtid=AOAGZA014O5RE&encoding=segmentBase?",
-        "group": "FIFA World Cup TV Channel",
+        "group": "FIFA",
         "type": "dash",
         "kid": "9009b7189e3e68cc09d17811f2beb55a",
         "key": "dd3f96a94c909da48ff40c92aabf8cf3"
     },
     {
-        "name": "SporTV 1 BR - SporTV 3 BR",
+        "name": "SporTV 3",
         "logo": "https://images.seeklogo.com/logo-png/42/2/sportv-logo-png_seeklogo-424355.png",
         "url": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd?",
-        "group": "FIFA World Cup TV Channel",
+        "group": "FIFA",
         "type": "dash",
         "kid": "902e5ec0e3d05e665daa32fc23f4f59e",
         "key": "7b2322a273843921a43e2c61dac7cae3"
     },
     {
-        "name": "Fox Sports 1 - FS 1",
+        "name": "Fox Sports 1",
         "logo": "https://cdn.technadu.com/wp-content/uploads/2019/01/fs1-300x169.png",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/dash/enc/ap5wz1ofsp/out/v1/7fa6feef143747beaa186ebb6dfb2532/cenc.mpd",
-        "group": "FIFA World Cup TV Channel",
+        "group": "FIFA",
         "type": "dash",
         "kid": "c620c93c60c04999eb9ddc28ecfb70a8",
         "key": "e76a709c251313190e76cb3c3d3a5824"
@@ -87,61 +87,61 @@
         "name": "TIPIK",
         "logo": "https://r2.thesportsdb.com/images/media/channel/logo/91z1211657888348.png",
         "url": "https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/dash/.mpd",
-        "group": "FIFA World Cup TV Channel",
+        "group": "FIFA",
         "type": "dash",
         "kid": "adca25b8779e4168a0cd710f59f61ccf",
         "key": "be5383ed3cd8079f4ffe78ad067f476a"
     },
     {
-        "name": "M6 FRANCE",
+        "name": "M6 France",
         "logo": "https://www.happycash-group.com/wp-content/uploads/2021/04/logo-m6.png",
         "url": "https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-m6/cmaf_cenc00/dash-short-hd.mpd",
-        "group": "FIFA World Cup TV Channel",
+        "group": "FIFA",
         "type": "dash",
         "kid": "433ffba670963e70857859a9dff4be04",
         "key": "51ede3a821229fe81e71282c8eff80e3"
     },
     {
-        "name": "TSN - TSN 1",
+        "name": "TSN 1",
         "logo": "https://iconlogovector.com/uploads/images/2025/03/lg-67d80052de144-TSN.webp",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/7janu55dwc/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd?",
-        "group": "FIFA World Cup TV Channel",
+        "group": "FIFA",
         "type": "dash",
         "kid": "e51aa21f2a0fef9aabc120dfb655b52f",
         "key": "a12a987fe725a40b6be95cd84b15f689"
     },
     {
-        "name": "TSN - TSN 2",
+        "name": "TSN 2",
         "logo": "https://iconlogovector.com/uploads/images/2025/03/lg-67d80052de144-TSN.webp",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3n6slkgh54/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd?",
-        "group": "FIFA World Cup TV Channel",
+        "group": "FIFA",
         "type": "dash",
         "kid": "daa8ea92553fd16cd6bfae2b8c582715",
         "key": "4042e041b5639b79b69ae07a872eef9b"
     },
     {
-        "name": "TSN - TSN 3",
+        "name": "TSN 3",
         "logo": "https://iconlogovector.com/uploads/images/2025/03/lg-67d80052de144-TSN.webp",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/lzhmuzmjsl/out/v1/c171eeb214c749f2b351c79df317b21e/cenc.mpd?",
-        "group": "FIFA World Cup TV Channel",
+        "group": "FIFA",
         "type": "dash",
         "kid": "f5c2b30eac11be1e8cdfc9585f5fe6af",
         "key": "a8198d17bf9b0da77450fbb919a38b2d"
     },
     {
-        "name": "TSN - TSN 4",
+        "name": "TSN 4",
         "logo": "https://iconlogovector.com/uploads/images/2025/03/lg-67d80052de144-TSN.webp",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/h9urpo3cwb/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd?",
-        "group": "FIFA World Cup TV Channel",
+        "group": "FIFA",
         "type": "dash",
         "kid": "c4088f5f265f9de50cffd80bf89308b7",
         "key": "2c4d2239d96d532b4ec2050653611003"
     },
     {
-        "name": "TSN - TSN 5",
+        "name": "TSN 5",
         "logo": "https://iconlogovector.com/uploads/images/2025/03/lg-67d80052de144-TSN.webp",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/jkcljgqbx8/out/v1/63bfa701559340f3a2a2cb1fccd24807/cenc.mpd?",
-        "group": "FIFA World Cup TV Channel",
+        "group": "FIFA",
         "type": "dash",
         "kid": "e853333da2c9196ea11374634231bc45",
         "key": "de2e2dbe818d78dfad07d6cd9a4c63d4"
@@ -150,80 +150,80 @@
         "name": "ZDF",
         "logo": "https://ifdalivestorage.blob.core.windows.net/user-uploads/profile/2990/00000000-0000-0000-0000-000000000000/logo_b6d6ca31d6731db89aa5a390213584a109e28443.png",
         "url": "https://fl-003.live.p7s1video.net/45371d5a/t_009/zdf-de-hd/cenc-default.mpd?",
-        "group": "FIFA World Cup TV Channel",
+        "group": "FIFA",
         "type": "dash",
         "kid": "7fc352fa54683accf20b12f679027661",
         "key": "993400c4b5ad851c8d6368417d6a3b4c"
     },
     {
-        "name": "TELEMUNDO",
+        "name": "Telemundo",
         "logo": "https://mir-s3-cdn-cf.behance.net/projects/404/00830a29737023.5601d2d3c8ec3.png",
         "url": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kvea)/master.mpd?",
-        "group": "FIFA World Cup TV Channel",
+        "group": "FIFA",
         "type": "dash",
         "kid": "ce7ab3022e753307997f58afe001bac4",
         "key": "72d631a66e635c60829a0fe7705516c1"
     },
     {
-        "name": "Sport TV1",
+        "name": "Sport TV 1",
         "logo": "https://brandlogos.net/wp-content/uploads/2023/12/sport_tv1-logo_brandlogos.net_k6b5q.png",
         "url": "https://t7.ultrastream.vip/sporttv1/index.m3u8?",
-        "group": "FIFA World Cup TV Channel",
+        "group": "FIFA",
         "referer": "https://foottime.top/"
     },
     {
-        "name": "Sport TV1 - Sport TV2",
+        "name": "Sport TV 2",
         "logo": "https://brandlogos.net/wp-content/uploads/2023/12/sport_tv1-logo_brandlogos.net_k6b5q.png",
         "url": "https://t7.ultrastream.vip/sporttv2/index.m3u8?",
-        "group": "FIFA World Cup TV Channel",
+        "group": "FIFA",
         "referer": "https://foottime.top/"
     },
     {
-        "name": "Sport TV1 - Sport TV3",
+        "name": "Sport TV 3",
         "logo": "https://brandlogos.net/wp-content/uploads/2023/12/sport_tv1-logo_brandlogos.net_k6b5q.png",
         "url": "https://t7.ultrastream.vip/sporttv3/index.m3u8?",
-        "group": "FIFA World Cup TV Channel",
+        "group": "FIFA",
         "referer": "https://foottime.top/"
     },
     {
-        "name": "Sport TV1 - Sport TV4",
+        "name": "Sport TV 4",
         "logo": "https://brandlogos.net/wp-content/uploads/2023/12/sport_tv1-logo_brandlogos.net_k6b5q.png",
         "url": "https://t7.ultrastream.vip/sporttv4/index.m3u8?",
-        "group": "FIFA World Cup TV Channel",
+        "group": "FIFA",
         "referer": "https://foottime.top/"
     },
     {
-        "name": "Sport TV1 - Sport TV5",
+        "name": "Sport TV 5",
         "logo": "https://brandlogos.net/wp-content/uploads/2023/12/sport_tv1-logo_brandlogos.net_k6b5q.png",
         "url": "https://t7.ultrastream.vip/sporttv5/index.m3u8?",
-        "group": "FIFA World Cup TV Channel",
+        "group": "FIFA",
         "referer": "https://foottime.top/"
     },
     {
-        "name": "Sport TV1 - Sport TV6",
+        "name": "Sport TV 6",
         "logo": "https://brandlogos.net/wp-content/uploads/2023/12/sport_tv1-logo_brandlogos.net_k6b5q.png",
         "url": "https://t7.ultrastream.vip/sporttv6/index.m3u8?",
-        "group": "FIFA World Cup TV Channel",
+        "group": "FIFA",
         "referer": "https://foottime.top/"
     },
     {
-        "name": "Sport TV1 - Sport TV7",
+        "name": "Sport TV 7",
         "logo": "https://brandlogos.net/wp-content/uploads/2023/12/sport_tv1-logo_brandlogos.net_k6b5q.png",
         "url": "https://t7.ultrastream.vip/sporttv7/index.m3u8?",
-        "group": "FIFA World Cup TV Channel",
+        "group": "FIFA",
         "referer": "https://foottime.top/"
     },
     {
         "name": "TRT 1",
         "logo": "https://images.seeklogo.com/logo-png/26/2/trt-1-logo-png_seeklogo-260967.png",
         "url": "https://tv-trt1.medya.trt.com.tr/master.m3u8",
-        "group": "FIFA World Cup TV Channel"
+        "group": "FIFA"
     },
     {
-        "name": "D Sports",
+        "name": "D Sports (Alt)",
         "logo": "https://images.seeklogo.com/logo-png/62/1/dsports-logo-png_seeklogo-626310.png",
         "url": "http://otte.live.fly.ww.aiv-cdn.net/lhr-nitro/live/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd?",
-        "group": "FIFA World Cup TV Channel",
+        "group": "FIFA",
         "type": "dash",
         "kid": "03f12d6a3dbfd3a6fa7dd7f6417e0c11",
         "key": "ea07b87acdf2e45be824cde4a1cf3504"
@@ -232,23 +232,23 @@
         "name": "Somoy TV",
         "logo": "https://assets-prod.services.toffeelive.com/w_480,q_75,f_webp/Xi_Ga5oBNnOkwJLWkhKP/posters/ef2899d5-1ae0-4fee-aee5-45f9b0b3ba80.png",
         "url": "https://bldcmprod-cdn.toffeelive.com/cdn/live/somoy_tv/playlist.m3u8",
-        "group": "FIFA World Cup TV Channel",
+        "group": "FIFA",
         "cookie": "Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t:Expires=1781319273:KeyName=prod_linear:Signature=ASePzekZwQPaSxb3NltcHNogtlVJzy40EnkvrcIK9Brhz5xaZ7aq8PaRo1xbdqwxKfAKcw6DxQz9qQLyCH3IDA"
     },
     {
         "name": "FUSSBALL TV",
         "logo": "https://img2.sport-tv-guide.live/images/tv-station-sportdigital-167.png",
         "url": "https://svc45.main.sl.t-online.de/bpk-tv/KID01037_FUSSBALLTV1_hd/DASH/index.mpd",
-        "group": "FIFA World Cup TV Channel",
+        "group": "FIFA",
         "type": "dash",
         "kid": "1cb20afcd9d979c833cfd208c7d3eeb2",
         "key": "fef0c15b4a523370892edd5e4133c269"
     },
     {
-        "name": "TNT Sports 1 - TNT SPORTS 1",
+        "name": "TNT Sports 1",
         "logo": "https://www.pitch.co.uk/wp-content/uploads/2023/12/TNT-Sports-Logo.png",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vaplpo3app/out/v1/49b4d538ec854efa90d45084866cf7f9/cenc.mpd?amznDtid=AOAGZA014O5RE&encoding=segmentBase?",
-        "group": "TNT Sports ",
+        "group": "FIFA",
         "type": "dash",
         "kid": "d14658a0ede94debcb4013b2056ba6d1",
         "key": "60838a3176127fed0eaf038a5575de11"
@@ -257,7 +257,7 @@
         "name": "TNT Sports 2",
         "logo": "https://www.pitch.co.uk/wp-content/uploads/2023/12/TNT-Sports-Logo.png",
         "url": "https://otte-qw.live.pv-cdn.net/fra-nitro/live/clients/dash/enc/3j04z3pbit/out/v1/042ee0757ed348bf8c26f75895cae871/cenc.mpd?",
-        "group": "TNT Sports ",
+        "group": "FIFA",
         "type": "dash",
         "kid": "0b59ce06de74ed84f2eda5e81dadba13",
         "key": "48e4ba4ad6c2a60d2bda5d71a0050844"
@@ -266,7 +266,7 @@
         "name": "TNT Sports 3",
         "logo": "https://www.pitch.co.uk/wp-content/uploads/2023/12/TNT-Sports-Logo.png",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/2szrn2y3ep/out/v1/eacd8a4207dc4f0d9661a4b085b8fdd9/cenc.mpd?",
-        "group": "TNT Sports ",
+        "group": "FIFA",
         "type": "dash",
         "kid": "12413e2c2855cfc59ce0fe6b20cc71ca",
         "key": "08d55a8f5fc93a9375f9b0cb2e1739ca"
@@ -275,7 +275,7 @@
         "name": "TNT Sports 4",
         "logo": "https://www.pitch.co.uk/wp-content/uploads/2023/12/TNT-Sports-Logo.png",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/pnu10tp36z/out/v1/912e9db56d75403b8a9ac0a719110f36/cenc.mpd",
-        "group": "TNT Sports ",
+        "group": "FIFA",
         "type": "dash",
         "kid": "192b1115da041585c77200128549efa1",
         "key": "634e10efe4abbb14be400a3ccbac0258"
@@ -284,7 +284,7 @@
         "name": "Willow Sports",
         "logo": "https://assets.goal.com/images/v3/blt4aeb827b3c526988/Willow-Sports%20logo.jpg",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd?",
-        "group": "Willow Sports",
+        "group": "Cricket",
         "type": "dash",
         "kid": "290e09c837da78d5cd961978d390515c",
         "key": "b748836c71e6a4ca68ef5b5652db6247"
@@ -293,16 +293,16 @@
         "name": "Sky Sports La Liga",
         "logo": "https://epg.pw/media/images/epg/2025/04/23/20250423022300132210_61.png",
         "url": "https://aca-live4-ott.izzigo.tv/12/out/u/dash/SKY-SPORTS-16-HD/default.mpd?",
-        "group": "Sky Sports La Liga",
+        "group": "FIFA",
         "type": "dash",
         "kid": "cb80e1e7d7598eaf98b1dbbe6dc14ee9",
         "key": "103ae55c7948ca1d159d6743619d26c4"
     },
     {
-        "name": "Sky Sports La Liga - Sky Sports La Liga 1",
+        "name": "Sky Sports La Liga 1",
         "logo": "https://epg.pw/media/images/epg/2025/04/23/20250423022300132210_61.png",
         "url": "https://aca-live-ott.izzigo.tv/7/out/u/dash/SKY-SPORTS-16-HD-H265/default.mpd?",
-        "group": "Sky Sports La Liga",
+        "group": "FIFA",
         "type": "dash",
         "kid": "95b52d16d344af539ce9c2c9ff95571a",
         "key": "5f035d9c4a178221f89d2439426b2e9a"
