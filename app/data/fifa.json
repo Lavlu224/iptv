@@ -1,20 +1,5 @@
 [
     {
-        "name": "FOX (ENG) 60Fps",
-        "logo": "https://cdn.broadbandtvnews.com/wp-content/uploads/2025/05/13115423/Fox-One-Logo.jpg",
-        "group": "FIFA",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd",
-        "type": "dash",
-        "kid": "f6564ec2aee819046328a0e153be574d",
-        "key": "ff46a8a1031eb27ef22576a077c98ab7"
-    },
-    {
-        "name": "FOX (ENG)",
-        "logo": "https://cdn.broadbandtvnews.com/wp-content/uploads/2025/05/13115423/Fox-One-Logo.jpg",
-        "group": "FIFA",
-        "url": "https://34366344.ccjdgvtt.pages.dev/1782066158/bb8f60de820c444db593d815c4848f17/rfon4UmEvl4I8rQhq83BId3uEFE45jirHR5vUQjnBaw/fox-usa.m3u8"
-    },
-    {
         "name": "TSN Sports 4 - English",
         "logo": "https://i.imgur.com/qJyAWU8.png",
         "group": "FIFA",
@@ -52,6 +37,12 @@
         "logo": "https://images.seeklogo.com/logo-png/61/1/cazetv-logo-png_seeklogo-619708.png",
         "group": "FIFA",
         "url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/Caze_TV.m3u8"
+    },
+    {
+        "name": "Somoy TV",
+        "logo": "https://upload.wikimedia.org/wikipedia/bn/thumb/f/f6/%E0%A6%B8%E0%A6%AE%E0%A6%AF%E0%A6%BC_%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%B0_%E0%A6%B2%E0%A7%8B%E0%A6%97%E0%A7%8B.svg/960px-%E0%A6%B8%E0%A6%AE%E0%A6%AF%E0%A6%BC_%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%B0_%E0%A6%B2%E0%A7%8B%E0%A6%97%E0%A7%8B.svg.png?_=20250102083708",
+        "group": "FIFA",
+        "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8"
     },
     {
         "name": "Bein Sports 1",
@@ -244,33 +235,6 @@
         "key": "08d55a8f5fc93a9375f9b0cb2e1739ca"
     },
     {
-        "name": "Sky Sports La Liga",
-        "logo": "https://epg.pw/media/images/epg/2025/04/23/20250423022300132210_61.png",
-        "url": "https://aca-live4-ott.izzigo.tv/12/out/u/dash/SKY-SPORTS-16-HD/default.mpd",
-        "group": "FIFA",
-        "type": "dash",
-        "kid": "cb80e1e7d7598eaf98b1dbbe6dc14ee9",
-        "key": "103ae55c7948ca1d159d6743619d26c4"
-    },
-    {
-        "name": "WILLOW HD",
-        "logo": "https://cdn.sportmonks.com/images/cricket/teams/5/37.png",
-        "url": "https://a57live-pv-ta-amazon.akamaized.net/iad-nitro/live/clients/dash/enc/zpnqiahxef/out/v1/f5a57dc142584558a8669a44e3b6aa11/cenc.mpd",
-        "group": "Cricket",
-        "type": "dash",
-        "kid": "1e5d713e767c1a6cffd1881387b207cd",
-        "key": "1f97487e54111023d37c80d74cb3bb4c"
-    },
-    {
-        "name": "FANCODE  HD",
-        "logo": "https://cdn.sportmonks.com/images/cricket/teams/5/37.png",
-        "url": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
-        "group": "Cricket",
-        "type": "dash",
-        "kid": "7e9239c1982d984a002df3ed049d0756",
-        "key": "1b8a17598129a3618535c8fb05f103fe"
-    },
-    {
         "name": "TNT SPORTS",
         "logo": "https://cdn.sportmonks.com/images/cricket/teams/5/37.png",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/65ldy4ejuu/out/v1/69bc6b64f1c14e36bb21e0075a71d8ca/cenc.mpd",
@@ -298,13 +262,6 @@
         "key": "6848ef60575579bf4d415db1032153ed"
     },
     {
-        "name": "SD LIVE",
-        "logo": "https://cdn.sportmonks.com/images/cricket/teams/11/75.png",
-        "url": "http://193.47.62.42/hls/udddQQ.m3u8",
-        "group": "Cricket",
-        "referer": "http://www.fawanews.sc/"
-    },
-    {
         "name": "I Screen",
         "logo": "https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg",
         "url": "https://livecdn.rockstreamer.com/main/Iscreen_fifa_main/main/in4_1080p/chunks.m3u8",
@@ -312,13 +269,13 @@
         "group": "FIFA"
     },
     {
-        "name": "TSN 1",
-        "logo": "https://images.seeklogo.com/logo-png/31/1/tsn-1-logo-png_seeklogo-314693.png",
-        "group": "FIFA",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
+        "name": "FOX [No VPN]",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Fox_Broadcasting_Company_logo_%282019%29.svg/250px-Fox_Broadcasting_Company_logo_%282019%29.svg.png",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/9crxia693u/out/v1/fc40f22f10374517a2784e1d97cb23f4/cenc.mpd",
         "type": "dash",
-        "kid": "14eeabf30c14b7fbf3008c03099ce011",
-        "key": "17d2ac8dbc5429bd70af3433aa12158d"
+        "group": "FIFA",
+        "kid": "1f68713028d439ec03be07f56c1d6213",
+        "key": "20093db6455160fffed4c394def3193d"
     },
     {
         "name": "iOS",
@@ -344,15 +301,6 @@
         "referer": "http://www.fawanews.sc/"
     },
     {
-        "name": "WILLOW FHD",
-        "logo": "https://cdn.sportmonks.com/images/cricket/teams/6/38.png",
-        "url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/bd6zyslqrn/out/v1/ac547d11db5347a6bbd80e6fe23aaa22/cenc.mpd",
-        "group": "Cricket",
-        "type": "dash",
-        "kid": "0bcfafbaa2f575577a90d27aa962a214",
-        "key": "2b30c9efb2bcd047db14438d49ab800e"
-    },
-    {
         "name": "GOLIVE - English",
         "logo": "https://rtb-images.glueapi.io/320x0/live/GoLiveNew.png",
         "group": "FIFA",
@@ -369,12 +317,6 @@
         "name": "TAPMAD",
         "logo": "https://cdn.sportmonks.com/images/cricket/teams/5/37.png",
         "url": "https://serieAleague.akamaized.net/hls/live/2107107/PSLE_tapmad2026-Backup/master.m3u8",
-        "group": "Cricket"
-    },
-    {
-        "name": "SonyLIV",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/400502.png",
-        "url": "https://pubads.g.doubleclick.net/ssai/event/t2rqeJPuSQuYLwlNYZPhpw/master.m3u8",
         "group": "Cricket"
     }
 ]
