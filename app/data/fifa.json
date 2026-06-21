@@ -1,12 +1,22 @@
 [
     {
-        "name": "FOX [No VPN]",
+        "name": "FOX 4K",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Fox_Broadcasting_Company_logo_%282019%29.svg/250px-Fox_Broadcasting_Company_logo_%282019%29.svg.png",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/enc/hb3qqzxz0j/out/v1/40b31d7224c4457fbbd23fc02ada6e11/cenc.mpd",
         "type": "dash",
         "group": "FIFA",
         "kid": "a6164ea0967b4bbbb51fdd6c4f83a64f",
         "key": "b431d9ed821ca93df596168601ae5b00",
+        "no_proxy": true
+    },
+    {
+        "name": "FOX 1080p",
+        "logo": "https://cdn.broadbandtvnews.com/wp-content/uploads/2025/05/13115423/Fox-One-Logo.jpg",
+        "group": "FOX",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd",
+        "type": "dash",
+        "kid": "f6564ec2aee819046328a0e153be574d",
+        "key": "ff46a8a1031eb27ef22576a077c98ab7",
         "no_proxy": true
     },
     {
@@ -276,6 +286,36 @@
         "no_proxy": true
     },
     {
+        "name": "Sky Sports La Liga",
+        "logo": "https://epg.pw/media/images/epg/2025/04/23/20250423022300132210_61.png",
+        "url": "https://aca-live4-ott.izzigo.tv/12/out/u/dash/SKY-SPORTS-16-HD/default.mpd",
+        "group": "FIFA",
+        "type": "dash",
+        "kid": "cb80e1e7d7598eaf98b1dbbe6dc14ee9",
+        "key": "103ae55c7948ca1d159d6743619d26c4",
+        "no_proxy": true
+    },
+    {
+        "name": "Sky Sports La Liga 1",
+        "logo": "https://epg.pw/media/images/epg/2025/04/23/20250423022300132210_61.png",
+        "url": "https://aca-live-ott.izzigo.tv/7/out/u/dash/SKY-SPORTS-16-HD-H265/default.mpd",
+        "group": "FIFA",
+        "type": "dash",
+        "kid": "95b52d16d344af539ce9c2c9ff95571a",
+        "key": "5f035d9c4a178221f89d2439426b2e9a",
+        "no_proxy": true
+    },
+    {
+        "name": "FANCODE  HD",
+        "logo": "https://cdn.sportmonks.com/images/cricket/teams/5/37.png",
+        "url": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
+        "group": "Cricket",
+        "type": "dash",
+        "kid": "7e9239c1982d984a002df3ed049d0756",
+        "key": "1b8a17598129a3618535c8fb05f103fe",
+        "no_proxy": true
+    },
+    {
         "name": "TNT SPORTS",
         "logo": "https://cdn.sportmonks.com/images/cricket/teams/5/37.png",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/65ldy4ejuu/out/v1/69bc6b64f1c14e36bb21e0075a71d8ca/cenc.mpd",
@@ -283,16 +323,6 @@
         "type": "dash",
         "kid": "570c19f1be3410e4e409be4dc7923f2b",
         "key": "9a4dea8af2a2a703dffa8a477e9edc50",
-        "no_proxy": true
-    },
-    {
-        "name": "WILLOW HD",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/400502.png",
-        "url": "https://a57live-pv-ta-amazon.akamaized.net/iad-nitro/live/clients/dash/enc/ty2hlbyyk3/out/v1/0e4990351b97426db382b30cb01cf645/cenc.mpd",
-        "group": "Cricket",
-        "type": "dash",
-        "kid": "8094deb4bf11428aa0d663b3168bc69d",
-        "key": "da904540e06da7a77270d63422cb0f69",
         "no_proxy": true
     },
     {
@@ -314,13 +344,13 @@
         "no_proxy": true
     },
     {
-        "name": "FOX [No VPN]",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Fox_Broadcasting_Company_logo_%282019%29.svg/250px-Fox_Broadcasting_Company_logo_%282019%29.svg.png",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/9crxia693u/out/v1/fc40f22f10374517a2784e1d97cb23f4/cenc.mpd",
-        "type": "dash",
+        "name": "TSN 1",
+        "logo": "https://images.seeklogo.com/logo-png/31/1/tsn-1-logo-png_seeklogo-314693.png",
         "group": "FIFA",
-        "kid": "1f68713028d439ec03be07f56c1d6213",
-        "key": "20093db6455160fffed4c394def3193d",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
+        "type": "dash",
+        "kid": "14eeabf30c14b7fbf3008c03099ce011",
+        "key": "17d2ac8dbc5429bd70af3433aa12158d",
         "no_proxy": true
     },
     {
@@ -342,11 +372,28 @@
         "no_proxy": true
     },
     {
+        "name": "BeIN MAX SD",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
+        "url": "https://prod-fastly-eu-west-1.video.pscp.tv/Transcoding/v1/hls/dpXv_Bj52CxsfzkpeY2HfAG9GNFBl7qI6s8HSUWcyRO-cjXHZqH9jkGzhEIgwNcw6R5ZRRUbA8ZV7S0DXKMrkQ/non_transcode/eu-west-1/periscope-replay-direct-prod-eu-west-1-public/master_dynamic_delta.m3u8?type=live",
+        "group": "FIFA",
+        "no_proxy": true
+    },
+    {
         "name": "JAPAN SERVER",
         "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6719.png",
         "url": "https://live.wxinxi.com/live/84600906_46n5rq10l0bmsj8e2aovavl914psvggx.m3u8",
         "group": "Football",
         "referer": "http://www.fawanews.sc/",
+        "no_proxy": true
+    },
+    {
+        "name": "D Sports 2",
+        "logo": "https://pbs.twimg.com/profile_images/1606267731682238464/oOV7mhc6_400x400.jpg",
+        "url": "https://nog-live-ott.izzigo.tv/out/u/dash/CDMX1/CANAL-5-RDF-HD/default.mpd",
+        "group": "FIFA",
+        "type": "dash",
+        "kid": "2a8c2d5088377f51f825d871e568be19",
+        "key": "eb5a8db64ca1992389672edb9447c711",
         "no_proxy": true
     },
     {
