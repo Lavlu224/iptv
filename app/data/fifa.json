@@ -12,19 +12,6 @@
         "url": "https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8"
     },
     {
-        "name": "GOLIVE - English",
-        "logo": "https://rtb-images.glueapi.io/320x0/live/GoLiveNew.png",
-        "group": "FIFA",
-        "url": "https://d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist.m3u8"
-    },
-    {
-        "name": "Toffee",
-        "logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/4/43/Toffee_logo.png",
-        "group": "FIFA",
-        "url": "https://prod-cdn01-live.toffeelive.com/live/FIFA-2026-5/0/master_2000.m3u8?hdntl=Expires=1782058273~_GO=Generated~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Signature=AduQTZ94447t2DC_K66ychc1mbhcQTmL5ywLCqndlaxkaG8TvPRHuTXJ7T1HmUuc6Xdjb-jQ6sNsTrvE7wYQK-W0JasG",
-        "no_proxy": true
-    },
-    {
         "name": "BEIN Sports 5",
         "logo": "https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg",
         "group": "FIFA",
@@ -118,15 +105,6 @@
         "key": "72d631a66e635c60829a0fe7705516c1"
     },
     {
-        "name": "M6 FRANCE",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
-        "url": "https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-m6/cmaf_cenc00/dash-short-hd.mpd",
-        "group": "FIFA",
-        "type": "dash",
-        "kid": "433ffba670963e70857859a9dff4be04",
-        "key": "51ede3a821229fe81e71282c8eff80e3"
-    },
-    {
         "name": "D SPORTS",
         "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3gg2jnixjn/out/v1/e1840e01f3f14563b66bbb944d5cc54c/cenc.mpd",
@@ -152,12 +130,6 @@
         "type": "dash",
         "kid": "83f81c4cc1443991543de4e22eea7586",
         "key": "ddfd7ca653d6f35543d8edb3c688e20f"
-    },
-    {
-        "name": "DAZN",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
-        "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8",
-        "group": "FIFA"
     },
     {
         "name": "CH LIVE",
@@ -318,52 +290,6 @@
         "key": "9a4dea8af2a2a703dffa8a477e9edc50"
     },
     {
-        "name": "TAPMAD",
-        "logo": "https://cdn.sportmonks.com/images/cricket/teams/5/37.png",
-        "url": "https://serieAleague.akamaized.net/hls/live/2107107/PSLE_tapmad2026-Backup/master.m3u8",
-        "group": "Cricket"
-    },
-    {
-        "name": "SD LIVE",
-        "logo": "https://cdn.sportmonks.com/images/cricket/teams/5/37.png",
-        "url": "http://193.47.62.42/hls/DPPP.m3u8",
-        "group": "Cricket",
-        "referer": "http://www.fawanews.sc/"
-    },
-    {
-        "name": "WILLOW HD",
-        "logo": "https://cdn.sportmonks.com/images/cricket/teams/5/37.png",
-        "url": "https://a57live-pv-ta-amazon.akamaized.net/iad-nitro/live/clients/dash/enc/zpnqiahxef/out/v1/f5a57dc142584558a8669a44e3b6aa11/cenc.mpd",
-        "group": "Cricket",
-        "type": "dash",
-        "kid": "1e5d713e767c1a6cffd1881387b207cd",
-        "key": "1f97487e54111023d37c80d74cb3bb4c"
-    },
-    {
-        "name": "FANCODE  HD",
-        "logo": "https://cdn.sportmonks.com/images/cricket/teams/5/37.png",
-        "url": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
-        "group": "Cricket",
-        "type": "dash",
-        "kid": "7e9239c1982d984a002df3ed049d0756",
-        "key": "1b8a17598129a3618535c8fb05f103fe"
-    },
-    {
-        "name": "TNT SPORTS",
-        "logo": "https://cdn.sportmonks.com/images/cricket/teams/5/37.png",
-        "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/65ldy4ejuu/out/v1/69bc6b64f1c14e36bb21e0075a71d8ca/cenc.mpd",
-        "group": "Cricket",
-        "type": "dash",
-        "kid": "570c19f1be3410e4e409be4dc7923f2b",
-        "key": "9a4dea8af2a2a703dffa8a477e9edc50"
-    },
-    {
-        "name": "TAPMAD",
-        "logo": "https://cdn.sportmonks.com/images/cricket/teams/5/37.png",
-        "url": "https://serieAleague.akamaized.net/hls/live/2107107/PSLE_tapmad2026-Backup/master.m3u8",
-        "group": "Cricket"
-    },
-    {
         "name": "SD LIVE",
         "logo": "https://cdn.sportmonks.com/images/cricket/teams/5/37.png",
         "url": "http://193.47.62.42/hls/DPPP.m3u8",
@@ -378,21 +304,6 @@
         "type": "dash",
         "kid": "8094deb4bf11428aa0d663b3168bc69d",
         "key": "da904540e06da7a77270d63422cb0f69"
-    },
-    {
-        "name": "SonyLIV",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/400502.png",
-        "url": "https://pubads.g.doubleclick.net/ssai/event/t2rqeJPuSQuYLwlNYZPhpw/master.m3u8",
-        "group": "Cricket"
-    },
-    {
-        "name": "TNT",
-        "logo": "https://resources.motogp.pulselive.com/photo-resources/2026/06/15/4b8f1a01-10ce-4c91-8c14-b906d9f77caf/Czechia-GP-Poster.jpg?height=192&width=343",
-        "url": "https://otte-qw.live.pv-cdn.net/fra-nitro/live/clients/dash/enc/3j04z3pbit/out/v1/042ee0757ed348bf8c26f75895cae871/cenc.mpd",
-        "group": "Motorsports",
-        "type": "dash",
-        "kid": "0b59ce06de74ed84f2eda5e81dadba13",
-        "key": "48e4ba4ad6c2a60d2bda5d71a0050844"
     },
     {
         "name": "SPO TV",
@@ -439,83 +350,10 @@
         "referer": "http://www.fawanews.sc/"
     },
     {
-        "name": "SKY SPORTS HD",
-        "logo": "https://cdn.sportmonks.com/images/cricket/teams/6/38.png",
-        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
-        "group": "Cricket"
-    },
-    {
-        "name": "SD LIVE",
-        "logo": "https://cdn.sportmonks.com/images/cricket/teams/6/38.png",
-        "url": "http://193.47.62.41/hls/EEEEDDD.m3u8",
-        "group": "Cricket",
-        "referer": "http://www.fawanews.sc/"
-    },
-    {
-        "name": "SKY CRICKET HD",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8491_small.png",
-        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https",
-        "group": "Cricket"
-    },
-    {
-        "name": "TAPMAD",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8491_small.png",
-        "url": "https://seriealeague.akamaized.net/hls/live/2107107/PSLE_tapmad2026-Backup/master.m3u8",
-        "group": "Cricket"
-    },
-    {
         "name": "SD LIVE",
         "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/5810_large.png",
         "url": "http://193.47.62.42/hls/udddQQQ.m3u8",
         "group": "Volleyball",
         "referer": "http://www.fawanews.sc/"
-    },
-    {
-        "name": "TIPIK HD",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6719.png",
-        "url": "https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/dash/.mpd",
-        "group": "Football",
-        "type": "dash",
-        "kid": "adca25b8779e4168a0cd710f59f61ccf",
-        "key": "be5383ed3cd8079f4ffe78ad067f476a"
-    },
-    {
-        "name": "RTE SPORTS",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6719.png",
-        "url": "https://dai.google.com/linear/dash/event/antwa0EiQm2PoHtx4rBtVw/manifest.mpd",
-        "group": "Football",
-        "type": "dash",
-        "kid": "d816287e21496989eae1312925a423c5",
-        "key": "00da00f13180e7e6cd5ce87d1c974e8d"
-    },
-    {
-        "name": "Match! Football 1",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6719.png",
-        "url": "https://bl.video.matchtv.ru/media/playlist/free_d46d0cf1712c0542ec7fd4f0808f600a_hd/17_89756005/1080/e6bef86de8a133cd7b27deb040758a00/4796141934.m3u8",
-        "group": "Football"
-    },
-    {
-        "name": "BeIN MAX 2",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6719.png",
-        "url": "https://tmaxapp.site/beinmax2.m3u8",
-        "group": "Football"
-    },
-    {
-        "name": "FUSSBALL TV (USE GERMAN VPN)",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6719.png",
-        "url": "https://svc45.main.sl.t-online.de/bpk-tv/KID01037_FUSSBALLTV1_hd/DASH/index.mpd",
-        "group": "Football",
-        "type": "dash",
-        "kid": "1cb20afcd9d979c833cfd208c7d3eeb2",
-        "key": "fef0c15b4a523370892edd5e4133c269"
-    },
-    {
-        "name": "TELEMUNDO (USA VPN)",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6719.png",
-        "url": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kvea)/master.mpd",
-        "group": "Football",
-        "type": "dash",
-        "kid": "ce7ab3022e753307997f58afe001bac4",
-        "key": "72d631a66e635c60829a0fe7705516c1"
     }
 ]

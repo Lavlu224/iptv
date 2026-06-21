@@ -64,8 +64,17 @@ async function getStreamQualities() {
 
   const validStreams = [];
   const deadStreams = [];
+  const seenUrls = new Set();
 
   for (const stream of data) {
+    if (!stream.url) continue;
+    const normalizedUrl = stream.url.trim();
+    if (seenUrls.has(normalizedUrl)) {
+      console.log(`Skipping duplicate URL: ${stream.name} (${normalizedUrl})\n`);
+      continue;
+    }
+    seenUrls.add(normalizedUrl);
+
     const isDash = stream.type === 'dash' || (stream.url && stream.url.includes('.mpd'));
     const isHls = !isDash && (stream.url && stream.url.includes('.m3u8'));
     const isTs = !isDash && !isHls && (stream.url && stream.url.includes('.ts'));
