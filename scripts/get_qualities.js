@@ -67,8 +67,11 @@ async function getStreamQualities() {
   const seenUrls = new Set();
 
   for (const stream of data) {
-    if (!stream.url) continue;
-    const normalizedUrl = stream.url.trim();
+    const url = stream.url || stream.link;
+    if (!url) continue;
+    if (!stream.url) stream.url = url;
+
+    const normalizedUrl = url.trim();
     if (seenUrls.has(normalizedUrl)) {
       console.log(`Skipping duplicate URL: ${stream.name} (${normalizedUrl})\n`);
       continue;
