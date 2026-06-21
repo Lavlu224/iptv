@@ -1,43 +1,99 @@
 #EXTM3U
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Logo_TVP_Sport.jpg/1280px-Logo_TVP_Sport.jpg" group-title="FIFA",TVP Sport
+https://1nyaler.streamhostingcdn.top/stream/89/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5a/DSports.png" group-title="FIFA",D Sports HLS
+https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8
+#EXTINF:-1 tvg-logo="https://rtb-images.glueapi.io/320x0/live/GoLiveNew.png" group-title="FIFA",GOLIVE - English
+https://d1211whpimeups.cloudfront.net/smil:rtbgo/chunklist.m3u8
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/4/43/Toffee_logo.png" group-title="FIFA",Toffee
+https://prod-cdn01-live.toffeelive.com/live/FIFA-2026-5/0/master_2000.m3u8?hdntl=Expires=1782058273~_GO=Generated~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Signature=AduQTZ94447t2DC_K66ychc1mbhcQTmL5ywLCqndlaxkaG8TvPRHuTXJ7T1HmUuc6Xdjb-jQ6sNsTrvE7wYQK-W0JasG
+#EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg" group-title="FIFA",BEIN Sports 5
+http://starhub.pro/live/farhat-3379/67897-913379/744527.ts
+#EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg" group-title="FIFA",iOS 2
+https://hugh.cdn.rumble.cloud/live/y16rq9u0/slot-13/2rvn-cv3b_360p/chunklist_DVR.m3u8
+#EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/61/1/cazetv-logo-png_seeklogo-619708.png" group-title="FIFA",CAZE TV
+https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/Caze_TV.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/bn/thumb/f/f6/%E0%A6%B8%E0%A6%AE%E0%A6%AF%E0%A6%BC_%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%B0_%E0%A6%B2%E0%A7%8B%E0%A6%97%E0%A7%8B.svg/960px-%E0%A6%B8%E0%A6%AE%E0%A6%AF%E0%A6%BC_%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%B0_%E0%A6%B2%E0%A7%8B%E0%A6%97%E0%A7%8B.svg.png?_=20250102083708" group-title="FIFA",Somoy TV
+https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/S7tZS6cg/Bein-Sports-1-Direct.png" group-title="FIFA",Bein Sports 1
+https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Kc3mP7Qt/cbimage.png" group-title="FIFA",DAZN FIFA
+https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6719.png" group-title="FIFA",Match! Football 1
+https://bl.video.matchtv.ru/media/playlist/free_d46d0cf1712c0542ec7fd4f0808f600a_hd/17_89756005/1080/e6bef86de8a133cd7b27deb040758a00/4796141934.m3u8
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6719.png" group-title="FIFA",BeIN MAX 2
+https://tmaxapp.site/beinmax2.m3u8
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8570.png" group-title="FIFA",DAZN
+https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8570.png" group-title="FIFA",CH LIVE
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://live.wxinxi.com/live/25816724_sb2maw7iluj1ghr92sk5siud28tpimx0.m3u8
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8570.png" group-title="FIFA",ARABIC LIVE
+https://live-aburayhan1111.telewebion.ir/ek/sport1/live/720p/index.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.sportmonks.com/images/cricket/teams/6/38.png" group-title="FIFA",SKY SPORTS HD
+https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https
+#EXTINF:-1 tvg-logo="https://cdn.sportmonks.com/images/cricket/teams/6/38.png" group-title="FIFA",SD LIVE
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+http://193.47.62.41/hls/EEEEDDD.m3u8
 #EXTINF:-1 tvg-logo="https://elmarada.org/wp-content/uploads/2022/03/download-247x200.png" group-title="FIFA",BeIN Sports 1
 http://41.205.70.146/BEINSPORT1/index.m3u8
 #EXTINF:-1 tvg-logo="https://elmarada.org/wp-content/uploads/2022/03/download-247x200.png" group-title="FIFA",BeIN Sports 2
 http://41.205.70.146/BEINSPORT2/index.m3u8
-#EXTINF:-1 tvg-logo="https://elmarada.org/wp-content/uploads/2022/03/download-247x200.png" group-title="FIFA",BeIN Sports 3
-http://41.205.70.146/BEINSPORT3/index.m3u8
-#EXTINF:-1 tvg-logo="https://elmarada.org/wp-content/uploads/2022/03/download-247x200.png" group-title="FIFA",BeIN Sports 4
-http://41.205.70.146/BEINSPORT4/index.m3u8
 #EXTINF:-1 tvg-logo="https://elmarada.org/wp-content/uploads/2022/03/download-247x200.png" group-title="FIFA",BeIN Sports 5
 http://41.205.70.146/BEINSPORT5/index.m3u8
-#EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2023/12/sport_tv1-logo_brandlogos.net_k6b5q.png" group-title="FIFA",Sport TV 1
-#EXTVLCOPT:http-referrer=https://foottime.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://t7.ultrastream.vip/sporttv1/index.m3u8?
-#EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2023/12/sport_tv1-logo_brandlogos.net_k6b5q.png" group-title="FIFA",Sport TV 2
-#EXTVLCOPT:http-referrer=https://foottime.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://t7.ultrastream.vip/sporttv2/index.m3u8?
-#EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2023/12/sport_tv1-logo_brandlogos.net_k6b5q.png" group-title="FIFA",Sport TV 3
-#EXTVLCOPT:http-referrer=https://foottime.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://t7.ultrastream.vip/sporttv3/index.m3u8?
-#EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2023/12/sport_tv1-logo_brandlogos.net_k6b5q.png" group-title="FIFA",Sport TV 4
-#EXTVLCOPT:http-referrer=https://foottime.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://t7.ultrastream.vip/sporttv4/index.m3u8?
-#EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2023/12/sport_tv1-logo_brandlogos.net_k6b5q.png" group-title="FIFA",Sport TV 5
-#EXTVLCOPT:http-referrer=https://foottime.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://t7.ultrastream.vip/sporttv5/index.m3u8?
-#EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2023/12/sport_tv1-logo_brandlogos.net_k6b5q.png" group-title="FIFA",Sport TV 6
-#EXTVLCOPT:http-referrer=https://foottime.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://t7.ultrastream.vip/sporttv6/index.m3u8?
-#EXTINF:-1 tvg-logo="https://brandlogos.net/wp-content/uploads/2023/12/sport_tv1-logo_brandlogos.net_k6b5q.png" group-title="FIFA",Sport TV 7
-#EXTVLCOPT:http-referrer=https://foottime.top/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://t7.ultrastream.vip/sporttv7/index.m3u8?
 #EXTINF:-1 tvg-logo="https://images.seeklogo.com/logo-png/26/2/trt-1-logo-png_seeklogo-260967.png" group-title="FIFA",TRT 1
 https://tv-trt1.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-logo="https://assets-prod.services.toffeelive.com/w_480,q_75,f_webp/Xi_Ga5oBNnOkwJLWkhKP/posters/ef2899d5-1ae0-4fee-aee5-45f9b0b3ba80.png" group-title="FIFA",Somoy TV
-https://bldcmprod-cdn.toffeelive.com/cdn/live/somoy_tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.sportmonks.com/images/cricket/teams/5/37.png" group-title="Cricket",TAPMAD
+https://serieAleague.akamaized.net/hls/live/2107107/PSLE_tapmad2026-Backup/master.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.sportmonks.com/images/cricket/teams/5/37.png" group-title="Cricket",SD LIVE
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+http://193.47.62.42/hls/DPPP.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.sportmonks.com/images/cricket/teams/5/37.png" group-title="Cricket",TAPMAD
+https://serieAleague.akamaized.net/hls/live/2107107/PSLE_tapmad2026-Backup/master.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.sportmonks.com/images/cricket/teams/5/37.png" group-title="Cricket",SD LIVE
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+http://193.47.62.42/hls/DPPP.m3u8
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/400502.png" group-title="Cricket",SonyLIV
+https://pubads.g.doubleclick.net/ssai/event/t2rqeJPuSQuYLwlNYZPhpw/master.m3u8
+#EXTINF:-1 tvg-logo="https://resources.motogp.pulselive.com/photo-resources/2026/06/15/4b8f1a01-10ce-4c91-8c14-b906d9f77caf/Czechia-GP-Poster.jpg?height=192&width=343" group-title="Motorsports",SD LIVE
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+http://193.47.62.41/hls/eaeaeaZZ.m3u8
+#EXTINF:-1 tvg-logo="https://ia601603.us.archive.org/35/items/image-2026-06-21-t-112557.094/image%20-%202026-06-21T112557.094.png" group-title="Rugby",SD LVE
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+http://193.47.62.42/hls/geeeqqqD.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.sportmonks.com/images/cricket/teams/11/75.png" group-title="Cricket",SD LIVE
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+http://193.47.62.42/hls/udddQQ.m3u8
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/391939.png" group-title="Volleyball",SD LIVE
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+http://193.47.62.42/hls/uddd.m3u8
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6325.png" group-title="Volleyball",SD LIVE
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+http://193.47.62.42/hls/udddQ.m3u8
+#EXTINF:-1 tvg-logo="https://cdn.sportmonks.com/images/cricket/teams/6/38.png" group-title="Cricket",SKY SPORTS HD
+https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https
+#EXTINF:-1 tvg-logo="https://cdn.sportmonks.com/images/cricket/teams/6/38.png" group-title="Cricket",SD LIVE
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+http://193.47.62.41/hls/EEEEDDD.m3u8
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8491_small.png" group-title="Cricket",SKY CRICKET HD
+https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8491_small.png" group-title="Cricket",TAPMAD
+https://seriealeague.akamaized.net/hls/live/2107107/PSLE_tapmad2026-Backup/master.m3u8
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/5810_large.png" group-title="Volleyball",SD LIVE
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+http://193.47.62.42/hls/udddQQQ.m3u8
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6719.png" group-title="Football",Match! Football 1
+https://bl.video.matchtv.ru/media/playlist/free_d46d0cf1712c0542ec7fd4f0808f600a_hd/17_89756005/1080/e6bef86de8a133cd7b27deb040758a00/4796141934.m3u8
+#EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/6719.png" group-title="Football",BeIN MAX 2
+https://tmaxapp.site/beinmax2.m3u8

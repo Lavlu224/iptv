@@ -62,6 +62,9 @@ async function getStreamQualities() {
 
   console.log(`Found ${data.length} total streams. Checking available qualities...\n`);
 
+  const validStreams = [];
+  const deadStreams = [];
+
   for (const stream of data) {
     const isDash = stream.type === 'dash' || (stream.url && stream.url.includes('.mpd'));
     const isHls = !isDash && (stream.url && stream.url.includes('.m3u8'));
@@ -70,14 +73,23 @@ async function getStreamQualities() {
     if (!isDash && !isHls && !isTs) {
       console.log(`Checking: ${stream.name}`);
       console.log(`  [-] Unknown stream format (not DASH, HLS, or TS): ${stream.url || 'No URL'}\n`);
+      deadStreams.push(stream);
       continue;
     }
 
     const streamTypeStr = isDash ? 'DASH' : isHls ? 'HLS' : 'TS';
     console.log(`Fetching ${streamTypeStr} for: ${stream.name}`);
 
+    const hasVpn = stream.name && /vpn/i.test(stream.name);
+    if (hasVpn) {
+      console.log(`  [-] VPN Required Stream (Assumed alive)\n`);
+      validStreams.push(stream);
+      continue;
+    }
+
     if (isTs) {
       console.log(`  [-] Direct TS Stream (Single quality / No sub-qualities found)\n`);
+      validStreams.push(stream);
       continue;
     }
 
@@ -94,13 +106,25 @@ async function getStreamQualities() {
         } catch { /* invalid referer URL, skip */ }
       }
 
-      const response = await fetch(stream.url, fetchOptions);
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 8000); // 8 seconds timeout
+
+      const response = await fetch(stream.url, {
+        ...fetchOptions,
+        signal: controller.signal
+      });
+
+      clearTimeout(timeoutId);
+
       if (!response.ok) {
         console.error(`  [!] Failed to fetch stream: ${response.status} ${response.statusText}`);
+        deadStreams.push(stream);
         console.log('');
         continue;
       }
+
       const text = await response.text();
+      validStreams.push(stream);
 
       const streamQualities = [];
 
@@ -179,8 +203,49 @@ async function getStreamQualities() {
       }
     } catch (e) {
       console.error(`  [!] Error fetching or parsing stream: ${e.message}`);
+      deadStreams.push(stream);
     }
     console.log(''); // Blank line for readability
+  }
+
+  // Save valid streams to the input file
+  if (filePath.endsWith('.json')) {
+    try {
+      await fs.writeFile(filePath, JSON.stringify(validStreams, null, 4), 'utf8');
+      console.log(`Saved ${validStreams.length} valid streams back to ${filePath}`);
+    } catch (err) {
+      console.error(`Failed to write valid streams to ${filePath}:`, err);
+    }
+  }
+
+  // Save dead streams to test/checks/dead.json
+  if (deadStreams.length > 0) {
+    const deadFilePath = path.resolve('test/checks/dead.json');
+    try {
+      let existingDead = [];
+      try {
+        const deadContent = await fs.readFile(deadFilePath, 'utf8');
+        existingDead = JSON.parse(deadContent);
+      } catch {
+        // File doesn't exist or is invalid
+      }
+
+      // Merge dead streams by URL
+      const deadMap = new Map();
+      for (const ds of existingDead) {
+        if (ds.url) deadMap.set(ds.url, ds);
+      }
+      for (const ds of deadStreams) {
+        if (ds.url) deadMap.set(ds.url, ds);
+      }
+      const finalDead = Array.from(deadMap.values());
+
+      await fs.mkdir(path.dirname(deadFilePath), { recursive: true });
+      await fs.writeFile(deadFilePath, JSON.stringify(finalDead, null, 4), 'utf8');
+      console.log(`Saved ${deadStreams.length} dead streams (total merged: ${finalDead.length}) to ${deadFilePath}`);
+    } catch (err) {
+      console.error(`Failed to write dead streams to ${deadFilePath}:`, err);
+    }
   }
 }
 
