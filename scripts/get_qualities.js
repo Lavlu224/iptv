@@ -11,7 +11,7 @@ function formatBandwidth(bandwidthBps) {
   if (!bandwidthBps) return '';
   const bps = parseInt(bandwidthBps, 10);
   const mbps = (bps / 1000000).toFixed(2);
-  
+
   // Format clean Mbps (remove trailing zeroes or decimal point if appropriate)
   let mbpsStr = mbps;
   if (mbps.endsWith('.00')) {
@@ -19,19 +19,19 @@ function formatBandwidth(bandwidthBps) {
   } else if (mbps.endsWith('0')) {
     mbpsStr = mbps.slice(0, -1);
   }
-  
+
   return ` (${mbpsStr} Mbps)`;
 }
 
 async function getStreamQualities() {
   const filePathArg = process.argv[2];
   if (!filePathArg) {
-    console.error('Usage: node test/get_qualities.js <path-to-json-or-m3u-file>');
+    console.error('[-] Usage: node test/get_qualities.js <path-to-json-or-m3u-file>');
     process.exit(1);
   }
 
   const filePath = path.resolve(filePathArg);
-  
+
   let data = [];
   try {
     const ext = path.extname(filePath).toLowerCase();
@@ -52,15 +52,16 @@ async function getStreamQualities() {
         }
       }
     } else {
-      console.error('Unsupported file format. Please provide a .json or .m3u file.');
+      console.error('[-] Error: Unsupported file format. Please provide a .json or .m3u file.');
       process.exit(1);
     }
   } catch (e) {
-    console.error(`Failed to read or parse file at ${filePath}:`, e);
+    console.error(`[-] Error: Failed to read or parse file at ${filePath}:`, e);
     return;
   }
 
-  console.log(`Found ${data.length} total streams. Checking available qualities...\n`);
+  console.log('-'.repeat(80));
+  console.log(`[+] Found ${data.length} total streams. Checking available qualities...\n`);
 
   const validStreams = [];
   const deadStreams = [];
@@ -80,7 +81,8 @@ async function getStreamQualities() {
 
     const normalizedUrl = url.trim();
     if (seenUrls.has(normalizedUrl)) {
-      console.log(`Skipping duplicate URL: ${stream.name} (${normalizedUrl})\n`);
+      console.log(`[-] Skipping duplicate URL: ${stream.name} (${normalizedUrl})`);
+      console.log('-'.repeat(80));
       continue;
     }
     seenUrls.add(normalizedUrl);
@@ -90,25 +92,26 @@ async function getStreamQualities() {
     const isTs = !isDash && !isHls && (stream.url && stream.url.includes('.ts'));
 
     if (!isDash && !isHls && !isTs) {
-      console.log(`Checking: ${stream.name}`);
-      console.log(`  [-] Unknown stream format (not DASH, HLS, or TS): ${stream.url || 'No URL'}\n`);
-      deadStreams.push(stream);
+      console.log(`[-] Unknown stream format (not DASH, HLS, or TS) for ${stream.name}: ${stream.url || 'No URL'}`);
+      console.log('-'.repeat(80));
       continue;
     }
 
     const streamTypeStr = isDash ? 'DASH' : isHls ? 'HLS' : 'TS';
-    console.log(`Fetching ${streamTypeStr} for: ${stream.name}`);
+    console.log(`[+] Fetching ${streamTypeStr} for: ${stream.name}`);
 
     const hasVpn = stream.name && /vpn/i.test(stream.name);
     if (hasVpn) {
-      console.log(`  [-] VPN Required Stream (Assumed alive)\n`);
+      console.log(`[-] VPN Required Stream (Assumed alive)`);
       validStreams.push(stream);
+      console.log('-'.repeat(80));
       continue;
     }
 
     if (isTs) {
-      console.log(`  [-] Direct TS Stream (Single quality / No sub-qualities found)\n`);
+      console.log(`[+] Direct TS Stream (Single quality / No sub-qualities found)`);
       validStreams.push(stream);
+      console.log('-'.repeat(80));
       continue;
     }
 
@@ -136,9 +139,8 @@ async function getStreamQualities() {
       clearTimeout(timeoutId);
 
       if (!response.ok) {
-        console.error(`  [!] Failed to fetch stream: ${response.status} ${response.statusText}`);
-        deadStreams.push(stream);
-        console.log('');
+        console.error(`[-] Failed to fetch stream: ${response.status} ${response.statusText}`);
+        console.log('-'.repeat(80));
         continue;
       }
 
@@ -151,7 +153,7 @@ async function getStreamQualities() {
         const bwInfo = bandwidth ? formatBandwidth(bandwidth) : '';
         const heightStr = height > 0 ? `${height}p` : 'Unknown Res';
         const label = `${heightStr}${bwInfo}`;
-        
+
         if (!streamQualities.some(q => q.height === height && q.bandwidth === bandwidth)) {
           streamQualities.push({ height, bandwidth, label });
         }
@@ -181,9 +183,9 @@ async function getStreamQualities() {
             return b.bandwidth - a.bandwidth;
           });
           const sortedQualities = streamQualities.map(q => q.label);
-          console.log(`  [+] Available Qualities: ${sortedQualities.join(', ')}`);
+          console.log(`[+] Available Qualities: ${sortedQualities.join(', ')}`);
         } else {
-          console.log(`  [-] No standard video qualities (height) found in MPD.`);
+          console.log(`[-] No standard video qualities (height) found in MPD.`);
         }
       } else {
         // HLS
@@ -213,58 +215,30 @@ async function getStreamQualities() {
             return b.bandwidth - a.bandwidth;
           });
           const sortedQualities = streamQualities.map(q => q.label);
-          console.log(`  [+] Available Qualities: ${sortedQualities.join(', ')}`);
+          console.log(`[+] Available Qualities: ${sortedQualities.join(', ')}`);
         } else if (!hasStreamInf) {
-          console.log(`  [-] Single quality stream / Media Playlist (No sub-qualities found)`);
+          console.log(`[-] Single quality stream / Media Playlist (No sub-qualities found)`);
         } else {
-          console.log(`  [-] Master playlist found, but no standard resolutions specified.`);
+          console.log(`[-] Master playlist found, but no standard resolutions specified.`);
         }
       }
     } catch (e) {
-      console.error(`  [!] Error fetching or parsing stream: ${e.message}`);
-      deadStreams.push(stream);
+      console.error(`[-] Error fetching or parsing stream: ${e.message}`);
     }
-    console.log(''); // Blank line for readability
+    console.log('-'.repeat(80));
   }
 
-  // Save valid streams to the input file
-  if (filePath.endsWith('.json')) {
-    try {
-      await fs.writeFile(filePath, JSON.stringify(validStreams, null, 4), 'utf8');
-      console.log(`Saved ${validStreams.length} valid streams back to ${filePath}`);
-    } catch (err) {
-      console.error(`Failed to write valid streams to ${filePath}:`, err);
-    }
-  }
+  // Save valid streams to the output file (by default app/data/fifa.json)
+  const outputFilePathArg = process.argv[3];
+  const outputFilePath = outputFilePathArg ? path.resolve(outputFilePathArg) : path.resolve('app/data/fifa.json');
 
-  // Save dead streams to test/checks/dead.json
-  if (deadStreams.length > 0) {
-    const deadFilePath = path.resolve('test/checks/dead.json');
-    try {
-      let existingDead = [];
-      try {
-        const deadContent = await fs.readFile(deadFilePath, 'utf8');
-        existingDead = JSON.parse(deadContent);
-      } catch {
-        // File doesn't exist or is invalid
-      }
-
-      // Merge dead streams by URL
-      const deadMap = new Map();
-      for (const ds of existingDead) {
-        if (ds.url) deadMap.set(ds.url, ds);
-      }
-      for (const ds of deadStreams) {
-        if (ds.url) deadMap.set(ds.url, ds);
-      }
-      const finalDead = Array.from(deadMap.values());
-
-      await fs.mkdir(path.dirname(deadFilePath), { recursive: true });
-      await fs.writeFile(deadFilePath, JSON.stringify(finalDead, null, 4), 'utf8');
-      console.log(`Saved ${deadStreams.length} dead streams (total merged: ${finalDead.length}) to ${deadFilePath}`);
-    } catch (err) {
-      console.error(`Failed to write dead streams to ${deadFilePath}:`, err);
-    }
+  try {
+    // Ensure parent directories exist
+    await fs.mkdir(path.dirname(outputFilePath), { recursive: true });
+    await fs.writeFile(outputFilePath, JSON.stringify(validStreams, null, 4), 'utf8');
+    console.log(`[+] Saved ${validStreams.length} valid streams to ${outputFilePath}`);
+  } catch (err) {
+    console.error(`[-] Failed to write valid streams to ${outputFilePath}:`, err);
   }
 }
 
