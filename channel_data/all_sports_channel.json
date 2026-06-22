@@ -106,7 +106,7 @@
         "no_proxy": true
     },
     {
-        "name": "FOX 4K 2",
+        "name": "FOX 4K [No VPN]",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Fox_Broadcasting_Company_logo_%282019%29.svg/250px-Fox_Broadcasting_Company_logo_%282019%29.svg.png",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/enc/7ruw77zpm1/out/v1/31d30c91fc65458789b84209d3fa22e4/cenc.mpd",
         "type": "dash",
