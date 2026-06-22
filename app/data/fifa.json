@@ -103,13 +103,6 @@
         "no_proxy": true
     },
     {
-        "name": "FS1",
-        "logo": "https://cdn.broadbandtvnews.com/wp-content/uploads/2025/05/13115423/Fox-One-Logo.jpg",
-        "group": "FOX",
-        "url": "https://vizio.kuvuslov.cymru/fs1/tracks-v1a1/mono.m3u8",
-        "no_proxy": true
-    },
-    {
         "name": "FIFA +",
         "logo": "https://roams.es/images/post/es_ES_news/categoria-telefonia/1200x675/logo-de-fifa-plus.webp",
         "group": "FOX",
@@ -135,6 +128,14 @@
         "no_proxy": false
     },
     {
+        "name": "SD LIVE",
+        "logo": "https://resources.motogp.pulselive.com/photo-resources/2026/06/15/4b8f1a01-10ce-4c91-8c14-b906d9f77caf/Czechia-GP-Poster.jpg?height=192&width=343",
+        "url": "http://193.47.62.41/hls/eaeaeaZZ.m3u8",
+        "group": "SD Live",
+        "referer": "http://www.fawanews.sc/",
+        "no_proxy": false
+    },
+    {
         "name": "SERVER 1",
         "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8263.png",
         "url": "https://live.wxinxi.com/live/25816724_sb2maw7iluj1ghr92sk5siud28tpimx0.m3u8",
@@ -143,33 +144,9 @@
         "no_proxy": false
     },
     {
-        "name": "SERVER 2",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8263.png",
-        "url": "http://193.47.62.59/hls/Xlplplp.m3u8",
-        "group": "Server",
-        "referer": "http://www.fawanews.sc/",
-        "no_proxy": false
-    },
-    {
         "name": "SERVER 3",
         "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8263.png",
         "url": "http://193.47.62.55/hls/Xlplplpqqq.m3u8",
-        "group": "Server",
-        "referer": "http://www.fawanews.sc/",
-        "no_proxy": false
-    },
-    {
-        "name": "SERVER 6",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8263.png",
-        "url": "http://193.47.62.59/hls/XlplplpA.m3u8",
-        "group": "Server",
-        "referer": "http://www.fawanews.sc/",
-        "no_proxy": false
-    },
-    {
-        "name": "SERVER 7",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8263.png",
-        "url": "http://193.47.62.59/hls/Xlplplpq.m3u8",
         "group": "Server",
         "referer": "http://www.fawanews.sc/",
         "no_proxy": false
@@ -323,14 +300,6 @@
         "no_proxy": true
     },
     {
-        "name": "LVE  1",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8263.png",
-        "url": "https://pullsgp.yyzb456.top/live/stream-506605_lhd.m3u8",
-        "group": "FIFA",
-        "referer": "http://www.fawanews.sc/",
-        "no_proxy": false
-    },
-    {
         "name": "M6 Direct TV",
         "logo": "https://i.imgur.com/7GVp3fW.png",
         "group": "FIFA",
@@ -449,6 +418,13 @@
         "name": "iOS 2",
         "logo": "https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg",
         "url": "https://hugh.cdn.rumble.cloud/live/y16rq9u0/slot-13/2rvn-cv3b_360p/chunklist_DVR.m3u8",
+        "group": "FIFA",
+        "no_proxy": true
+    },
+    {
+        "name": "Win Sports",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Win_Sports_nuevo_logo.svg/500px-Win_Sports_nuevo_logo.svg.png",
+        "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8",
         "group": "FIFA",
         "no_proxy": true
     }
