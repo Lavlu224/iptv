@@ -49,13 +49,6 @@
         "no_proxy": true
     },
     {
-        "name": "Bein Sports 1",
-        "logo": "https://i.ibb.co.com/S7tZS6cg/Bein-Sports-1-Direct.png",
-        "group": "BeIN",
-        "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8",
-        "no_proxy": true
-    },
-    {
         "name": "D SPORTS",
         "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3gg2jnixjn/out/v1/e1840e01f3f14563b66bbb944d5cc54c/cenc.mpd",
@@ -325,13 +318,6 @@
         "type": "dash",
         "kid": "7eea72d6075245a99ee3255603d58853",
         "key": "6848ef60575579bf4d415db1032153ed",
-        "no_proxy": true
-    },
-    {
-        "name": "Somoy TV",
-        "logo": "https://upload.wikimedia.org/wikipedia/bn/thumb/f/f6/%E0%A6%B8%E0%A6%AE%E0%A6%AF%E0%A6%BC_%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%B0_%E0%A6%B2%E0%A7%8B%E0%A6%97%E0%A7%8B.svg/960px-%E0%A6%B8%E0%A6%AE%E0%A6%AF%E0%A6%BC_%E0%A6%9F%E0%A6%BF%E0%A6%AD%E0%A6%BF%E0%A6%B0_%E0%A6%B2%E0%A7%8B%E0%A6%97%E0%A7%8B.svg.png?_=20250102083708",
-        "group": "FIFA",
-        "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8",
         "no_proxy": true
     },
     {
