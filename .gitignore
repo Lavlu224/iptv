@@ -43,7 +43,7 @@ next-env.d.ts
 
 # workplace
 test/
-channel_data/
 
 # scripts
 scripts/add_no_proxy.js
+scripts/remove_duplicate.js
