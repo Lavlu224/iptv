@@ -28,13 +28,6 @@
         "no_proxy": true
     },
     {
-        "name": "BeIN Sports 1",
-        "logo": "https://elmarada.org/wp-content/uploads/2022/03/download-247x200.png",
-        "url": "http://41.205.70.146/BEINSPORT1/index.m3u8",
-        "group": "BeIN",
-        "no_proxy": true
-    },
-    {
         "name": "BeIN Sports 2",
         "logo": "https://elmarada.org/wp-content/uploads/2022/03/download-247x200.png",
         "url": "http://41.205.70.146/BEINSPORT2/index.m3u8",
@@ -145,14 +138,6 @@
         "no_proxy": false
     },
     {
-        "name": "SD LIVE",
-        "logo": "https://resources.motogp.pulselive.com/photo-resources/2026/06/15/4b8f1a01-10ce-4c91-8c14-b906d9f77caf/Czechia-GP-Poster.jpg?height=192&width=343",
-        "url": "http://193.47.62.41/hls/eaeaeaZZ.m3u8",
-        "group": "SD Live",
-        "referer": "http://www.fawanews.sc/",
-        "no_proxy": false
-    },
-    {
         "name": "SERVER 1",
         "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8263.png",
         "url": "https://live.wxinxi.com/live/25816724_sb2maw7iluj1ghr92sk5siud28tpimx0.m3u8",
@@ -200,16 +185,6 @@
         "no_proxy": true
     },
     {
-        "name": "Sky Sports La Liga",
-        "logo": "https://epg.pw/media/images/epg/2025/04/23/20250423022300132210_61.png",
-        "url": "https://aca-live4-ott.izzigo.tv/12/out/u/dash/SKY-SPORTS-16-HD/default.mpd",
-        "group": "Sky Sports",
-        "type": "dash",
-        "kid": "cb80e1e7d7598eaf98b1dbbe6dc14ee9",
-        "key": "103ae55c7948ca1d159d6743619d26c4",
-        "no_proxy": true
-    },
-    {
         "name": "Sky Sports La Liga 1",
         "logo": "https://epg.pw/media/images/epg/2025/04/23/20250423022300132210_61.png",
         "url": "https://aca-live-ott.izzigo.tv/7/out/u/dash/SKY-SPORTS-16-HD-H265/default.mpd",
@@ -227,16 +202,6 @@
         "type": "dash",
         "kid": "902e5ec0e3d05e665daa32fc23f4f59e",
         "key": "7b2322a273843921a43e2c61dac7cae3",
-        "no_proxy": true
-    },
-    {
-        "name": "TNT",
-        "logo": "https://resources.motogp.pulselive.com/photo-resources/2026/06/15/4b8f1a01-10ce-4c91-8c14-b906d9f77caf/Czechia-GP-Poster.jpg?height=192&width=343",
-        "url": "https://otte-qw.live.pv-cdn.net/fra-nitro/live/clients/dash/enc/3j04z3pbit/out/v1/042ee0757ed348bf8c26f75895cae871/cenc.mpd",
-        "group": "TNT Sports",
-        "type": "dash",
-        "kid": "0b59ce06de74ed84f2eda5e81dadba13",
-        "key": "48e4ba4ad6c2a60d2bda5d71a0050844",
         "no_proxy": true
     },
     {
@@ -267,13 +232,6 @@
         "type": "dash",
         "kid": "14eeabf30c14b7fbf3008c03099ce011",
         "key": "17d2ac8dbc5429bd70af3433aa12158d",
-        "no_proxy": true
-    },
-    {
-        "name": "ARABIC LIVE",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
-        "url": "https://live-aburayhan1111.telewebion.ir/ek/sport1/live/720p/index.m3u8",
-        "group": "FIFA",
         "no_proxy": true
     },
     {
@@ -356,13 +314,6 @@
         "no_proxy": true
     },
     {
-        "name": "Match! Football 1",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6719.png",
-        "url": "https://bl.video.matchtv.ru/media/playlist/free_d46d0cf1712c0542ec7fd4f0808f600a_hd/17_89756005/1080/e6bef86de8a133cd7b27deb040758a00/4796141934.m3u8",
-        "group": "FIFA",
-        "no_proxy": true
-    },
-    {
         "name": "RTB",
         "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6720.png",
         "url": "https://d1211whpimeups.cloudfront.net/smil:rtb2/playlist.m3u8",
@@ -420,23 +371,6 @@
         "name": "TRT 1",
         "logo": "https://images.seeklogo.com/logo-png/26/2/trt-1-logo-png_seeklogo-260967.png",
         "url": "https://tv-trt1.medya.trt.com.tr/master.m3u8",
-        "group": "FIFA",
-        "no_proxy": true
-    },
-    {
-        "name": "TUDN",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
-        "url": "https://vod-sev-orbit2-s2.izzigo.tv/out/u/startover/dash/VIX-MUNDIAL-90-HD/default.mpd",
-        "group": "FIFA",
-        "type": "dash",
-        "kid": "75074a0cbd83f5b72fb3e5c1495252a9",
-        "key": "a4a0df04b2d28f2160cead2ecdeb7203",
-        "no_proxy": true
-    },
-    {
-        "name": "TVP Sport",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Logo_TVP_Sport.jpg/1280px-Logo_TVP_Sport.jpg",
-        "url": "https://1nyaler.streamhostingcdn.top/stream/89/index.m3u8",
         "group": "FIFA",
         "no_proxy": true
     },
