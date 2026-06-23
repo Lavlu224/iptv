@@ -197,6 +197,16 @@
         "no_proxy": true
     },
     {
+        "name": "TSN Sports 4 - English",
+        "logo": "https://i.imgur.com/qJyAWU8.png",
+        "group": "TSN",
+        "url": "https://otte-qw.live.pv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd?Null",
+        "type": "dash",
+        "kid": "14eeabf30c14b7fbf3008c03099ce011",
+        "key": "17d2ac8dbc5429bd70af3433aa12158d",
+        "no_proxy": true
+    },
+    {
         "name": "ARABIC LIVE",
         "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
         "url": "https://live-aburayhan1111.telewebion.ir/ek/sport1/live/720p/index.m3u8",
@@ -208,16 +218,6 @@
         "logo": "https://images.seeklogo.com/logo-png/61/1/cazetv-logo-png_seeklogo-619708.png",
         "group": "FIFA",
         "url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/Caze_TV.m3u8",
-        "no_proxy": true
-    },
-    {
-        "name": "CTV",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/72sjo8hygl/out/v1/3079be34d72a4985852d299a02406a0c/cenc.mpd",
-        "group": "FIFA",
-        "type": "dash",
-        "kid": "d185684e2330de5bea436daa094a5e86",
-        "key": "014f0116154f5bf0050e03a6b0a23157",
         "no_proxy": true
     },
     {
