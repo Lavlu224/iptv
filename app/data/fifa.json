@@ -157,16 +157,6 @@
         "no_proxy": true
     },
     {
-        "name": "TNT",
-        "logo": "https://resources.motogp.pulselive.com/photo-resources/2026/06/15/4b8f1a01-10ce-4c91-8c14-b906d9f77caf/Czechia-GP-Poster.jpg?height=192&width=343",
-        "url": "https://otte-qw.live.pv-cdn.net/fra-nitro/live/clients/dash/enc/3j04z3pbit/out/v1/042ee0757ed348bf8c26f75895cae871/cenc.mpd",
-        "group": "TNT Sports",
-        "type": "dash",
-        "kid": "0b59ce06de74ed84f2eda5e81dadba13",
-        "key": "48e4ba4ad6c2a60d2bda5d71a0050844",
-        "no_proxy": true
-    },
-    {
         "name": "TNT SPORTS",
         "logo": "https://cdn.sportmonks.com/images/cricket/teams/5/37.png",
         "url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/65ldy4ejuu/out/v1/69bc6b64f1c14e36bb21e0075a71d8ca/cenc.mpd",
