@@ -22,13 +22,6 @@
         "no_proxy": true
     },
     {
-        "name": "IRIB 4K",
-        "logo": "",
-        "url": "https://ncdn.telewebion.ir/faratar/live/playlist.m3u8",
-        "group": "IRIB",
-        "no_proxy": true
-    },
-    {
         "name": "BEIN Sports 5",
         "logo": "https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg",
         "group": "BeIN",
@@ -57,13 +50,6 @@
         "no_proxy": true
     },
     {
-        "name": "BeIN Sports 1",
-        "logo": "https://elmarada.org/wp-content/uploads/2022/03/download-247x200.png",
-        "url": "http://41.205.70.146/BEINSPORT1/index.m3u8",
-        "group": "BeIN",
-        "no_proxy": true
-    },
-    {
         "name": "BeIN Sports 2",
         "logo": "https://elmarada.org/wp-content/uploads/2022/03/download-247x200.png",
         "url": "http://41.205.70.146/BEINSPORT2/index.m3u8",
@@ -78,13 +64,10 @@
         "no_proxy": true
     },
     {
-        "name": "D SPORTS",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3gg2jnixjn/out/v1/e1840e01f3f14563b66bbb944d5cc54c/cenc.mpd",
-        "group": "D Sports",
-        "type": "dash",
-        "kid": "f8b207c10f3f76aeba32a360ec52b9e4",
-        "key": "afad49d20eb39670e93e371c1d669921",
+        "name": "Bein Sports 1",
+        "logo": "https://i.ibb.co.com/S7tZS6cg/Bein-Sports-1-Direct.png",
+        "group": "BeIN",
+        "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8",
         "no_proxy": true
     },
     {
@@ -159,16 +142,6 @@
         "no_proxy": true
     },
     {
-        "name": "Sky Sports La Liga",
-        "logo": "https://epg.pw/media/images/epg/2025/04/23/20250423022300132210_61.png",
-        "url": "https://aca-live4-ott.izzigo.tv/12/out/u/dash/SKY-SPORTS-16-HD/default.mpd",
-        "group": "Sky Sports",
-        "type": "dash",
-        "kid": "cb80e1e7d7598eaf98b1dbbe6dc14ee9",
-        "key": "103ae55c7948ca1d159d6743619d26c4",
-        "no_proxy": true
-    },
-    {
         "name": "Sky Sports La Liga 1",
         "logo": "https://epg.pw/media/images/epg/2025/04/23/20250423022300132210_61.png",
         "url": "https://aca-live-ott.izzigo.tv/7/out/u/dash/SKY-SPORTS-16-HD-H265/default.mpd",
@@ -239,23 +212,6 @@
         "no_proxy": true
     },
     {
-        "name": "ARABIC LIVE",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
-        "url": "https://live-aburayhan1111.telewebion.ir/ek/sport1/live/720p/index.m3u8",
-        "group": "FIFA",
-        "no_proxy": true
-    },
-    {
-        "name": "CTV",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/72sjo8hygl/out/v1/3079be34d72a4985852d299a02406a0c/cenc.mpd",
-        "group": "FIFA",
-        "type": "dash",
-        "kid": "d185684e2330de5bea436daa094a5e86",
-        "key": "014f0116154f5bf0050e03a6b0a23157",
-        "no_proxy": true
-    },
-    {
         "name": "FANCODE  HD",
         "logo": "https://cdn.sportmonks.com/images/cricket/teams/5/37.png",
         "url": "https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/fdb3pubmek/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd",
@@ -311,13 +267,6 @@
         "no_proxy": true
     },
     {
-        "name": "TAPMAD",
-        "logo": "https://cdn.sportmonks.com/images/cricket/teams/5/37.png",
-        "url": "https://serieAleague.akamaized.net/hls/live/2107107/PSLE_tapmad2026-Backup/master.m3u8",
-        "group": "FIFA",
-        "no_proxy": true
-    },
-    {
         "name": "TELEMUNDO (USA VPN)",
         "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6719.png",
         "url": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kvea)/master.mpd",
@@ -335,13 +284,6 @@
         "type": "dash",
         "kid": "adca25b8779e4168a0cd710f59f61ccf",
         "key": "be5383ed3cd8079f4ffe78ad067f476a",
-        "no_proxy": true
-    },
-    {
-        "name": "Toffee",
-        "logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/4/43/Toffee_logo.png",
-        "group": "FIFA",
-        "url": "https://prod-cdn01-live.toffeelive.com/live/FIFA-2026-4/0/master_2000.m3u8?hdntl=Expires=1782131769~_GO=Generated~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Signature=AduQTZ_HfwTejFgmS6WY7BzJBc4A8U8ZkNxJHYKpKAsjnLgGy0BYXc-SyHOjdxFYRfHoF8507i1oe1VE_ZBnI0J_s2oH",
         "no_proxy": true
     },
     {
@@ -389,26 +331,6 @@
         "no_proxy": false
     },
     {
-        "name": "FUSSBALL TV 4K",
-        "logo": "",
-        "url": "https://da-50f11b292a028381000001120000000000000009.id.vx.tentcdn.eu/wp/at-live-7.tentcdn.eu/bpk-tv/WM_TV_1_UHD/default/index.mpd",
-        "type": "dash",
-        "group": "FUSSBALL",
-        "kid": "4f558eae1b005126b2ac6e9eb1a7849e",
-        "key": "17aea325d91b5e66f06a8c574f2f0b03",
-        "no_proxy": true
-    },
-    {
-        "name": "FUSSBALL 2 4K",
-        "logo": "",
-        "url": "https://da-50f11b292a028381000001120000000000000009.id.vx.tentcdn.eu/wp/at-live-7.tentcdn.eu/bpk-tv/WM_TV_2_UHD/default/index.mpd",
-        "type": "dash",
-        "group": "FUSSBALL",
-        "kid": "ccdf9f3d9bbf5c508adf04f81918a285",
-        "key": "66cf0524fcc2eb0c7dab8bbbf8829827",
-        "no_proxy": true
-    },
-    {
         "name": "TVP SPORTS FHD",
         "logo": "",
         "url": "https://estreams.tv.nej.cz/dash/CH_TVP_SPORT_Portable.ism/playlist.mpd",
@@ -429,27 +351,11 @@
         "no_proxy": true
     },
     {
-        "name": "TOFFEE BD FHD",
-        "logo": "",
-        "url": "https://prod-cdn01-live.toffeelive.com/live/FIFA-2026-3/0/master_2000.m3u8?hdntl=Expires=1782268810~_GO=Generated~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Signature=AVXEwvfp4eDaCzDm-EWGrLvhTXc_uoCr2koVStuIsl5-2wELPO8dXxFQq2mupFrZEK7OGfvd5WgH2OpJrETXYB4xhc0P",
-        "group": "TOFFEE",
-        "no_proxy": false
-    },
-    {
         "name": "ARABIC LIVE HD",
         "logo": "",
         "url": "https://43cup.s3.us-east-2.amazonaws.com/max4/master.m3u8",
         "group": "ARABIC",
         "no_proxy": false,
         "referer": "https://8.kooralive360.com/"
-    },
-    {
-        "name": "SportzX Live",
-        "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
-        "url": "https://instreams.pro/EU/HDWC1/tracks-v1a1/mono.m3u8",
-        "group": "SportzX",
-        "no_proxy": false,
-        "referer": "https://instream.click/",
-        "origin": "https://instream.click"
     }
 ]
