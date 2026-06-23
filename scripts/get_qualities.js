@@ -25,8 +25,9 @@ function formatBandwidth(bandwidthBps) {
 
 async function getStreamQualities() {
   const filePathArg = process.argv[2];
+  const outputFilePathArg = process.argv[3];
   if (!filePathArg) {
-    console.error('[-] Usage: node test/get_qualities.js <path-to-json-or-m3u-file>');
+    console.error('[-] Usage: node scripts/get_qualities.js <input-path> [output-path]');
     process.exit(1);
   }
 
@@ -66,6 +67,8 @@ async function getStreamQualities() {
   const validStreams = [];
   const deadStreams = [];
   const seenUrls = new Set();
+  const uniqueData = [];
+  let duplicatesCount = 0;
 
   for (const stream of data) {
     const url = stream.url || stream.link;
@@ -83,9 +86,11 @@ async function getStreamQualities() {
     if (seenUrls.has(normalizedUrl)) {
       console.log(`[-] Skipping duplicate URL: ${stream.name} (${normalizedUrl})`);
       console.log('-'.repeat(80));
+      duplicatesCount++;
       continue;
     }
     seenUrls.add(normalizedUrl);
+    uniqueData.push(stream);
 
     const isDash = stream.type === 'dash' || (stream.url && stream.url.includes('.mpd'));
     const isHls = !isDash && (stream.url && stream.url.includes('.m3u8'));
@@ -228,8 +233,26 @@ async function getStreamQualities() {
     console.log('-'.repeat(80));
   }
 
-  // Save valid streams to the output file (by default app/data/fifa.json)
-  const outputFilePathArg = process.argv[3];
+  if (duplicatesCount > 0) {
+    console.log(`[+] Found ${duplicatesCount} duplicates. Removing from original input file: ${filePath}`);
+    try {
+      const ext = path.extname(filePath).toLowerCase();
+      if (ext === '.json') {
+        await fs.writeFile(filePath, JSON.stringify(uniqueData, null, 4), 'utf8');
+      } else if (ext === '.m3u' || ext === '.m3u8') {
+        const m3uContent = ['#EXTM3U'];
+        for (const item of uniqueData) {
+          m3uContent.push(`#EXTINF:-1,${item.name}`);
+          m3uContent.push(item.url);
+        }
+        await fs.writeFile(filePath, m3uContent.join('\n'), 'utf8');
+      }
+    } catch (err) {
+      console.error(`[-] Failed to update original file:`, err);
+    }
+  }
+
+  // Save valid streams to the output file (by default fifa.json)
   const outputFilePath = outputFilePathArg ? path.resolve(outputFilePathArg) : path.resolve('app/data/fifa.json');
 
   try {
