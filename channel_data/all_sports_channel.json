@@ -145,6 +145,14 @@
         "no_proxy": true
     },
     {
+        "name": "FS2 [No VPN]",
+        "logo": "https://cdn.broadbandtvnews.com/wp-content/uploads/2025/05/13115423/Fox-One-Logo.jpg",
+        "group": "FOX",
+        "url": "https://stream.ultraedge.live/fox-4k/main.m3u8",
+        "referer": "https://vod.yagaverse.net/",
+        "no_proxy": true
+    },
+    {
         "name": "FIFA +",
         "logo": "https://roams.es/images/post/es_ES_news/categoria-telefonia/1200x675/logo-de-fifa-plus.webp",
         "group": "FOX",
