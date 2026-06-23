@@ -197,13 +197,6 @@
         "no_proxy": true
     },
     {
-        "name": "ARABIC LIVE",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
-        "url": "https://live-aburayhan1111.telewebion.ir/ek/sport1/live/720p/index.m3u8",
-        "group": "FIFA",
-        "no_proxy": true
-    },
-    {
         "name": "CAZE TV",
         "logo": "https://images.seeklogo.com/logo-png/61/1/cazetv-logo-png_seeklogo-619708.png",
         "group": "FIFA",
