@@ -21,6 +21,20 @@
         "useProxy": false
     },
     {
+        "name": "BeIN MAX 1",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6720.png",
+        "url": "https://tmaxapp.site/beinmax1.m3u8",
+        "group": "BeIN",
+        "useProxy": false
+    },
+    {
+        "name": "BeIN MAX 2",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6719.png",
+        "url": "https://tmaxapp.site/beinmax2.m3u8",
+        "group": "BeIN",
+        "useProxy": false
+    },
+    {
         "name": "BeIN MAX SD",
         "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
         "url": "https://prod-fastly-eu-west-1.video.pscp.tv/Transcoding/v1/hls/dpXv_Bj52CxsfzkpeY2HfAG9GNFBl7qI6s8HSUWcyRO-cjXHZqH9jkGzhEIgwNcw6R5ZRRUbA8ZV7S0DXKMrkQ/non_transcode/eu-west-1/periscope-replay-direct-prod-eu-west-1-public/master_dynamic_delta.m3u8?type=live",
@@ -49,10 +63,13 @@
         "useProxy": false
     },
     {
-        "name": "Bein Sports 1",
-        "logo": "https://i.ibb.co.com/S7tZS6cg/Bein-Sports-1-Direct.png",
-        "group": "BeIN",
-        "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8",
+        "name": "D SPORTS",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3gg2jnixjn/out/v1/e1840e01f3f14563b66bbb944d5cc54c/cenc.mpd",
+        "group": "D Sports",
+        "type": "dash",
+        "kid": "f8b207c10f3f76aeba32a360ec52b9e4",
+        "key": "afad49d20eb39670e93e371c1d669921",
         "useProxy": false
     },
     {
@@ -91,10 +108,13 @@
         "useProxy": true
     },
     {
-        "name": "FIFA +",
-        "logo": "https://roams.es/images/post/es_ES_news/categoria-telefonia/1200x675/logo-de-fifa-plus.webp",
-        "group": "FOX",
-        "url": "https://e3be9ac5.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfRklGQVBsdXNQb3J0dWd1ZXNlX0hMUw/9c1dd781-4ee3-4668-a957-fa1e6f81d613/3.m3u8",
+        "name": "LIVE 1",
+        "logo": "https://cdn.sportmonks.com/images/cricket/teams/8/72.png",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
+        "group": "Live",
+        "type": "dash",
+        "kid": "290e09c837da78d5cd961978d390515c",
+        "key": "b748836c71e6a4ca68ef5b5652db6247",
         "useProxy": false
     },
     {
@@ -125,13 +145,23 @@
         "useProxy": false
     },
     {
-        "name": "TNT",
-        "logo": "https://resources.motogp.pulselive.com/photo-resources/2026/06/15/4b8f1a01-10ce-4c91-8c14-b906d9f77caf/Czechia-GP-Poster.jpg?height=192&width=343",
-        "url": "https://otte-qw.live.pv-cdn.net/fra-nitro/live/clients/dash/enc/3j04z3pbit/out/v1/042ee0757ed348bf8c26f75895cae871/cenc.mpd",
+        "name": "SporTV 3",
+        "logo": "https://images.seeklogo.com/logo-png/42/2/sportv-logo-png_seeklogo-424355.png",
+        "url": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd",
+        "group": "Sport TV",
+        "type": "dash",
+        "kid": "902e5ec0e3d05e665daa32fc23f4f59e",
+        "key": "7b2322a273843921a43e2c61dac7cae3",
+        "useProxy": false
+    },
+    {
+        "name": "TNT Sports 3",
+        "logo": "https://www.pitch.co.uk/wp-content/uploads/2023/12/TNT-Sports-Logo.png",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/2szrn2y3ep/out/v1/eacd8a4207dc4f0d9661a4b085b8fdd9/cenc.mpd",
         "group": "TNT Sports",
         "type": "dash",
-        "kid": "0b59ce06de74ed84f2eda5e81dadba13",
-        "key": "48e4ba4ad6c2a60d2bda5d71a0050844",
+        "kid": "12413e2c2855cfc59ce0fe6b20cc71ca",
+        "key": "08d55a8f5fc93a9375f9b0cb2e1739ca",
         "useProxy": false
     },
     {
@@ -152,10 +182,13 @@
         "useProxy": false
     },
     {
-        "name": "DAZN FIFA",
-        "logo": "https://i.postimg.cc/Kc3mP7Qt/cbimage.png",
+        "name": "CTV",
+        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
+        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/72sjo8hygl/out/v1/3079be34d72a4985852d299a02406a0c/cenc.mpd",
         "group": "FIFA",
-        "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8",
+        "type": "dash",
+        "kid": "d185684e2330de5bea436daa094a5e86",
+        "key": "014f0116154f5bf0050e03a6b0a23157",
         "useProxy": false
     },
     {
@@ -204,13 +237,6 @@
         "useProxy": false
     },
     {
-        "name": "TAPMAD",
-        "logo": "https://cdn.sportmonks.com/images/cricket/teams/5/37.png",
-        "url": "https://serieAleague.akamaized.net/hls/live/2107107/PSLE_tapmad2026-Backup/master.m3u8",
-        "group": "FIFA",
-        "useProxy": false
-    },
-    {
         "name": "TELEMUNDO (USA VPN)",
         "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6719.png",
         "url": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kvea)/master.mpd",
@@ -231,13 +257,6 @@
         "useProxy": false
     },
     {
-        "name": "Toffee",
-        "logo": "https://static.wikia.nocookie.net/etv-gspn-bangla/images/4/43/Toffee_logo.png",
-        "group": "FIFA",
-        "url": "https://prod-cdn01-live.toffeelive.com/live/FIFA-2026-4/0/master_2000.m3u8?hdntl=Expires=1782131769~_GO=Generated~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Signature=AduQTZ_HfwTejFgmS6WY7BzJBc4A8U8ZkNxJHYKpKAsjnLgGy0BYXc-SyHOjdxFYRfHoF8507i1oe1VE_ZBnI0J_s2oH",
-        "useProxy": false
-    },
-    {
         "name": "ZDF (USE GERMAN VPN)",
         "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6720.png",
         "url": "https://simplitv-live.mdn.ors.at/live/eds/zdf_hd/dash4h/zdf_hd.mpdhttps://simplitv-live.mdn.ors.at/live/eds/zdf_hd/dash4h/zdf_hd.mpd",
@@ -252,26 +271,6 @@
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Win_Sports_nuevo_logo.svg/500px-Win_Sports_nuevo_logo.svg.png",
         "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8",
         "group": "FIFA",
-        "useProxy": false
-    },
-    {
-        "name": "FUSSBALL TV 4K",
-        "logo": "",
-        "url": "https://da-50f11b292a028381000001120000000000000009.id.vx.tentcdn.eu/wp/at-live-7.tentcdn.eu/bpk-tv/WM_TV_1_UHD/default/index.mpd",
-        "type": "dash",
-        "group": "FUSSBALL",
-        "kid": "4f558eae1b005126b2ac6e9eb1a7849e",
-        "key": "17aea325d91b5e66f06a8c574f2f0b03",
-        "useProxy": false
-    },
-    {
-        "name": "FUSSBALL 2 4K",
-        "logo": "",
-        "url": "https://da-50f11b292a028381000001120000000000000009.id.vx.tentcdn.eu/wp/at-live-7.tentcdn.eu/bpk-tv/WM_TV_2_UHD/default/index.mpd",
-        "type": "dash",
-        "group": "FUSSBALL",
-        "kid": "ccdf9f3d9bbf5c508adf04f81918a285",
-        "key": "66cf0524fcc2eb0c7dab8bbbf8829827",
         "useProxy": false
     },
     {
@@ -302,26 +301,12 @@
         "useProxy": false
     },
     {
-        "name": "TOFFEE BD FHD",
-        "logo": "",
-        "url": "https://prod-cdn01-live.toffeelive.com/live/FIFA-2026-3/0/master_2000.m3u8?hdntl=Expires=1782268810~_GO=Generated~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Signature=AVXEwvfp4eDaCzDm-EWGrLvhTXc_uoCr2koVStuIsl5-2wELPO8dXxFQq2mupFrZEK7OGfvd5WgH2OpJrETXYB4xhc0P",
-        "group": "TOFFEE",
-        "useProxy": true
-    },
-    {
         "name": "SportzX Live",
         "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
         "url": "https://instreams.pro/EU/HDWC1/tracks-v1a1/mono.m3u8",
         "group": "SportzX",
         "referer": "https://instream.click/",
         "origin": "https://instream.click",
-        "useProxy": true
-    },
-    {
-        "name": "TOFFE BDIX (BD)",
-        "logo": "https://sadatinternet.com/wp-content/uploads/2022/05/123229859_100869635171190_9162097040449781294_n.jpg",
-        "url": "https://prod-cdn01-live.toffeelive.com/live/FIFA-2026-3/0/master_2000.m3u8?hdntl=Expires=1782418809~_GO=Generated~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Signature=AVXEwveF8BgsmNe1sCxy0CAuaX0CpEJzUogRTlfjKkPvojCcdktcLGMvpcmtVW6uCNdLknLp-hjnAHmHww7pzwkZMsQD",
-        "group": "TOFFE",
         "useProxy": true
     },
     {
@@ -346,37 +331,12 @@
         "useProxy": false
     },
     {
-        "name": "TVE La1 SPANISH",
+        "name": "ISCREEN BD FHD",
         "logo": "",
-        "url": "https://otte-qw.live.pv-cdn.net/fra-nitro/live/clients/dash/enc/c7di7zkdor/out/v1/f7d5b356e048494a8325563e8916d50b/cenc.mpd",
-        "type": "dash",
-        "group": "TVE",
-        "kid": "745cd6ec34a58f2f7ac2af35dc3da6d2",
-        "key": "ae008f1e47e6567fe4201a6ff8f1ae54",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "useProxy": false
-    },
-    {
-        "name": "D Sports FHD",
-        "logo": "",
-        "url": "https://otte-qw.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/x0srg3jjpz/out/v1/f779c49314394d61886d63f58d9d52e4/cenc.mpd",
-        "type": "dash",
-        "group": "D",
-        "kid": "4f4c3a9912ea752e88f4497864a1bc8b",
-        "key": "278128004fe8c6ffb2cd2a0c154a241a",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "useProxy": false
-    },
-    {
-        "name": "CAZE TV FHD",
-        "logo": "https://duckduckgo.com/i/dab0d6887915781c.png",
-        "url": "https://otte-qw.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd",
-        "type": "dash",
-        "group": "CAZE",
-        "kid": "34475edab991ad5e92548aebd710410a",
-        "key": "501b209cccd323ac00bf5ac15b406cb4",
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
-        "useProxy": false
+        "url": "https://pastebin.com/raw/AFnPnGzQ?e=.m3u8",
+        "group": "ISCREEN",
+        "referer": "https://iscreen.com.bd/",
+        "useProxy": true
     },
     {
         "name": "TELEMUNDO HD",
@@ -385,6 +345,14 @@
         "group": "TELEMUNDO",
         "referer": "https://instream.click/",
         "origin": "https://instream.click",
+        "useProxy": true
+    },
+    {
+        "name": "FOX ONE 4K",
+        "logo": "",
+        "url": "https://lb.xyzcloud3.xyz/fox4k/index.m3u8",
+        "group": "FOX",
+        "referer": "https://xyzstreams.shop/",
         "useProxy": true
     },
     {
@@ -459,23 +427,6 @@
         "useProxy": false
     },
     {
-        "name": "TOFFE BDIX (BD)",
-        "logo": "",
-        "url": "https://prod-cdn01-live.toffeelive.com/live/FIFA-2026-4/0/master_2000.m3u8?hdntl=Expires=1782420013~_GO=Generated~URLPrefix=aHR0cHM6Ly9wcm9kLWNkbjAxLWxpdmUudG9mZmVlbGl2ZS5jb20~Signature=AVXEwvfZ5JmGmk77YGPec76Lfl8EP2Kfaj46SO_-bpB5hYto2URysqJhDvM09Ng-nXeGdSjktjXP91QY6tA0vkbaAFMC",
-        "group": "TOFFE",
-        "useProxy": true
-    },
-    {
-        "name": "ViX MUNDIAL FHD",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/ViX_Logo.svg/500px-ViX_Logo.svg.png",
-        "url": "https://cun-live1-ott.izzigo.tv/11/out/u/dash/VIX-MUNDIAL-90-HD/default.mpd",
-        "type": "dash",
-        "group": "ViX",
-        "kid": "052aba8b4944541841db862526bbe6b6",
-        "key": "b785276874581a60b8e95b668b7c0d2b",
-        "useProxy": false
-    },
-    {
         "name": "TELEMUNDO HD",
         "logo": "https://duckduckgo.com/i/2e3815a5b7ddd3c9.png",
         "url": "https://edge2caster.pro/hls/eJmauBDCIf.m3u8?",
@@ -491,6 +442,26 @@
         "group": "ISCREEN",
         "referer": "https://iscreen.com.bd/",
         "useProxy": true
+    },
+    {
+        "name": "Unite8 HIN [IN]",
+        "logo": "",
+        "url": "https://sundirectgo-live.pc.cdn.bitgravity.com/svchd18/dth.mpd",
+        "type": "dash",
+        "group": "Unite8",
+        "kid": "b90a8e3b967f0a7505bc0e925853c62d",
+        "key": "def40d621397cf5fedb93884cf7eb3ef",
+        "useProxy": false
+    },
+    {
+        "name": "Unite8 ENG [IN]",
+        "logo": "",
+        "url": "https://sundirectgo-live.pc.cdn.bitgravity.com/svchd14/dth.mpd",
+        "type": "dash",
+        "group": "Unite8",
+        "kid": "156df45e915859b5bcb0586c4edc8da8",
+        "key": "f2032a0a2ff59a2c0f2c609bf399e1d1",
+        "useProxy": false
     },
     {
         "name": "TSN 3",
