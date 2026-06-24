@@ -66,7 +66,7 @@ async function getStreamQualities() {
 
   const validStreams = [];
   const deadStreams = [];
-  const seenUrls = new Set();
+  const seenIdentifiers = new Set();
   const uniqueData = [];
   let duplicatesCount = 0;
 
@@ -74,27 +74,38 @@ async function getStreamQualities() {
     const url = stream.url || stream.link;
     if (!url) continue;
     if (!stream.url) stream.url = url;
-    if (stream.no_proxy === undefined) {
-      // Streams with referer NEED the proxy to forward custom headers
-      stream.no_proxy = !stream.referer;
-    } else if (stream.referer && stream.no_proxy === true) {
-      // Fix: referer streams must go through proxy
-      stream.no_proxy = false;
+    if (stream.no_proxy !== undefined) {
+      if (stream.useProxy === undefined) {
+        stream.useProxy = !stream.no_proxy;
+      }
+      delete stream.no_proxy;
     }
 
-    const normalizedUrl = url.trim();
-    if (seenUrls.has(normalizedUrl)) {
-      console.log(`[-] Skipping duplicate URL: ${stream.name} (${normalizedUrl})`);
-      console.log('-'.repeat(80));
-      duplicatesCount++;
-      continue;
+    if (stream.useProxy === undefined) {
+      // Streams with referer NEED the proxy to forward custom headers
+      stream.useProxy = !!stream.referer;
+    } else if (stream.referer && stream.useProxy === false) {
+      // Fix: referer streams must go through proxy
+      stream.useProxy = true;
     }
-    seenUrls.add(normalizedUrl);
-    uniqueData.push(stream);
 
     const isDash = stream.type === 'dash' || (stream.url && stream.url.includes('.mpd'));
     const isHls = !isDash && (stream.url && stream.url.includes('.m3u8'));
     const isTs = !isDash && !isHls && (stream.url && stream.url.includes('.ts'));
+
+    let uniqueIdentifier = url.trim();
+    if (isDash && stream.kid && stream.key) {
+      uniqueIdentifier = `DASH_${stream.kid.trim()}_${stream.key.trim()}`;
+    }
+
+    if (seenIdentifiers.has(uniqueIdentifier)) {
+      console.log(`[-] Skipping duplicate stream: ${stream.name}`);
+      console.log('-'.repeat(80));
+      duplicatesCount++;
+      continue;
+    }
+    seenIdentifiers.add(uniqueIdentifier);
+    uniqueData.push(stream);
 
     if (!isDash && !isHls && !isTs) {
       console.log(`[-] Unknown stream format (not DASH, HLS, or TS) for ${stream.name}: ${stream.url || 'No URL'}`);
