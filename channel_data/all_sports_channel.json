@@ -1,5 +1,12 @@
 [
     {
+        "name": "D SPORTS 1080p",
+        "logo": "",
+        "url": "https://pub-4d2103f8af8641e2974e9590622c3264.r2.dev/d-sports/d-sports.m3u8",
+        "group": "D Sports",
+        "useProxy": false
+    },
+    {
         "name": "T Sports HD",
         "url": "https://trs1.aynaott.com/tsports/tracks-v1a1/mono.ts.m3u8",
         "group": "FIFA",
@@ -126,13 +133,6 @@
         "url": "https://stream.ultraedge.live/fox-4k/main.m3u8",
         "referer": "https://vod.yagaverse.net/",
         "useProxy": true
-    },
-    {
-        "name": "FIFA +",
-        "logo": "https://roams.es/images/post/es_ES_news/categoria-telefonia/1200x675/logo-de-fifa-plus.webp",
-        "group": "FOX",
-        "url": "https://e3be9ac5.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfRklGQVBsdXNQb3J0dWd1ZXNlX0hMUw/9c1dd781-4ee3-4668-a957-fa1e6f81d613/3.m3u8",
-        "useProxy": false
     },
     {
         "name": "LIVE 1",
@@ -973,13 +973,11 @@
         "useProxy": true
     },
     {
-        "name": "D SPORTS ES",
+        "name": "D SPORTS 1080p",
         "logo": "",
-        "url": "http://193.47.62.47/hls/SXlplplpq.m3u8?",
-        "group": "D",
-        "referer": "http://www.fawanews.sc/",
-        "origin": "http://www.fawanews.sc/",
-        "useProxy": true
+        "url": "https://pub-4d2103f8af8641e2974e9590622c3264.r2.dev/d-sports/d-sports.m3u8",
+        "group": "D Sports",
+        "useProxy": false
     },
     {
         "name": "SD SERVER [SWE]",
