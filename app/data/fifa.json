@@ -323,6 +323,16 @@
         "useProxy": true
     },
     {
+        "name": "Match Football FHD",
+        "logo": "",
+        "url": "https://video.beeline.tv/live/d/channel319.isml/manifest-stb.mpd",
+        "type": "dash",
+        "group": "Match",
+        "kid": "9145a6e0f778e61866f573d4944dd533",
+        "key": "d02173d40515fea5c83944f21d0f3114",
+        "useProxy": false
+    },
+    {
         "name": "TVP SPORTS FHD",
         "logo": "https://cdn.livesoccertv.com/images/channels/thumbnails/tvp-sport.png",
         "url": "https://estreams.tv.nej.cz/dash/CH_TVP_SPORT_Portable.ism/playlist.mpd",
