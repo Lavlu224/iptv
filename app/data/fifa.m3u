@@ -11,10 +11,10 @@ https://tmaxapp.site/beinmax1.m3u8
 https://tmaxapp.site/beinmax2.m3u8
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8570.png" group-title="BeIN",BeIN MAX SD
 https://prod-fastly-eu-west-1.video.pscp.tv/Transcoding/v1/hls/dpXv_Bj52CxsfzkpeY2HfAG9GNFBl7qI6s8HSUWcyRO-cjXHZqH9jkGzhEIgwNcw6R5ZRRUbA8ZV7S0DXKMrkQ/non_transcode/eu-west-1/periscope-replay-direct-prod-eu-west-1-public/master_dynamic_delta.m3u8?type=live
-#EXTINF:-1 tvg-logo="https://elmarada.org/wp-content/uploads/2022/03/download-247x200.png" group-title="BeIN",BeIN Sports 1
-http://41.205.70.146/BEINSPORT1/index.m3u8
 #EXTINF:-1 tvg-logo="https://elmarada.org/wp-content/uploads/2022/03/download-247x200.png" group-title="BeIN",BeIN Sports 2
 http://41.205.70.146/BEINSPORT2/index.m3u8
+#EXTINF:-1 tvg-logo="https://elmarada.org/wp-content/uploads/2022/03/download-247x200.png" group-title="BeIN",BeIN Sports 5
+http://41.205.70.146/BEINSPORT5/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/S7tZS6cg/Bein-Sports-1-Direct.png" group-title="BeIN",Bein Sports 1
 https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.broadbandtvnews.com/wp-content/uploads/2025/05/13115423/Fox-One-Logo.jpg" group-title="FOX",FS1 [No VPN]
@@ -65,6 +65,10 @@ https://edgestreams.pro/hls/sqdahach1ax.m3u8?
 #EXTVLCOPT:http-referrer=https://streamscenter.online/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://edge2caster.pro/hls/eJmauBDCIf.m3u8?
+#EXTINF:-1 group-title="ISCREEN",ISCREEN BD FHD
+#EXTVLCOPT:http-referrer=https://iscreen.com.bd/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://livecdn.rockstreamer.com/main/Iscreen_fifa_main/main/in4_1080p/chunks.m3u8
 #EXTINF:-1 tvg-logo="https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg" group-title="TSN",TSN 3
 https://storage.googleapis.com/hunhfkegrsjn1/mux_video_ts/index-1.m3u8
 #EXTINF:-1 tvg-logo="https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg" group-title="TSN",TSN SPORTS
