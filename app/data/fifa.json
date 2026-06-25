@@ -162,6 +162,16 @@
         "useProxy": false
     },
     {
+        "name": "TNT",
+        "logo": "https://resources.motogp.pulselive.com/photo-resources/2026/06/15/4b8f1a01-10ce-4c91-8c14-b906d9f77caf/Czechia-GP-Poster.jpg?height=192&width=343",
+        "url": "https://otte-qw.live.pv-cdn.net/fra-nitro/live/clients/dash/enc/3j04z3pbit/out/v1/042ee0757ed348bf8c26f75895cae871/cenc.mpd",
+        "group": "TNT Sports",
+        "type": "dash",
+        "kid": "0b59ce06de74ed84f2eda5e81dadba13",
+        "key": "48e4ba4ad6c2a60d2bda5d71a0050844",
+        "useProxy": false
+    },
+    {
         "name": "TNT Sports 3",
         "logo": "https://www.pitch.co.uk/wp-content/uploads/2023/12/TNT-Sports-Logo.png",
         "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/2szrn2y3ep/out/v1/eacd8a4207dc4f0d9661a4b085b8fdd9/cenc.mpd",
