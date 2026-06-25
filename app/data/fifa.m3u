@@ -17,6 +17,8 @@ http://41.205.70.146/BEINSPORT1/index.m3u8
 http://41.205.70.146/BEINSPORT2/index.m3u8
 #EXTINF:-1 tvg-logo="https://elmarada.org/wp-content/uploads/2022/03/download-247x200.png" group-title="BeIN",BeIN Sports 5
 http://41.205.70.146/BEINSPORT5/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co.com/S7tZS6cg/Bein-Sports-1-Direct.png" group-title="BeIN",Bein Sports 1
+https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.broadbandtvnews.com/wp-content/uploads/2025/05/13115423/Fox-One-Logo.jpg" group-title="FOX",FS1 [No VPN]
 https://vizio.kuvuslov.cymru/fs1/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://cdn.broadbandtvnews.com/wp-content/uploads/2025/05/13115423/Fox-One-Logo.jpg" group-title="FOX",FS2 [No VPN]
@@ -27,6 +29,8 @@ https://stream.ultraedge.live/fox-4k/main.m3u8
 https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8570.png" group-title="FIFA",ARABIC LIVE
 https://live-aburayhan1111.telewebion.ir/ek/sport1/live/720p/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/Kc3mP7Qt/cbimage.png" group-title="FIFA",DAZN FIFA
+https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8263.png" group-title="FIFA",LVE  1
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
@@ -59,6 +63,14 @@ https://instreams.pro/US/NFLHD3/tracks-v1a1/mono.m3u8?
 #EXTVLCOPT:http-referrer=https://xyzstreams.shop/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://lb.xyzcloud3.xyz/fox4k/index.m3u8
+#EXTINF:-1 group-title="HD",HD SERVER ENG
+#EXTVLCOPT:http-referrer=https://streamscenter.online/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://mainstreams.pro/hls/b0h5fNwDKH.m3u8?
+#EXTINF:-1 group-title="HD",HD SERVER AR
+#EXTVLCOPT:http-referrer=https://streamscenter.online/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://edgestreams.pro/hls/sqdahach1ax.m3u8?
 #EXTINF:-1 group-title="FOX",FOX SPORTS HD
 #EXTVLCOPT:http-referrer=https://xyzstreams.shop/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
@@ -67,7 +79,23 @@ https://lb.xyzcloud3.xyz/FS1/index.m3u8?
 #EXTVLCOPT:http-referrer=https://xyzstreams.shop/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://lb.xyzcloud3.xyz/tsn2/index.m3u8?
+#EXTINF:-1 tvg-logo="https://duckduckgo.com/i/2e3815a5b7ddd3c9.png" group-title="TELEMUNDO",TELEMUNDO HD
+#EXTVLCOPT:http-referrer=https://streamscenter.online/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://edge2caster.pro/hls/eJmauBDCIf.m3u8?
 #EXTINF:-1 tvg-logo="https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg" group-title="TSN",TSN 3
 https://storage.googleapis.com/hunhfkegrsjn1/mux_video_ts/index-1.m3u8
 #EXTINF:-1 tvg-logo="https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg" group-title="TSN",TSN SPORTS
 https://storage.googleapis.com/hunhfkegrsjn1/mux_video_ts1/index-1.m3u8
+#EXTINF:-1 group-title="HD",HD SERVER ENG
+#EXTVLCOPT:http-referrer=https://streamscenter.online/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://edgestreams.pro/hls/24SDAZFcsqnj24.m3u8?
+#EXTINF:-1 group-title="HD",HD SERVER ENG 2
+#EXTVLCOPT:http-referrer=https://streamscenter.online/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://edgestreams.pro/hls/b0h5fNwDKH.m3u8?
+#EXTINF:-1 group-title="HD",HD SERVER AR
+#EXTVLCOPT:http-referrer=https://streamscenter.online/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://mainstreams.pro/hls/sqdahach1ax.m3u8?
