@@ -47,6 +47,10 @@ https://ncdn.telewebion.ir/faratar/live/playlist.m3u8
 #EXTVLCOPT:http-referrer=https://instream.click/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://instreams.pro/EU/HDWC1/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="FOX",FOX ONE HD
+#EXTVLCOPT:http-referrer=https://xyzstreams.shop/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://lb.xyzcloud3.xyz/FOX/index.m3u8
 #EXTINF:-1 group-title="ISCREEN",ISCREEN BD FHD
 #EXTVLCOPT:http-referrer=https://iscreen.com.bd/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
@@ -63,6 +67,10 @@ https://lb.xyzcloud3.xyz/fox4k/index.m3u8
 #EXTVLCOPT:http-referrer=https://xyzstreams.shop/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://lb.xyzcloud3.xyz/FS1/index.m3u8?
+#EXTINF:-1 group-title="TSN",TSN SPORTS HD
+#EXTVLCOPT:http-referrer=https://xyzstreams.shop/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+https://lb.xyzcloud3.xyz/tsn2/index.m3u8?
 #EXTINF:-1 tvg-logo="https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg" group-title="TSN",TSN 3
 https://storage.googleapis.com/hunhfkegrsjn1/mux_video_ts/index-1.m3u8
 #EXTINF:-1 tvg-logo="https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg" group-title="TSN",TSN SPORTS
