@@ -135,13 +135,6 @@
         "useProxy": false
     },
     {
-        "name": "ARABIC LIVE",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
-        "url": "https://live-aburayhan1111.telewebion.ir/ek/sport1/live/720p/index.m3u8",
-        "group": "FIFA",
-        "useProxy": false
-    },
-    {
         "name": "FUSSBALL TV (USE GERMAN VPN)",
         "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/6719.png",
         "url": "https://svc45.main.sl.t-online.de/bpk-tv/KID01037_FUSSBALLTV1_hd/DASH/index.mpd",
@@ -231,6 +224,13 @@
         "group": "TELEMUNDO",
         "kid": "1efe4add8fdf327c5f8d2a1c195e5c71",
         "key": "4f50e6f011e60ca01ee561f27187e78f",
+        "useProxy": false
+    },
+    {
+        "name": "IRIB 4K",
+        "logo": "",
+        "url": "https://ncdn.telewebion.ir/faratar/live/playlist.m3u8",
+        "group": "IRIB",
         "useProxy": false
     },
     {
