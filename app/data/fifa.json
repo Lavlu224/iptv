@@ -222,13 +222,6 @@
         "useProxy": false
     },
     {
-        "name": "ARABIC LIVE",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
-        "url": "https://live-aburayhan1111.telewebion.ir/ek/sport1/live/720p/index.m3u8",
-        "group": "FIFA",
-        "useProxy": false
-    },
-    {
         "name": "CTV",
         "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/72sjo8hygl/out/v1/3079be34d72a4985852d299a02406a0c/cenc.mpd",
@@ -236,13 +229,6 @@
         "type": "dash",
         "kid": "d185684e2330de5bea436daa094a5e86",
         "key": "014f0116154f5bf0050e03a6b0a23157",
-        "useProxy": false
-    },
-    {
-        "name": "DAZN FIFA",
-        "logo": "https://i.postimg.cc/Kc3mP7Qt/cbimage.png",
-        "group": "FIFA",
-        "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8",
         "useProxy": false
     },
     {
@@ -338,6 +324,16 @@
         "useProxy": false
     },
     {
+        "name": "TELEMUNDO FHD",
+        "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
+        "url": "https://cun-live1-ott.izzigo.tv/out/u/dash/NOG1/TELEMUNDO-ARIZONA-USA-TCS-HD/default.mpd",
+        "type": "dash",
+        "group": "TELEMUNDO",
+        "kid": "1efe4add8fdf327c5f8d2a1c195e5c71",
+        "key": "4f50e6f011e60ca01ee561f27187e78f",
+        "useProxy": false
+    },
+    {
         "name": "IRIB 4K",
         "logo": "",
         "url": "https://ncdn.telewebion.ir/faratar/live/playlist.m3u8",
@@ -425,6 +421,15 @@
         "useProxy": true
     },
     {
+        "name": "HD SERVER ENG",
+        "logo": "",
+        "url": "https://mainstreams.pro/hls/b0h5fNwDKH.m3u8?",
+        "group": "HD",
+        "referer": "https://streamscenter.online/",
+        "origin": "https://streamscenter.online",
+        "useProxy": true
+    },
+    {
         "name": "HD SERVER AR",
         "logo": "",
         "url": "https://edgestreams.pro/hls/sqdahach1ax.m3u8?",
@@ -486,14 +491,6 @@
         "useProxy": true
     },
     {
-        "name": "ISCREEN BD FHD",
-        "logo": "",
-        "url": "https://livecdn.rockstreamer.com/main/Iscreen_fifa_main/main/in4_1080p/chunks.m3u8",
-        "group": "ISCREEN",
-        "referer": "https://iscreen.com.bd/",
-        "useProxy": true
-    },
-    {
         "name": "Unite8 HIN [IN]",
         "logo": "",
         "url": "https://sundirectgo-live.pc.cdn.bitgravity.com/svchd18/dth.mpd",
@@ -512,6 +509,15 @@
         "kid": "156df45e915859b5bcb0586c4edc8da8",
         "key": "f2032a0a2ff59a2c0f2c609bf399e1d1",
         "useProxy": false
+    },
+    {
+        "name": "HD SERVER ENG",
+        "logo": "",
+        "url": "https://edgestreams.pro/hls/24SDAZFcsqnj24.m3u8?",
+        "group": "HD",
+        "referer": "https://streamscenter.online/",
+        "origin": "https://streamscenter.online",
+        "useProxy": true
     },
     {
         "name": "HD SERVER ENG 2",
