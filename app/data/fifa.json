@@ -63,16 +63,6 @@
         "useProxy": false
     },
     {
-        "name": "D SPORTS",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3gg2jnixjn/out/v1/e1840e01f3f14563b66bbb944d5cc54c/cenc.mpd",
-        "group": "D Sports",
-        "type": "dash",
-        "kid": "f8b207c10f3f76aeba32a360ec52b9e4",
-        "key": "afad49d20eb39670e93e371c1d669921",
-        "useProxy": false
-    },
-    {
         "name": "FOX 1080p [No VPN]",
         "logo": "https://cdn.broadbandtvnews.com/wp-content/uploads/2025/05/13115423/Fox-One-Logo.jpg",
         "group": "FOX",
@@ -125,6 +115,16 @@
         "useProxy": false
     },
     {
+        "name": "Sky Sports La Liga",
+        "logo": "https://epg.pw/media/images/epg/2025/04/23/20250423022300132210_61.png",
+        "url": "https://aca-live4-ott.izzigo.tv/12/out/u/dash/SKY-SPORTS-16-HD/default.mpd",
+        "group": "Sky Sports",
+        "type": "dash",
+        "kid": "cb80e1e7d7598eaf98b1dbbe6dc14ee9",
+        "key": "103ae55c7948ca1d159d6743619d26c4",
+        "useProxy": false
+    },
+    {
         "name": "Sky Sports La Liga 1",
         "logo": "https://epg.pw/media/images/epg/2025/04/23/20250423022300132210_61.png",
         "url": "https://aca-live-ott.izzigo.tv/7/out/u/dash/SKY-SPORTS-16-HD-H265/default.mpd",
@@ -132,16 +132,6 @@
         "type": "dash",
         "kid": "95b52d16d344af539ce9c2c9ff95571a",
         "key": "5f035d9c4a178221f89d2439426b2e9a",
-        "useProxy": false
-    },
-    {
-        "name": "SporTV 3",
-        "logo": "https://images.seeklogo.com/logo-png/42/2/sportv-logo-png_seeklogo-424355.png",
-        "url": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd",
-        "group": "Sport TV",
-        "type": "dash",
-        "kid": "902e5ec0e3d05e665daa32fc23f4f59e",
-        "key": "7b2322a273843921a43e2c61dac7cae3",
         "useProxy": false
     },
     {
@@ -335,6 +325,28 @@
         "group": "TVE",
         "kid": "745cd6ec34a58f2f7ac2af35dc3da6d2",
         "key": "ae008f1e47e6567fe4201a6ff8f1ae54",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "useProxy": false
+    },
+    {
+        "name": "D Sports FHD",
+        "logo": "",
+        "url": "https://otte-qw.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/x0srg3jjpz/out/v1/f779c49314394d61886d63f58d9d52e4/cenc.mpd",
+        "type": "dash",
+        "group": "D",
+        "kid": "4f4c3a9912ea752e88f4497864a1bc8b",
+        "key": "278128004fe8c6ffb2cd2a0c154a241a",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
+        "useProxy": false
+    },
+    {
+        "name": "CAZE TV FHD",
+        "logo": "https://duckduckgo.com/i/dab0d6887915781c.png",
+        "url": "https://otte-qw.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/3ynrpdanq2/out/v1/81fd4c26584044d2b1a1cc5b32fa9af0/cenc.mpd",
+        "type": "dash",
+        "group": "CAZE",
+        "kid": "34475edab991ad5e92548aebd710410a",
+        "key": "501b209cccd323ac00bf5ac15b406cb4",
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
         "useProxy": false
     },
