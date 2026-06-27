@@ -145,13 +145,13 @@
         "useProxy": false
     },
     {
-        "name": "SporTV 3",
-        "logo": "https://images.seeklogo.com/logo-png/42/2/sportv-logo-png_seeklogo-424355.png",
-        "url": "https://otte.cache.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd",
-        "group": "Sport TV",
+        "name": "TNT",
+        "logo": "https://resources.motogp.pulselive.com/photo-resources/2026/06/15/4b8f1a01-10ce-4c91-8c14-b906d9f77caf/Czechia-GP-Poster.jpg?height=192&width=343",
+        "url": "https://otte-qw.live.pv-cdn.net/fra-nitro/live/clients/dash/enc/3j04z3pbit/out/v1/042ee0757ed348bf8c26f75895cae871/cenc.mpd",
+        "group": "TNT Sports",
         "type": "dash",
-        "kid": "902e5ec0e3d05e665daa32fc23f4f59e",
-        "key": "7b2322a273843921a43e2c61dac7cae3",
+        "kid": "0b59ce06de74ed84f2eda5e81dadba13",
+        "key": "48e4ba4ad6c2a60d2bda5d71a0050844",
         "useProxy": false
     },
     {
@@ -336,6 +336,16 @@
         "referer": "https://instream.click/",
         "origin": "https://instream.click",
         "useProxy": true
+    },
+    {
+        "name": "Match Football FHD",
+        "logo": "",
+        "url": "https://video.beeline.tv/live/d/channel319.isml/manifest-stb.mpd",
+        "type": "dash",
+        "group": "Match",
+        "kid": "9145a6e0f778e61866f573d4944dd533",
+        "key": "d02173d40515fea5c83944f21d0f3114",
+        "useProxy": false
     },
     {
         "name": "TSN SPORTS FHD",
