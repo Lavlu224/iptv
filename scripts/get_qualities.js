@@ -65,7 +65,6 @@ async function getStreamQualities() {
   console.log(`[+] Found ${data.length} total streams. Checking available qualities...\n`);
 
   const validStreams = [];
-  const deadStreams = [];
   const seenIdentifiers = new Set();
   const uniqueData = [];
   let duplicatesCount = 0;
@@ -118,10 +117,7 @@ async function getStreamQualities() {
 
     const hasVpn = stream.name && /vpn/i.test(stream.name);
     if (hasVpn) {
-      console.log(`[-] VPN Required Stream (Assumed alive)`);
-      validStreams.push(stream);
-      console.log('-'.repeat(80));
-      continue;
+      console.log(`[-] VPN Required Stream (Will check qualities, but keep even if it fails)`);
     }
 
     if (isTs) {
@@ -156,6 +152,10 @@ async function getStreamQualities() {
 
       if (!response.ok) {
         console.error(`[-] Failed to fetch stream: ${response.status} ${response.statusText}`);
+        if (hasVpn) {
+          console.log(`[-] Keeping VPN stream despite failure.`);
+          if (!validStreams.includes(stream)) validStreams.push(stream);
+        }
         console.log('-'.repeat(80));
         continue;
       }
@@ -240,6 +240,10 @@ async function getStreamQualities() {
       }
     } catch (e) {
       console.error(`[-] Error fetching or parsing stream: ${e.message}`);
+      if (hasVpn) {
+        console.log(`[-] Keeping VPN stream despite fetch error.`);
+        if (!validStreams.includes(stream)) validStreams.push(stream);
+      }
     }
     console.log('-'.repeat(80));
   }
