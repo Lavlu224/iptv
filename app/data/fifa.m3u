@@ -105,8 +105,6 @@ https://edgestreams.pro/hls/fskjanach24.m3u8?
 https://instreams.pro/US/MLB10/tracks-v1a1/mono.m3u8?
 #EXTINF:-1 group-title="TSN",TSN2 SPORTS SD
 https://xstm.250909.cc/live/SPORTSFLUX-PRD-33990-1/31b4468de9ac/1638.m3u8
-#EXTINF:-1 group-title="TSN",TSN5 SPORTS SD
-https://xstm.250909.cc/live/SPORTSFLUX-PRD-33990-1/31b4468de9ac/1636.m3u8
 #EXTINF:-1 group-title="beIN",beIN MAX - AQ
 https://prod-fastly-eu-west-1.video.pscp.tv/Transcoding/v1/hls/uDigLUzkGHiPjUq7w_7q8GAzAcVEbScwtzz3ZlTEtye8rQwxp0ocyduyK-NNXYwNcCcCnHWJF5AxqCGoHtjo8A/non_transcode/eu-west-1/periscope-replay-direct-prod-eu-west-1-public/master_dynamic_highlatency.m3u8?type=live
 #EXTINF:-1 group-title="ARABIC",ARABIC LIVE FHD
@@ -249,8 +247,6 @@ https://tmaxapp.site/beinmax1.m3u8
 https://tmaxapp.site/beinmax2.m3u8
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8570.png" group-title="BeIN",BeIN MAX SD
 https://prod-fastly-eu-west-1.video.pscp.tv/Transcoding/v1/hls/dpXv_Bj52CxsfzkpeY2HfAG9GNFBl7qI6s8HSUWcyRO-cjXHZqH9jkGzhEIgwNcw6R5ZRRUbA8ZV7S0DXKMrkQ/non_transcode/eu-west-1/periscope-replay-direct-prod-eu-west-1-public/master_dynamic_delta.m3u8?type=live
-#EXTINF:-1 tvg-logo="https://i.ibb.co.com/S7tZS6cg/Bein-Sports-1-Direct.png" group-title="BeIN",Bein Sports 1
-https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8570.png" group-title="FIFA",ARABIC LIVE
 https://live-aburayhan1111.telewebion.ir/ek/sport1/live/720p/index.m3u8
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8263.png" group-title="FIFA",LVE  1
@@ -293,5 +289,3 @@ https://tmaxapp.site/foxcricket.m3u8
 #EXTVLCOPT:http-referrer=https://www.tapmad.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://pastebin.com/raw/U2LaqQne?&.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph" group-title="SKY",SKY CRICKET FHD
-https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=8Q-Mt7GTaRI2Eo9LNZ9mrg&e=2081082141
