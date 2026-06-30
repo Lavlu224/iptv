@@ -43,6 +43,10 @@ https://instreams.pro/US/NFLHD2/tracks-v1a1/mono.m3u8?
 #EXTVLCOPT:http-referrer=http://www.fawanews.sc/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://193.47.62.59/hls/CZzsss.m3u8?
+#EXTINF:-1 group-title="ENG",ENG SERVER SD
+#EXTVLCOPT:http-referrer=http://www.fawanews.sc/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+http://193.47.62.59/hls/CZzsssQ.m3u8?
 #EXTINF:-1 group-title="HIGHLIGHTS",HIGHLIGHTS [EN]
 https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/VLzvWDw4Zl_U7r1D8R3_0A/6hp/qt5b8318/68n3bd/tt/master.m3u8
 #EXTINF:-1 group-title="HIGHLIGHTS",HIGHLIGHTS
@@ -165,3 +169,5 @@ https://tmaxapp.site/foxcricket.m3u8
 #EXTVLCOPT:http-referrer=https://www.tapmad.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://pastebin.com/raw/U2LaqQne?&.m3u8
+#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph" group-title="SKY",SKY CRICKET FHD
+https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=8Q-Mt7GTaRI2Eo9LNZ9mrg&e=2081082141
