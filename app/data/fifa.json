@@ -89,6 +89,38 @@
         "useProxy": false
     },
     {
+        "name": "SP0TV HD",
+        "logo": "",
+        "url": "https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_spotvhd/default/index.mpd",
+        "type": "dash",
+        "group": "SP0TV",
+        "useProxy": true
+    },
+    {
+        "name": "SP0TV2 HD",
+        "logo": "",
+        "url": "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd",
+        "type": "dash",
+        "group": "SP0TV2",
+        "useProxy": true
+    },
+    {
+        "name": "EUROSPORT FHD",
+        "logo": "",
+        "url": "https://dash2.antik.sk/stream/nvidia_eurosport1/playlist_cenc.mpd",
+        "type": "dash",
+        "group": "EUROSPORT",
+        "useProxy": true
+    },
+    {
+        "name": "EUROSPORT2 FHD",
+        "logo": "",
+        "url": "https://dash2.antik.sk/stream/nvidia_eurosport2/playlist_cenc.mpd",
+        "type": "dash",
+        "group": "EUROSPORT2",
+        "useProxy": true
+    },
+    {
         "name": "HIGHLIGHTS [EN]",
         "logo": "",
         "url": "https://fullmatchshows.embedseek.com/hlsmod/p16-ad-site-sign-sg.tiktokcdn.com/VLzvWDw4Zl_U7r1D8R3_0A/6hp/qt5b8318/68n3bd/tt/master.m3u8",
@@ -366,6 +398,17 @@
         "x-playback-session-id": "80da10c806e4622d7b59afb32d4ef546-1782474600122"
     },
     {
+        "name": "SonyLiv - KAN",
+        "logo": "",
+        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2037143/cricodi2606/KAN/master.m3u8",
+        "group": "SonyLiv",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+        "referer": "https://www.sonyliv.com/",
+        "origin": "https://www.sonyliv.com",
+        "x-playback-session-id": "80da10c806e4622d7b59afb32d4ef546-1782474600122"
+    },
+    {
         "name": "ISCREEN BD FHD",
         "logo": "https://play-lh.googleusercontent.com/SPbTC9tI82cpBSS4Nsv6pd-mvQd1lnJU2omTqs-sv4DvIdHVRxvZ9OboJTV5Gy1erWo6H569kZ74ZBg6v6sz=w600-h300-pc0xffffff-pd",
         "url": "https://pastebin.com/raw/AFnPnGzQ?e=.m3u8",
@@ -412,50 +455,6 @@
         "url": "https://1nyaler.streamhostingcdn.top/stream/21/index.m3u8",
         "group": "beIN",
         "useProxy": false
-    },
-    {
-        "name": "TSN SPORTS FHD",
-        "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cjglydxghe/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd",
-        "type": "dash",
-        "group": "TSN",
-        "kid": "85b277daf5aae05833fe43a68f587968",
-        "key": "d52d7e9bc0bcd98787efd547ac91eca0",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "FOX SPORTS HD",
-        "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cizlveblk4/out/v1/e5c36c41621e4384b80427d87199433a/cenc.mpd",
-        "type": "dash",
-        "group": "FOX",
-        "kid": "d7d78ea2021a29541136bd5dc8352fe7",
-        "key": "6425ac4c0cdf906fe0cce5cf40dc8933",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "D Sports FHD",
-        "logo": "",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rgilyeubta/out/v1/09a67027b18f4fd78aaa3794a2aacfe8/cenc.mpd",
-        "type": "dash",
-        "group": "D",
-        "kid": "03f12d6a3dbfd3a6fa7dd7f6417e0c11",
-        "key": "ea07b87acdf2e45be824cde4a1cf3504",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "CAZE TV FHD",
-        "logo": "https://duckduckgo.com/i/dab0d6887915781c.png",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ui54qo0g6h/out/v1/620e1448188d4bbe9a28d0dd52f45bb7/cenc.mpd",
-        "type": "dash",
-        "group": "CAZE",
-        "kid": "ba6aca5a550163c38d06646bb50f04e7",
-        "key": "516c3b471fce48a5b7a2e5ee7dd505f2",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
         "name": "FOX SPORTS 4K",
@@ -508,26 +507,6 @@
         "useProxy": false
     },
     {
-        "name": "D SPORTS",
-        "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3gg2jnixjn/out/v1/e1840e01f3f14563b66bbb944d5cc54c/cenc.mpd",
-        "group": "D Sports",
-        "type": "dash",
-        "kid": "f8b207c10f3f76aeba32a360ec52b9e4",
-        "key": "afad49d20eb39670e93e371c1d669921",
-        "useProxy": false
-    },
-    {
-        "name": "LIVE 1",
-        "logo": "https://cdn.sportmonks.com/images/cricket/teams/8/72.png",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd",
-        "group": "Live",
-        "type": "dash",
-        "kid": "290e09c837da78d5cd961978d390515c",
-        "key": "b748836c71e6a4ca68ef5b5652db6247",
-        "useProxy": false
-    },
-    {
         "name": "ARABIC LIVE",
         "logo": "https://images.fotmob.com/image_resources/logo/teamlogo/8570.png",
         "url": "https://live-aburayhan1111.telewebion.ir/ek/sport1/live/720p/index.m3u8",
@@ -556,27 +535,6 @@
         "group": "SportzX",
         "referer": "https://instream.click/",
         "origin": "https://instream.click",
-        "useProxy": true
-    },
-    {
-        "name": "ITV SPORTS FHD",
-        "logo": "https://cdn.livesoccertv.com/images/channels/thumbnails/itv-1.png",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0eiyyz8qzm/out/v1/dd17af8835fe4bd087d1a4e359b635d7/cenc.mpd",
-        "type": "dash",
-        "group": "ITV",
-        "kid": "30089c52924f037b225b82c616fee2a5",
-        "key": "f55dc8b66ed4fc6753d6035ae7e17144",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "TVE La 1 FHD",
-        "logo": "",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/c7di7zkdor/out/v1/f7d5b356e048494a8325563e8916d50b/cenc.mpd",
-        "type": "dash",
-        "group": "TVE",
-        "kid": "745cd6ec34a58f2f7ac2af35dc3da6d2",
-        "key": "ae008f1e47e6567fe4201a6ff8f1ae54",
         "useProxy": true
     },
     {
@@ -627,30 +585,6 @@
         "useProxy": true
     },
     {
-        "name": "SP0TV HD",
-        "logo": "",
-        "url": "https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/cg_spotvhd/default/index.mpd",
-        "type": "dash",
-        "group": "SP0TV",
-        "useProxy": true
-    },
-    {
-        "name": "EUROSPORT FHD",
-        "logo": "",
-        "url": "https://dash2.antik.sk/stream/nvidia_eurosport1/playlist_cenc.mpd",
-        "type": "dash",
-        "group": "EUROSPORT",
-        "useProxy": true
-    },
-    {
-        "name": "EUROSPORT2 FHD",
-        "logo": "",
-        "url": "https://dash2.antik.sk/stream/nvidia_eurosport2/playlist_cenc.mpd",
-        "type": "dash",
-        "group": "EUROSPORT2",
-        "useProxy": true
-    },
-    {
         "name": "HD SERVER",
         "logo": "",
         "url": "https://instreams.pro/US/MLB13/tracks-v1a1/mono.m3u8?",
@@ -667,14 +601,6 @@
         "useProxy": true,
         "referer": "https://instream.click/",
         "origin": "https://instream.click"
-    },
-    {
-        "name": "SKY CRICKET FHD",
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
-        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=8Q-Mt7GTaRI2Eo9LNZ9mrg&e=2081082141",
-        "group": "SKY",
-        "useProxy": false,
-        "user-agent": "Mozilla"
     },
     {
         "name": "TOFFEE AQ (BDIX)",
