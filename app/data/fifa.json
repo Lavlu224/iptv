@@ -56,24 +56,6 @@
     {
         "name": "SportzX Live",
         "logo": "",
-        "url": "https://edgestreams.pro/hls/jkzahzadach20.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
-    },
-    {
-        "name": "HD SERVER",
-        "logo": "",
-        "url": "https://instreams.pro/US/MLB6/tracks-v1a1/mono.m3u8?",
-        "group": "HD",
-        "useProxy": true,
-        "referer": "https://instream.click/",
-        "origin": "https://instream.click"
-    },
-    {
-        "name": "SportzX Live",
-        "logo": "",
         "url": "https://mainstreams.pro/hls/jnzkdzjfanch23.m3u8?",
         "group": "SportzX",
         "useProxy": true,
@@ -88,6 +70,62 @@
         "useProxy": true,
         "referer": "https://instream.click/",
         "origin": "https://instream.click"
+    },
+    {
+        "name": "WC TV FHD",
+        "logo": "",
+        "url": "https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/fifa_ppv1/default/index.mpd",
+        "type": "dash",
+        "group": "WC",
+        "kid": "2c338a117d434ce4bbe3569231af90f1",
+        "key": "a9633d901ee8a3f4f58ac314b5c5f4fb",
+        "useProxy": true
+    },
+    {
+        "name": "TIPIK FR FHD",
+        "logo": "",
+        "url": "https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/dash/.mpd",
+        "type": "dash",
+        "group": "TIPIK",
+        "kid": "adca25b8779e4168a0cd710f59f61ccf",
+        "key": "be5383ed3cd8079f4ffe78ad067f476a",
+        "useProxy": true
+    },
+    {
+        "name": "NBC SPORTS HD",
+        "logo": "",
+        "url": "https://instreams.pro/US/NFLHD4/tracks-v1a1/mono.m3u8?",
+        "group": "NBC",
+        "useProxy": true,
+        "referer": "https://instream.click/",
+        "origin": "https://instream.click"
+    },
+    {
+        "name": "SportzX Live",
+        "logo": "",
+        "url": "https://instreams.pro/EU/HDWC3/tracks-v1a1/mono.m3u8?",
+        "group": "SportzX",
+        "useProxy": true,
+        "referer": "https://instream.click/",
+        "origin": "https://instream.click"
+    },
+    {
+        "name": "HD SERVER ENG",
+        "logo": "",
+        "url": "https://edgestreams.pro/hls/24SDAZFcsqnj24.m3u8?",
+        "group": "HD",
+        "useProxy": true,
+        "referer": "https://streamscenter.online/",
+        "origin": "https://streamscenter.online"
+    },
+    {
+        "name": "HD SERVER AR",
+        "logo": "",
+        "url": "https://mainstreams.pro/hls/eJmauBDCIf.m3u8?",
+        "group": "HD",
+        "useProxy": true,
+        "referer": "https://streamscenter.online/",
+        "origin": "https://streamscenter.online"
     },
     {
         "name": "SportzX LIVE",
@@ -106,67 +144,6 @@
         "useProxy": true,
         "referer": "https://instream.click/",
         "origin": "https://instream.click"
-    },
-    {
-        "name": "ITV SPORTS FHD",
-        "logo": "https://cdn.livesoccertv.com/images/channels/thumbnails/itv-1.png",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0eiyyz8qzm/out/v1/dd17af8835fe4bd087d1a4e359b635d7/cenc.mpd",
-        "type": "dash",
-        "group": "ITV",
-        "kid": "30089c52924f037b225b82c616fee2a5",
-        "key": "f55dc8b66ed4fc6753d6035ae7e17144",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "CTV SPORTS FHD",
-        "logo": "https://r2.thesportsdb.com/images/media/channel/logo/wwr35d1665918725.png",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/enc/72sjo8hygl/out/v1/3079be34d72a4985852d299a02406a0c/cenc.mpd",
-        "type": "dash",
-        "group": "CTV",
-        "kid": "d185684e2330de5bea436daa094a5e86",
-        "key": "014f0116154f5bf0050e03a6b0a23157",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "TSN SPORTS FHD",
-        "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd",
-        "type": "dash",
-        "group": "TSN",
-        "kid": "14eeabf30c14b7fbf3008c03099ce011",
-        "key": "17d2ac8dbc5429bd70af3433aa12158d",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
-        "name": "Binge BDIX (BD)",
-        "logo": "https://play-lh.googleusercontent.com/SPbTC9tI82cpBSS4Nsv6pd-mvQd1lnJU2omTqs-sv4DvIdHVRxvZ9OboJTV5Gy1erWo6H569kZ74ZBg6v6sz=w600-h300-pc0xffffff-pd",
-        "url": "https://tc-sg.rockstreamer.com/v1/019ed91616121ea540a8171c8e801f/019ed92ac80315fc600b1796d4ad8b/main.m3u8",
-        "group": "Binge",
-        "useProxy": true,
-        "referer": "https://iscreen.com.bd/"
-    },
-    {
-        "name": "WC TV FHD",
-        "logo": "https://upload.wikimedia.org/wikipedia/fr/b/bb/Logo_Tipik_2025.png",
-        "url": "https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/fifa_ppv1/default/index.mpd",
-        "type": "dash",
-        "group": "WC",
-        "kid": "2c338a117d434ce4bbe3569231af90f1",
-        "key": "a9633d901ee8a3f4f58ac314b5c5f4fb",
-        "useProxy": true
-    },
-    {
-        "name": "RTE SPORTS FHD",
-        "logo": "",
-        "url": "https://dai.google.com/linear/dash/pa/event/oPeAYQs9T9yTHS98aR1EjQ/stream/a15f395f-f7d2-4728-8db4-ee96e5643dcb:GRQ/manifest.mpd",
-        "type": "dash",
-        "group": "RTE",
-        "kid": "d816287e21496989eae1312925a423c5",
-        "key": "00da00f13180e7e6cd5ce87d1c974e8d",
-        "useProxy": true
     },
     {
         "name": "DSports FHD",
@@ -222,22 +199,19 @@
         "useProxy": true
     },
     {
-        "name": "FOX ONE HD",
-        "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
-        "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd",
-        "type": "dash",
-        "group": "FOX",
-        "kid": "5466ebd70704bdeb657f0abf3c5ca4ef",
-        "key": "bdd79b72d8e48ed483aa623cc38a8a16",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
         "name": "UNITE8 HINDI HD",
         "logo": "",
         "url": "http://fastshare1.com/live/112233/445566/741567.ts",
         "group": "UNITE8",
         "useProxy": false
+    },
+    {
+        "name": "TSN SPORTS HD",
+        "logo": "https://www.bellmedia.ca/lede/wp-content/uploads/2024/09/18581592_10155403529061055_8240563011649656197_n.jpg",
+        "url": "https://inproviszon.st/tsn1-ca.m3u8?",
+        "group": "TSN",
+        "useProxy": true,
+        "referer": "https://vileembeds.pages.dev/"
     },
     {
         "name": "TELEMUNDO HD",
@@ -255,6 +229,30 @@
         "group": "TSN",
         "useProxy": true,
         "referer": "https://xyzstreams.st/"
+    },
+    {
+        "name": "FOX ONE 4K",
+        "logo": "",
+        "url": "https://inproviszon.st/fox4k-usa.m3u8?",
+        "group": "FOX",
+        "useProxy": true,
+        "referer": "https://vileembeds.pages.dev/"
+    },
+    {
+        "name": "TELEMUNDO FHD",
+        "logo": "https://duckduckgo.com/i/2e3815a5b7ddd3c9.png",
+        "url": "https://inproviszon.st/telemundo-xyz-waUvqaAACr.m3u8?",
+        "group": "TELEMUNDO",
+        "useProxy": true,
+        "referer": "https://xyzstreams.st/"
+    },
+    {
+        "name": "FUSSBALL 4K LIVE",
+        "logo": "",
+        "url": "https://inproviszon.st/fussballtv1uhd-de.m3u8?",
+        "group": "FUSSBALL",
+        "useProxy": true,
+        "referer": "https://vileembeds.pages.dev/"
     },
     {
         "name": "SportzX Live",
@@ -338,16 +336,6 @@
         "origin": "https://instream.click"
     },
     {
-        "name": "TIPIK FR FHD",
-        "logo": "https://upload.wikimedia.org/wikipedia/fr/b/bb/Logo_Tipik_2025.png",
-        "url": "https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/dash/.mpd",
-        "type": "dash",
-        "group": "TIPIK",
-        "kid": "adca25b8779e4168a0cd710f59f61ccf",
-        "key": "be5383ed3cd8079f4ffe78ad067f476a",
-        "useProxy": true
-    },
-    {
         "name": "CT SPORTS CZ",
         "logo": "",
         "url": "https://dash2.antik.sk/stream/nvidia_ct_sport/playlist_cenc.mpd",
@@ -390,42 +378,6 @@
         "url": "https://1nyaler.streamhostingcdn.top/stream/21/index.m3u8",
         "group": "beIN",
         "useProxy": false
-    },
-    {
-        "name": "NBC SPORTS HD",
-        "logo": "",
-        "url": "https://instreams.pro/US/NFLHD4/tracks-v1a1/mono.m3u8?",
-        "group": "NBC",
-        "useProxy": true,
-        "referer": "https://instream.click/",
-        "origin": "https://instream.click"
-    },
-    {
-        "name": "SportzX Live",
-        "logo": "",
-        "url": "https://instreams.pro/EU/HDWC3/tracks-v1a1/mono.m3u8?",
-        "group": "SportzX",
-        "useProxy": true,
-        "referer": "https://instream.click/",
-        "origin": "https://instream.click"
-    },
-    {
-        "name": "HD SERVER ENG",
-        "logo": "",
-        "url": "https://edgestreams.pro/hls/24SDAZFcsqnj24.m3u8?",
-        "group": "HD",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
-    },
-    {
-        "name": "HD SERVER AR",
-        "logo": "",
-        "url": "https://mainstreams.pro/hls/eJmauBDCIf.m3u8?",
-        "group": "HD",
-        "useProxy": true,
-        "referer": "https://streamscenter.online/",
-        "origin": "https://streamscenter.online"
     },
     {
         "name": "D SPORTS 1080p",
@@ -540,6 +492,14 @@
         "type": "dash",
         "group": "EUROSPORT2",
         "useProxy": true
+    },
+    {
+        "name": "SKY CRICKET FHD",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
+        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=8Q-Mt7GTaRI2Eo9LNZ9mrg&e=2081082141",
+        "group": "SKY",
+        "useProxy": false,
+        "user-agent": "Mozilla"
     },
     {
         "name": "NOW TV 4K",
