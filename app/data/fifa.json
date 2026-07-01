@@ -131,6 +131,16 @@
         "useProxy": true
     },
     {
+        "name": "RTE SPORTS FHD",
+        "logo": "",
+        "url": "https://dai.google.com/linear/dash/pa/event/oPeAYQs9T9yTHS98aR1EjQ/stream/2e20f29a-0431-4a7e-83a3-d50ecfbb5a2a:BRU/manifest.mpd",
+        "type": "dash",
+        "group": "RTE",
+        "kid": "d816287e21496989eae1312925a423c5",
+        "key": "00da00f13180e7e6cd5ce87d1c974e8d",
+        "useProxy": true
+    },
+    {
         "name": "GOLTV VIVO",
         "logo": "",
         "url": "https://dmbgaz4xf6jyh.cloudfront.net/live-stream-dai/69690cfcce0dc031830e7c1a/123a264b71764485bd49eca2d552cf33/d97743de3620a865848fff7a9de14dda1bf2409d/manifest.mpd?aid=688aae6d61c87d6274c05065&dnt=true&access_token=63ey9SOpQeHBRfWJYQLXQjelQc0QM1HXmlHp4iZrH8UCOCM8QtGIGg1sEEPJH0R0yXktUEXdLeB&uid=Knx65GY6UbaWSADZybEvf6m5MvqNIuNs&sid=bwRy9BgSc4RFeVhYh52hVIY8uPsJ4v4d&pid=A0xT1VnepBvKKqyeyRNtNkZBmHBrNNZM&ref=ditu.caracoltv.com&ext_pb=0&es=dmbgaz4xf6jyh.cloudfront.net&proto=https&pz=us&xr=us-east-2&manifestfilter=video_height:480-1080",
@@ -156,27 +166,12 @@
         "referer": "https://xyzstreams.st/"
     },
     {
-        "name": "FOX ONE HD",
-        "logo": "",
-        "url": "https://inproviszon.st/foxfhd-usa.m3u8?",
-        "group": "FOX",
-        "useProxy": true,
-        "referer": "https://vileembeds.pages.dev/"
-    },
-    {
         "name": "beIN MAX FHD",
         "logo": "",
         "url": "https://inproviszon.st/bein-xyz-waUvqaAACr.m3u8?",
         "group": "beIN",
         "useProxy": true,
         "referer": "https://xyzstreams.st/"
-    },
-    {
-        "name": "FAST SERVER",
-        "logo": "",
-        "url": "https://pulltx.jdnzrgm.com/live/hd-en-6MvYMRSYcoYxLrPPt2.m3u8?txSecret=d3f7681fb93302371c80d9e3d8244b3a&txTime=6A448940",
-        "group": "FAST",
-        "useProxy": false
     },
     {
         "name": "TELEMUNDO HD",
@@ -208,14 +203,6 @@
         "logo": "",
         "url": "https://inproviszon.st/telemundo-usa.m3u8?",
         "group": "TELEMUNDO",
-        "useProxy": true,
-        "referer": "https://vileembeds.pages.dev/"
-    },
-    {
-        "name": "FUSSBALL TV UHD",
-        "logo": "",
-        "url": "https://inproviszon.st/fussballtv1uhd-de.m3u8?",
-        "group": "FUSSBALL",
         "useProxy": true,
         "referer": "https://vileembeds.pages.dev/"
     },
@@ -310,6 +297,17 @@
         "name": "SonyLiv - HIN",
         "logo": "",
         "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2105079/cricodi2606/HIN/master.m3u8",
+        "group": "SonyLiv",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
+        "referer": "https://www.sonyliv.com/",
+        "origin": "https://www.sonyliv.com",
+        "x-playback-session-id": "80da10c806e4622d7b59afb32d4ef546-1782474600122"
+    },
+    {
+        "name": "SonyLiv - TAM",
+        "logo": "",
+        "url": "https://sonymtmnew-akamaized.pages.dev/hls/live/2018457/cricodi2606/TAM/master.m3u8",
         "group": "SonyLiv",
         "useProxy": true,
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0",
@@ -646,14 +644,6 @@
         "useProxy": true,
         "referer": "https://instream.click/",
         "origin": "https://instream.click"
-    },
-    {
-        "name": "SKY CRICKET FHD",
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
-        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=8Q-Mt7GTaRI2Eo9LNZ9mrg&e=2081082141",
-        "group": "SKY",
-        "useProxy": false,
-        "user-agent": "Mozilla"
     },
     {
         "name": "NOW TV 4K",
