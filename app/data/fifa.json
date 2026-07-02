@@ -72,6 +72,14 @@
         "origin": "https://instream.click"
     },
     {
+        "name": "Binge BDIX (BD)",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Logo_of_Binge.svg/330px-Logo_of_Binge.svg.png",
+        "url": "https://tc-sg.rockstreamer.com/v1/019ed91616121ea540a8171c8e801f/019ed92ac80315fc600b1796d4ad8b/main.m3u8",
+        "group": "Binge",
+        "useProxy": true,
+        "referer": "https://iscreen.com.bd/"
+    },
+    {
         "name": "WC TV FHD",
         "logo": "",
         "url": "https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/fifa_ppv1/default/index.mpd",
@@ -237,6 +245,15 @@
         "logo": "",
         "url": "http://193.47.62.51/hls/HXCZzsss.m3u8?",
         "group": "SD",
+        "useProxy": true,
+        "referer": "http://www.fawanews.sc/",
+        "origin": "http://www.fawanews.sc/"
+    },
+    {
+        "name": "ENG SERVER SD",
+        "logo": "",
+        "url": "http://193.47.62.59/hls/HXCZzsssQ.m3u8?",
+        "group": "ENG",
         "useProxy": true,
         "referer": "http://www.fawanews.sc/",
         "origin": "http://www.fawanews.sc/"
@@ -410,6 +427,14 @@
         "referer": "https://xyzstreams.st/"
     },
     {
+        "name": "ARABIC LIVE FHD",
+        "logo": "",
+        "url": "https://inproviszon.st/beinsportsmax-sa.m3u8?",
+        "group": "ARABIC",
+        "useProxy": true,
+        "referer": "https://vileembeds.pages.dev/"
+    },
+    {
         "name": "HD SERVER ENG",
         "logo": "",
         "url": "https://edge2caster.pro/hls/24SDAZFcsqnj24.m3u8?",
@@ -423,6 +448,15 @@
         "logo": "",
         "url": "http://193.47.62.55/hls/HXCZzsssQ.m3u8?",
         "group": "ENG",
+        "useProxy": true,
+        "referer": "http://www.fawanews.sc/",
+        "origin": "http://www.fawanews.sc/"
+    },
+    {
+        "name": "SD SERVER [NL BE]",
+        "logo": "",
+        "url": "http://193.47.62.59/hls/HXCZckkkqqqq.m3u8?",
+        "group": "SD",
         "useProxy": true,
         "referer": "http://www.fawanews.sc/",
         "origin": "http://www.fawanews.sc/"
