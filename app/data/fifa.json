@@ -48,6 +48,15 @@
         "origin": "https://instream.click"
     },
     {
+        "name": "HD SERVER",
+        "logo": "",
+        "url": "https://instreams.pro/US/MLB10/tracks-v1a1/mono.m3u8?",
+        "group": "HD",
+        "useProxy": true,
+        "referer": "https://instream.click/",
+        "origin": "https://instream.click"
+    },
+    {
         "name": "FOX ONE - AQ",
         "logo": "https://cdn.livesoccertv.com/images/channels/thumbnails/itv-1.png",
         "url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd",
@@ -112,23 +121,22 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "FOX SPORTS 4K",
-        "logo": "",
-        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/enc/igx02musdz/out/v1/31d30c91fc65458789b84209d3fa22e4/cenc.mpd",
-        "type": "dash",
-        "group": "FOX",
-        "kid": "1f68713028d439ec03be07f56c1d6213",
-        "key": "20093db6455160fffed4c394def3193d",
-        "useProxy": true,
-        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
-    },
-    {
         "name": "BBC SPORTS 4K",
         "logo": "",
         "url": "https://inproviszon.st/bbc-4k.m3u8?",
         "group": "BBC",
         "useProxy": true,
         "referer": "https://vileembeds.pages.dev/"
+    },
+    {
+        "name": "RTE SPORTS FHD",
+        "logo": "",
+        "url": "https://dai.google.com/linear/dash/pa/event/oPeAYQs9T9yTHS98aR1EjQ/stream/a15f395f-f7d2-4728-8db4-ee96e5643dcb:GRQ/manifest.mpd",
+        "type": "dash",
+        "group": "RTE",
+        "kid": "d816287e21496989eae1312925a423c5",
+        "key": "00da00f13180e7e6cd5ce87d1c974e8d",
+        "useProxy": true
     },
     {
         "name": "TSN SPORTS HD",
@@ -362,6 +370,15 @@
         "useProxy": false
     },
     {
+        "name": "NBC SPORTS HD",
+        "logo": "",
+        "url": "https://instreams.pro/US/NFLHD4/tracks-v1a1/mono.m3u8?",
+        "group": "NBC",
+        "useProxy": true,
+        "referer": "https://instream.click/",
+        "origin": "https://instream.click"
+    },
+    {
         "name": "SportzX Live",
         "logo": "",
         "url": "https://instreams.pro/EU/HDWC3/tracks-v1a1/mono.m3u8?",
@@ -465,14 +482,6 @@
         "type": "dash",
         "group": "EUROSPORT2",
         "useProxy": true
-    },
-    {
-        "name": "SKY CRICKET FHD",
-        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVqp1Plsy44x_6pIyvUttdbXc5LMugRMGfldjYKQbI9X_X7txzS2d7WPph",
-        "url": "https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=8Q-Mt7GTaRI2Eo9LNZ9mrg&e=2081082141",
-        "group": "SKY",
-        "useProxy": false,
-        "user-agent": "Mozilla"
     },
     {
         "name": "NOW TV 4K",
