@@ -72,14 +72,6 @@
         "origin": "https://instream.click"
     },
     {
-        "name": "Binge BDIX (BD)",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Logo_of_Binge.svg/330px-Logo_of_Binge.svg.png",
-        "url": "https://tc-sg.rockstreamer.com/v1/019ed91616121ea540a8171c8e801f/019ed92ac80315fc600b1796d4ad8b/main.m3u8",
-        "group": "Binge",
-        "useProxy": true,
-        "referer": "https://iscreen.com.bd/"
-    },
-    {
         "name": "WC TV FHD",
         "logo": "",
         "url": "https://qp-pldt-live-bpk-ucd-prod.akamaized.net/bpk-tv/fifa_ppv1/default/index.mpd",
@@ -250,15 +242,6 @@
         "origin": "http://www.fawanews.sc/"
     },
     {
-        "name": "ENG SERVER SD",
-        "logo": "",
-        "url": "http://193.47.62.59/hls/HXCZzsssQ.m3u8?",
-        "group": "ENG",
-        "useProxy": true,
-        "referer": "http://www.fawanews.sc/",
-        "origin": "http://www.fawanews.sc/"
-    },
-    {
         "name": "beIN SPORTS FR",
         "logo": "https://play-lh.googleusercontent.com/jBDZq3aBmCXuvtuJHEasqsdYPRxMBGzYmEha4dMlgoIk19Zlh6BGQC08Zt6Ifrmzhg",
         "url": "http://193.47.62.47/hls/HXCZckkkq.m3u8?",
@@ -302,6 +285,17 @@
         "useProxy": true,
         "referer": "https://instream.click/",
         "origin": "https://instream.click"
+    },
+    {
+        "name": "FOX SPORTS - AQ",
+        "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
+        "url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/enc/fqlhwefqej/out/v1/79e41681b80248788032c6880a06e7d3/cenc.mpd",
+        "type": "dash",
+        "group": "FOX",
+        "kid": "996d39be9ee1c8e65d94d7bb973bdf0f",
+        "key": "5306cdc1e410bc6ddb2530608c42b11b",
+        "useProxy": true,
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
         "name": "ITV SPORTS FHD",
@@ -387,13 +381,6 @@
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
     },
     {
-        "name": "beIN MAX HD",
-        "logo": "",
-        "url": "https://sh.kooraa36.cfd/endroom1.m3u8",
-        "group": "beIN",
-        "useProxy": false
-    },
-    {
         "name": "FOX SPORTS HD",
         "logo": "https://images.seeklogo.com/logo-png/28/1/fox-sports-logo-png_seeklogo-284763.png",
         "url": "https://inproviszon.st/fox-sports-1.m3u8?",
@@ -448,15 +435,6 @@
         "logo": "",
         "url": "http://193.47.62.55/hls/HXCZzsssQ.m3u8?",
         "group": "ENG",
-        "useProxy": true,
-        "referer": "http://www.fawanews.sc/",
-        "origin": "http://www.fawanews.sc/"
-    },
-    {
-        "name": "SD SERVER [NL BE]",
-        "logo": "",
-        "url": "http://193.47.62.59/hls/HXCZckkkqqqq.m3u8?",
-        "group": "SD",
         "useProxy": true,
         "referer": "http://www.fawanews.sc/",
         "origin": "http://www.fawanews.sc/"
