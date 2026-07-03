@@ -1394,5 +1394,222 @@
         "url": "http://41.205.93.154/STARSPORTS1/index.m3u8",
         "group": "Sports",
         "useProxy": false
+    },
+    {
+        "name": "T Sports HD",
+        "logo": "",
+        "url": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8",
+        "group": "Sports",
+        "useProxy": false
+    },
+    {
+        "name": "Euro Sport 1 HD",
+        "logo": "",
+        "url": "http://151.80.18.177:86/Eurosport_HD/index.m3u8",
+        "group": "Sports",
+        "useProxy": false
+    },
+    {
+        "name": "Euro Sport 2 HD",
+        "logo": "",
+        "url": "http://151.80.18.177:86/Eurosport_2_HD/index.m3u8",
+        "group": "Sports",
+        "useProxy": false
+    },
+    {
+        "name": "BeIN Sports Xtra (Esp)",
+        "logo": "",
+        "url": "https://amg01334-beinsportsllc-beinxtraesp-localnow-aekzc.amagi.tv/playlistR1080p.m3u8",
+        "group": "Sports",
+        "useProxy": false
+    },
+    {
+        "name": "BeIN Sports Xtra (Eng)",
+        "logo": "",
+        "url": "https://amg01334-beinsportsllc-beinxtra-localnow-kcy6r.amagi.tv/playlist.m3u8",
+        "group": "Sports",
+        "useProxy": false
+    },
+    {
+        "name": "BeIN Xtra 720p",
+        "logo": "",
+        "url": "https://bein-esp-xumo.amagi.tv/playlistR720P.m3u8",
+        "group": "Sports",
+        "useProxy": false
+    },
+    {
+        "name": "FOX Deportes",
+        "logo": "",
+        "url": "http://23.237.104.106:8080/USA_FOX_DEPORTES/index.m3u8",
+        "group": "Sports",
+        "useProxy": false
+    },
+    {
+        "name": "BeIN US",
+        "logo": "",
+        "url": "http://23.237.104.106:8080/USA_BEIN/index.m3u8",
+        "group": "Sports",
+        "useProxy": false
+    },
+    {
+        "name": "Star Sports 2 Hindi HD",
+        "logo": "",
+        "url": "http://103.157.248.140:8000/play/a01m/index.m3u8",
+        "group": "Sports",
+        "useProxy": false
+    },
+    {
+        "name": "Star Sports 3",
+        "logo": "",
+        "url": "http://103.157.248.140:8000/play/a00i/index.m3u8",
+        "group": "Sports",
+        "useProxy": false
+    },
+    {
+        "name": "Star Sports Select 1",
+        "logo": "",
+        "url": "http://103.157.248.140:8000/play/a00o/index.m3u8",
+        "group": "Sports",
+        "useProxy": false
+    },
+    {
+        "name": "Sonys Sports 1 HD",
+        "logo": "",
+        "url": "http://66.102.126.10:8000/play/a010/index.m3u8",
+        "group": "Sports",
+        "useProxy": false
+    },
+    {
+        "name": "Euro Sports (OTT)",
+        "logo": "",
+        "url": "https://stream.ottplus.bd/live/euro_sports_hd_abr/live/euro_sports_hd/chunks.m3u8",
+        "group": "Sports",
+        "useProxy": false
+    },
+    {
+        "name": "CAZE TV 720p",
+        "logo": "",
+        "url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/720p-vtt/index.m3u8",
+        "group": "Sports",
+        "useProxy": false
+    },
+    {
+        "name": "TNT Sports",
+        "logo": "",
+        "url": "http://45.232.210.1:18000/play/a08x/index.m3u8",
+        "group": "Sports",
+        "useProxy": false
+    },
+    {
+        "name": "Sky Sport",
+        "logo": "",
+        "url": "http://45.5.118.152:8000/play/a08f/index.m3u8",
+        "group": "Sports",
+        "useProxy": false
+    },
+    {
+        "name": "Claro Sports",
+        "logo": "",
+        "url": "http://45.5.118.152:8000/play/a0ah/index.m3u8",
+        "group": "Sports",
+        "useProxy": false
+    },
+    {
+        "name": "ESPN Premium",
+        "logo": "",
+        "url": "http://190.7.19.197:232/play/a038/index.m3u8",
+        "group": "Sports",
+        "useProxy": false
+    },
+    {
+        "name": "ESPN ARG",
+        "logo": "",
+        "url": "http://45.170.130.224:8000/play/a04l/index.m3u8",
+        "group": "Sports",
+        "useProxy": false
+    },
+    {
+        "name": "TyC Sports USA",
+        "logo": "",
+        "url": "http://45.170.130.224:8000/play/a020/index.m3u8",
+        "group": "Sports",
+        "useProxy": false
+    },
+    {
+        "name": "Tigo Sports+",
+        "logo": "",
+        "url": "http://45.170.130.224:8000/play/a04i/index.m3u8",
+        "group": "Sports",
+        "useProxy": false
+    },
+    {
+        "name": "Astro Football 1",
+        "logo": "",
+        "url": "http://103.157.248.140:8000/play/a05x/index.m3u8",
+        "group": "Sports",
+        "useProxy": false
+    },
+    {
+        "name": "Astro Football 2",
+        "logo": "",
+        "url": "http://103.157.248.140:8000/play/a01q/index.m3u8",
+        "group": "Sports",
+        "useProxy": false
+    },
+    {
+        "name": "D Sports 1080p",
+        "logo": "",
+        "url": "https://pub-4d2103f8af8641e2974e9590622c3264.r2.dev/d-sports/d-sports.m3u8",
+        "group": "Sports",
+        "useProxy": false
+    },
+    {
+        "name": "Star Sports 1 Hindi (New)",
+        "logo": "",
+        "url": "https://starsportshindiii.pages.dev/index.m3u8",
+        "group": "Sports",
+        "useProxy": false
+    },
+    {
+        "name": "Sportitalia",
+        "logo": "",
+        "url": "https://edge-001.streamup.eu/sportitalia/sihd_abr/playlist.m3u8",
+        "group": "Sports",
+        "useProxy": false
+    },
+    {
+        "name": "MNB Sport",
+        "logo": "",
+        "url": "https://live.mnb.mn/hls/mnb_sport.stream.m3u8",
+        "group": "Sports",
+        "useProxy": false
+    },
+    {
+        "name": "CT Sport CZ",
+        "logo": "",
+        "url": "http://88.212.15.19/live/test_ctsport_25p/playlist.m3u8",
+        "group": "Sports",
+        "useProxy": false
+    },
+    {
+        "name": "Sport 1 CZ",
+        "logo": "",
+        "url": "http://88.212.15.19/live/test_sport1_25p/playlist.m3u8",
+        "group": "Sports",
+        "useProxy": false
+    },
+    {
+        "name": "Bein Sports 1 Arabic",
+        "logo": "https://i.ibb.co.com/S7tZS6cg/Bein-Sports-1-Direct.png",
+        "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8",
+        "group": "Sports",
+        "useProxy": false
+    },
+    {
+        "name": "Bein Sports 2 Arabic",
+        "logo": "https://play-lh.googleusercontent.com/jBDZq3aBmCXuvtuJHEasqsdYPRxMBGzYmEha4dMlgoIk19Zlh6BGQC08Zt6Ifrmzhg",
+        "url": "https://1nyaler.streamhostingcdn.top/stream/21/index.m3u8",
+        "group": "Sports",
+        "useProxy": false
     }
 ]
