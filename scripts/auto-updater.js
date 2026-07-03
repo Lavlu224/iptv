@@ -9,8 +9,6 @@ const MAX_RETRIES = 2;
 
 const SOURCE_PLAYLISTS = [
   'https://raw.githubusercontent.com/imShakil/tvlink/main/iptv.m3u8',
-  'https://raw.githubusercontent.com/SHAJON-404/iptv-playlist/main/app/data/channels.m3u',
-  'https://raw.githubusercontent.com/SHAJON-404/iptv-playlist/main/app/data/fifa.m3u',
   'https://raw.githubusercontent.com/ARAbdulla-Dev2/iptv-host/main/FiFa%202026.m3u8',
   'https://raw.githubusercontent.com/ahan443/FAST-IPTV/main/FIFA.m3u',
 ];
@@ -30,9 +28,6 @@ const CHANNEL_ALT_SOURCES = {
     'https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8',
     'https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/1702.m3u8',
     'https://live.thebosstv.com:30443/dwlive/Somoy-TV/playlist.m3u8',
-  ],
-  'ARABIC LIVE': [
-    'https://live-aburayhan1111.telewebion.ir/ek/sport1/live/720p/index.m3u8',
   ],
 };
 
