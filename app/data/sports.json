@@ -5,5 +5,26 @@
         "url": "http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8",
         "group": "Sports",
         "useProxy": false
+    },
+    {
+        "name": "Star Sports 1 HD",
+        "logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Star%20Sports%201%40.jpeg",
+        "url": "http://41.205.93.154/STARSPORTS1/index.m3u8",
+        "group": "Sports",
+        "useProxy": false
+    },
+    {
+        "name": "Star Sports 1 Hindi",
+        "logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Star%20Sports%201%40.jpeg",
+        "url": "http://103.253.18.58:8000/play/a03o",
+        "group": "Sports",
+        "useProxy": false
+    },
+    {
+        "name": "Star Sports 1 Hindi HD",
+        "logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Star%20Sports%201%40.jpeg",
+        "url": "http://103.253.18.58:8000/play/a00t",
+        "group": "Sports",
+        "useProxy": false
     }
 ]
