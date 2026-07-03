@@ -23,6 +23,10 @@ const CHANNEL_ALT_SOURCES = {
     'http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8',
     'http://198.195.239.50:8095/Tsports/tracks-v1a1/mono.m3u8',
   ],
+  'ARABIC LIVE': [
+    'https://live-aburayhan1111.telewebion.ir/ek/sport1/live/720p/index.m3u8',
+    'http://bl.video.matchtv.ru/media/playlist/free_d46d0cf1712c0542ec7fd4f0808f600a_hd/17_89756005/1080/e6bef86de8a133cd7b27deb040758a00/4796141934.m3u8',
+  ],
   'Somoy TV': [
     'http://198.195.239.50:8095/somoyTv/tracks-v1a1/mono.m3u8',
     'https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8',
