@@ -1,2 +1,16 @@
 [
+    {
+        "name": "BTV",
+        "logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/BTV%20National.png",
+        "url": "http://198.195.239.50:8095/btv/tracks-v1a1/mono.m3u8",
+        "group": "Bangla",
+        "useProxy": false
+    },
+    {
+        "name": "Somoy TV",
+        "logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Somoy%20TV.jpeg",
+        "url": "http://198.195.239.50:8095/somoyTv/tracks-v1a1/mono.m3u8",
+        "group": "News",
+        "useProxy": false
+    }
 ]
