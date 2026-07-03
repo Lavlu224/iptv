@@ -214,6 +214,13 @@ async function main() {
     require('./json-to-m3u.js');
   }
 
+  console.log('\n--- Refreshing Toffee cookies ---');
+  try {
+    require('./refresh-toffee.js');
+  } catch (e) {
+    console.log('Toffee refresh skipped:', e.message);
+  }
+
   console.log('\n' + '='.repeat(70));
   console.log(anyChanged ? 'DONE: Updates applied.' : 'DONE: All channels OK.');
   console.log('='.repeat(70));

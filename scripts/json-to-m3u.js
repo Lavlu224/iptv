@@ -53,10 +53,23 @@ function convertFile(inputPath, outputPath) {
 
       m3uLines.push(extinf);
 
-      // If the channel has a custom referer, add VLC options for compatibility
+      // VLC options for headers
+      if (channel.headers) {
+        if (channel.headers['User-Agent']) {
+          m3uLines.push(`#EXTVLCOPT:http-user-agent=${channel.headers['User-Agent']}`);
+        }
+        if (channel.headers.Cookie) {
+          m3uLines.push(`#EXTVLCOPT:http-cookies=${channel.headers.Cookie}`);
+        }
+        if (channel.headers.Referer) {
+          m3uLines.push(`#EXTVLCOPT:http-referrer=${channel.headers.Referer}`);
+        }
+      }
+      if (channel.userAgent) {
+        m3uLines.push(`#EXTVLCOPT:http-user-agent=${channel.userAgent}`);
+      }
       if (channel.referer) {
         m3uLines.push(`#EXTVLCOPT:http-referrer=${channel.referer}`);
-        m3uLines.push(`#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36`);
       }
 
       m3uLines.push(channel.url);

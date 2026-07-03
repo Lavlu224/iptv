@@ -1,13 +1,13 @@
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/17/Hum_TV_2021.png" group-title="Entertainment",Hum TV
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
-#EXTVLCOPT:http-referrer=https://www.toffeelive.com
+#EXTVLCOPT:http-cookies=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t:Expires=1783234026:KeyName=prod_linear:Signature=HUyyPnzspBTQ5wzkNcbVTg9Fzjc__veGnVhAQELgyWW4oYuZFHCrUzqlUvw4AYLfDIUSxUqZrHmDNhHbyOMWCA
 https://bldcmprod-cdn.toffeelive.com/cdn/live/hum_tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/82/Hum_Masala_2021.png" group-title="Entertainment",Hum Masala
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
-#EXTVLCOPT:http-referrer=https://www.toffeelive.com
+#EXTVLCOPT:http-cookies=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t:Expires=1783234026:KeyName=prod_linear:Signature=HUyyPnzspBTQ5wzkNcbVTg9Fzjc__veGnVhAQELgyWW4oYuZFHCrUzqlUvw4AYLfDIUSxUqZrHmDNhHbyOMWCA
 https://bldcmprod-cdn.toffeelive.com/cdn/live/hum_masala/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/08/Hum_Sitaray_2021.png" group-title="Entertainment",Hum Sitarey
 #EXTVLCOPT:http-user-agent=okhttp/4.11.0
-#EXTVLCOPT:http-referrer=https://www.toffeelive.com
+#EXTVLCOPT:http-cookies=Edge-Cache-Cookie=URLPrefix=aHR0cHM6Ly9ibGRjbXByb2QtY2RuLnRvZmZlZWxpdmUuY29t:Expires=1783234026:KeyName=prod_linear:Signature=HUyyPnzspBTQ5wzkNcbVTg9Fzjc__veGnVhAQELgyWW4oYuZFHCrUzqlUvw4AYLfDIUSxUqZrHmDNhHbyOMWCA
 https://bldcmprod-cdn.toffeelive.com/cdn/live/hum_sitaray/playlist.m3u8
