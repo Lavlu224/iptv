@@ -1,0 +1,43 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/8b/Star_Jalsha_2022.png" group-title="Bengali",Star Jalsha
+#EXTVLCOPT:http-user-agent=VLC/3.0.18
+https://yupptvcatchupire.yuppcdn.net/preview/starjalsha/1800.m3u8?hdnts=
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/2a/Colors_Bangla_2019.png" group-title="Bengali",Colors Bangla HD
+https://iptvcable.netlify.app/Altogether-007/Kolkata/ColorsBanglaHD.m3u8
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/16/Zee_Bangla_2023.png" group-title="Bengali",Zee Bangla
+#EXTVLCOPT:http-user-agent=VLC/3.0.18
+https://catchup.yuppcdn.net/amazonv2/36/preview/zeebangla/master/chunklist.m3u8
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/85/Sony_Aath_2020.png" group-title="Bengali",Sony Aath HD
+https://live20.bozztv.com/giatvplayout7/giatv-209611/index.m3u8
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/ca/Dd_2019.webp" group-title="Bengali",DD Bangla
+https://cdn-4.pishow.tv/live/37/master.m3u8
+#EXTINF:-1 tvg-logo="https://s3.aynaott.com/storage/2b00567c538d392c8050124f0064c4a1" group-title="Bengali",Enter 10 Bangla
+https://cdn-4.pishow.tv/live/241/master.m3u8
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/d5/Republic_Bangla_2021.png" group-title="Bengali",Republic Bangla
+https://cdn-4.pishow.tv/live/270/master.m3u8
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/14/Kolkata_TV_Logo.png" group-title="Bengali",Kolkata TV
+https://cdn.ottlive.co.in/kolkatatv/index.m3u8
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/8b/Aakaash_Aath_Logo.png" group-title="Bengali",Aakaash Aath
+https://cdn-4.pishow.tv/live/969/master.m3u8
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/da/Sangeet_Bangla_logo_2006.png" group-title="Bengali",Sangeet Bangla
+https://cdn-4.pishow.tv/live/1143/master.m3u8
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4f/R_Plus_Gold_Logo.png" group-title="Bengali",R Plus Gold
+https://cdn-4.pishow.tv/live/1231/1231_1.m3u8
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/79/Star_Plus_2024.png" group-title="Hindi",Star Plus
+http://41.205.93.154/STAR-PLUS/index.m3u8
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/00/Zee_TV_2023.png" group-title="Hindi",Zee TV HD
+http://41.205.93.154/ZEE-TV/index.m3u8
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0b/Sony_TV_2020.png" group-title="Hindi",Sony TV
+http://103.253.18.58:8000/play/a00f
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/8a/Star_Sports_1_2023.png" group-title="Sports",Star Sports 1 HD
+http://103.253.18.58:8000/play/a00m
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c5/Star_Sports_1_Hindi_2023.png" group-title="Sports",Star Sports 1 Hindi
+http://103.253.18.58:8000/play/a03o
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3d/Star_Gold_2_2021.png" group-title="Movies",Star Gold 2
+http://103.253.18.58:8000/play/a00r
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/b2/Star_Gold_Select_HD_2021.png" group-title="Movies",Star Gold Select HD
+http://103.253.18.58:8000/play/a02u
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/6f/Nat_Geo_2016.png" group-title="Documentary",Nat Geo HD
+http://103.253.18.58:8000/play/a038
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/cb/Discovery_Bangla_2022.png" group-title="Documentary",Discovery Bangla
+http://202.70.146.135:8000/play/a05z/index.m3u8
