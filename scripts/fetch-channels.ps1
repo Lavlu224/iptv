@@ -3,7 +3,7 @@ param(
 )
 
 $ErrorActionPreference = "Stop"
-$repoRoot = Split-Path -Parent $PSScriptRoot | Split-Path -Parent
+$repoRoot = Split-Path -Parent $PSScriptRoot
 
 function Write-Log { param($Msg) Write-Host "[$(Get-Date -Format 'HH:mm:ss')] $Msg" }
 
@@ -47,39 +47,41 @@ try {
     $r = Invoke-WebRequest -Uri "https://raw.githubusercontent.com/imShakil/tvlink/refs/heads/main/iptv.m3u8" -TimeoutSec 20 -UseBasicParsing
     $lines = $r.Content -split "`r`n|`n"
 
-    $indianNames = @{
-        "Zee Bangla Cinema"=$true; "Colors Bangla Cinema"=$true; "Colors Cineplex HD"=$true
-        "Colors Infinity HD"=$true; "Star Movies HD"=$true; "Star Movies Select HD"=$true
-        "Star News"=$true; "ABP Ananda"=$true; "Zee 24 Ghanta"=$true; "News18 Bangla News"=$true
-        "Zee Anmol TV"=$true; "Zee Action"=$true; "Zee Anmol Cinema"=$true; "B4U Kadak"=$true
-        "B4U Movies"=$true; "B4U Music"=$true; "Star Sports 1 HD"=$true; "Nat Geo HD"=$true
-        "9XM"=$true; "BuddyStar HD"=$true; "DD Bangla"=$true; "NDTV NEWS"=$true
-        "NDTV English"=$true; "NDTV Hindi"=$true; "DD Sports 2.0"=$true; "StarPlus"=$true
-        "Star Plus HD"=$true; "Zee TV HD"=$true; "Colors HD"=$true; "Star Bharat"=$true
-        "Star Gold 2"=$true; "Star Gold Romance"=$true; "Star Gold Select HD"=$true
-        "Star Gold Thrills"=$true; "Star Maa HD"=$true; "Star Sports 1 Hindi HD"=$true
-        "Zee Bangla Sonar"=$true; "Aaj Tak"=$true; "Republic TV"=$true; "WION"=$true
-        "Star Jalsha HD"=$true; "Colors Bangla HD"=$true; "Zee Bangla HD"=$true
-        "Zee Cinema HD"=$true; "&TV HD"=$true; "Dangal TV"=$true; "Dangal 2"=$true
-        "Colors Bangla"=$true; "Sony Aath"=$true; "Sony Kal"=$true; "Sony Max"=$true
-        "Sony Max 2 HD"=$true; "Sony Pal"=$true; "Sony Sab"=$true
-        "Sony Sports Ten 2 HD"=$true; "Sony Sports Ten 3 HD"=$true; "Sony TV"=$true
-        "Sony TV HD"=$true; "Star Gold"=$true; "Star Gold HD"=$true; "Star Jalsha"=$true
-        "Star Movies"=$true; "Star Plus"=$true; "Zee Cinema"=$true; "Zee TV"=$true
-        "Colors Cineplex"=$true; "Colors"=$true; "History TV 18"=$true; "MU | 9XM"=$true
-    }
+    $indianKeywords = @(
+        "Zee Bangla Cinema","Colors Bangla Cinema","Colors Cineplex","Colors Infinity","Star Movies",
+        "Star News","ABP Ananda","Zee 24 Ghanta","News18 Bangla","Zee Anmol","Zee Action",
+        "B4U Kadak","B4U Movies","B4U Music","Star Sports 1 HD","Nat Geo HD","9XM",
+        "BuddyStar HD","DD Bangla","NDTV NEWS","NDTV English","NDTV Hindi","DD Sports 2.0",
+        "Star Plus","Colors HD","Zee TV","Star Bharat","Star Gold","Star Maa HD",
+        "Star Sports 1 Hindi","Zee Bangla Sonar","Aaj Tak","Republic TV","WION",
+        "Star Jalsha","Colors Bangla","Zee Bangla","Zee Cinema","And TV","Dangal",
+        "Sony Aath","Sony Kal","Sony Max","Sony Pal","Sony Sab","Sony TV",
+        "Sony Sports Ten","History TV","MU | 9XM","Sun Bangla","Enter 10 Bangla",
+        "Jalsha Movies","Sangeet Bangla","Khushboo Bangla","R Plus","Calcutta News",
+        "Kolkata TV","TV9 Bangla","Gopal Bhar","Motu Patlu","Discovery Bangla",
+        "BBC Earth","Food Food","Rongeen TV","YRF Music","Hindi Hits","9X Jalwa",
+        "8XM","Music India","Cineedge","Uniques","Superrix","Bangla Vision",
+        "Flash Guys","Luxel","Funny Junior","Sports Legends","Sports Range",
+        "Fighters","Smarty","Lucky Family","Kids Stars","Party Universe",
+        "Originals","Crazy Ex","Delicious","Deepto TV","ATN Bangla","Ekushey TV",
+        "NTV","Jamuna","Independent TV","Ekattor","Channel 24","ATN News",
+        "Channel 9","Channel I","Islamic TV","Nagorik","Maasranga","RTV",
+        "SATV","Mohona","Desh TV","Asian TV","Bangla TV","Channel S","SRK TV"
+    )
 
-    $output = @("#EXTM3U"); $seen = @{}; $skip = $false
+    $output = @("#EXTM3U"); $seen = @{}
     for ($i = 0; $i -lt $lines.Count; $i++) {
         if ($lines[$i] -match '#EXTINF:') {
             $name = ($lines[$i] -split ',')[-1].Trim()
-            $skip = -not $indianNames.ContainsKey($name)
-        }
-        elseif ($lines[$i] -match '^https?://' -and -not $skip) {
-            $name = ($output[-1] -split ',')[-1].Trim()
-            if (-not $seen.ContainsKey($name)) { $seen[$name] = $true; $output += $output[-1]; $output[-2] = $lines[$i] }
-            else { $output = $output[0..($output.Count-2)] }
-            $skip = $false
+            $match = $false
+            foreach ($kw in $indianKeywords) {
+                if ($name -match [regex]::Escape($kw)) { $match = $true; break }
+            }
+            if ($match -and $i+1 -lt $lines.Count -and $lines[$i+1] -match '^https?://' -and -not $seen.ContainsKey($name)) {
+                $seen[$name] = $true
+                $output += $lines[$i]
+                $output += $lines[$i+1]
+            }
         }
     }
 
