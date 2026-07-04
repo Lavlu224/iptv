@@ -13,14 +13,13 @@ mkdir -p /var/www/iptv/data
 cd /var/www/iptv
 
 # 3. Download all playlist files
-for f in bangladeshi fifa sports indian pakistani toffee akash; do
+for f in fifa; do
   curl -sL "https://raw.githubusercontent.com/Lavlu224/iptv/main/app/data/$f.json" -o "data/$f.json"
   curl -sL "https://raw.githubusercontent.com/Lavlu224/iptv/main/app/data/$f.m3u" -o "data/$f.m3u"
 done
 
 # 4. Download scripts
 curl -sL "https://raw.githubusercontent.com/Lavlu224/iptv/main/scripts/auto-updater.js" -o auto-updater.js
-curl -sL "https://raw.githubusercontent.com/Lavlu224/iptv/main/scripts/refresh-toffee.js" -o refresh-toffee.js
 curl -sL "https://raw.githubusercontent.com/Lavlu224/iptv/main/scripts/json-to-m3u.js" -o json-to-m3u.js
 
 # 5. Configure nginx
@@ -46,12 +45,9 @@ EOF
 ln -sf /etc/nginx/sites-available/iptv /etc/nginx/sites-enabled/default
 nginx -t && systemctl restart nginx
 
-# 6. Toffee cookie refresh uses Node script
-chmod +x /var/www/iptv/refresh-toffee.js
-
 # 7. Cron job (every 30 min)
 cat > /etc/cron.d/iptv-update <<'CRON'
-*/30 * * * * root cd /var/www/iptv && node auto-updater.js && node refresh-toffee.js && systemctl restart nginx
+*/30 * * * * root cd /var/www/iptv && node auto-updater.js && systemctl restart nginx
 CRON
 
 echo "Cron installed (every 30 min)"
@@ -59,8 +55,6 @@ echo "Cron installed (every 30 min)"
 # 8. Run once immediately
 cd /var/www/iptv
 node auto-updater.js
-node refresh-toffee.js
-
 # 9. Get server IP
 IP=$(curl -s ifconfig.me)
 
@@ -71,13 +65,7 @@ echo "==================================="
 echo ""
 echo "Playlist URLs:"
 echo ""
-echo "  http://$IP/bangladeshi.m3u"
 echo "  http://$IP/fifa.m3u"
-echo "  http://$IP/sports.m3u"
-echo "  http://$IP/indian.m3u"
-echo "  http://$IP/pakistani.m3u"
-echo "  http://$IP/toffee.m3u"
-echo "  http://$IP/akash.m3u"
 echo ""
 echo "Total channels:"
 for f in /var/www/iptv/data/*.m3u; do
@@ -87,5 +75,4 @@ for f in /var/www/iptv/data/*.m3u; do
 done
 echo ""
 echo "Auto-update: every 30 min"
-echo "Toffee cookies: auto-refreshed"
 echo "==================================="
