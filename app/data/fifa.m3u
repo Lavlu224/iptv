@@ -1,5 +1,27 @@
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/T%20Sports.png" group-title="FIFA",T Sports
-http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8
+https://tvsen7.aynaott.com/tsports-hd/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/T%20Sports.png" group-title="FIFA",T Sports FHD
+https://tvsen7.aynaott.com/tsportsfhd/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/T%20Sports.png" group-title="FIFA",T Sports
+https://trs1.aynaott.com/tsports/index.m3u8
 #EXTINF:-1 tvg-logo="https://images.fotmob.com/image_resources/logo/teamlogo/8570.png" group-title="FIFA",ARABIC LIVE
 https://live-aburayhan1111.telewebion.ir/ek/sport1/live/720p/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Bangladesh_Television_logo.svg/640px-Bangladesh_Television_logo.svg.png" group-title="FIFA",BTV National
+https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/1709.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Bangladesh_Television_logo.svg/640px-Bangladesh_Television_logo.svg.png" group-title="FIFA",BTV National HD
+https://tvsen6.aynaott.com/btvhd/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Bangladesh_Television_logo.svg/640px-Bangladesh_Television_logo.svg.png" group-title="FIFA",BTV World
+https://tvsen6.aynaott.com/btv_world/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.somoynews.tv/upload/medium/somoynews-384.png" group-title="FIFA",Somoy TV
+https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.somoynews.tv/upload/medium/somoynews-384.png" group-title="FIFA",Somoy TV
+https://bozztv.com/rongo/rongo-somoy/index.m3u8
+#EXTINF:-1 tvg-logo="https://www.somoynews.tv/upload/medium/somoynews-384.png" group-title="FIFA",Somoy TV
+https://tvsen6.aynaott.com/somoytv/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Gazi_TV.png/640px-Gazi_TV.png" group-title="FIFA",Gazi TV
+http://tvn1.chowdhury-shaheb.com/gazitv/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="FIFA",Star Sports 1 Hindi HD
+http://103.253.18.58:8000/play/a00t
+#EXTINF:-1 tvg-logo="" group-title="FIFA",Sony Sports Ten 3 Hindi
+http://103.229.254.25:7001/play/a09q/index.m3u8
