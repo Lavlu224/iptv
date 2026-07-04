@@ -13,7 +13,7 @@ mkdir -p /var/www/iptv/data
 cd /var/www/iptv
 
 # 3. Download all playlist files
-for f in fifa; do
+for f in fifa akash; do
   curl -sL "https://raw.githubusercontent.com/Lavlu224/iptv/main/app/data/$f.json" -o "data/$f.json"
   curl -sL "https://raw.githubusercontent.com/Lavlu224/iptv/main/app/data/$f.m3u" -o "data/$f.m3u"
 done
@@ -66,6 +66,7 @@ echo ""
 echo "Playlist URLs:"
 echo ""
 echo "  http://$IP/fifa.m3u"
+echo "  http://$IP/akash.m3u"
 echo ""
 echo "Total channels:"
 for f in /var/www/iptv/data/*.m3u; do

@@ -1,0 +1,272 @@
+[
+  {
+    "name": "Somoy TV",
+    "group": "News",
+    "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560559088.png"
+  },
+  {
+    "name": "Jamuna TV",
+    "group": "News",
+    "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1701/output/index.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560213832.png"
+  },
+  {
+    "name": "DBC News HD",
+    "group": "News",
+    "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/index.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770186306600.png"
+  },
+  {
+    "name": "Independent TV",
+    "group": "News",
+    "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1704/output/index.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1739964387847.png"
+  },
+  {
+    "name": "Ekattor HD",
+    "group": "News",
+    "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/index.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1739963327549.png"
+  },
+  {
+    "name": "Channel 24 HD",
+    "group": "News",
+    "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735556516924.png"
+  },
+  {
+    "name": "News 24 HD",
+    "group": "News",
+    "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1708/output/index.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770186895850.png"
+  },
+  {
+    "name": "ATN News",
+    "group": "News",
+    "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1706/output/index.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1739962961772.png"
+  },
+  {
+    "name": "Al Jazeera",
+    "group": "News",
+    "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1721/output/index.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735547218986.png"
+  },
+  {
+    "name": "Star News",
+    "group": "News",
+    "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/index.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770189826301.png"
+  },
+  {
+    "name": "BTV",
+    "group": "News",
+    "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735561595482.png"
+  },
+  {
+    "name": "Deepto TV HD",
+    "group": "Entertainment",
+    "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/index.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1742713000749.png"
+  },
+  {
+    "name": "SATV HD",
+    "group": "Entertainment",
+    "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1720/output/index.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770187361105.png"
+  },
+  {
+    "name": "Channel 9 HD",
+    "group": "Entertainment",
+    "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1729/output/index.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770188008067.png"
+  },
+  {
+    "name": "Ekhon TV",
+    "group": "Entertainment",
+    "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1713/output/index.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770189283848.png"
+  },
+  {
+    "name": "SRK TV",
+    "group": "Entertainment",
+    "url": "https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1746005940155.png"
+  },
+  {
+    "name": "Channel I HD",
+    "group": "Entertainment",
+    "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1740567626692.png"
+  },
+  {
+    "name": "Originals",
+    "group": "Movies",
+    "url": "https://nomawnoijl.gpcdn.net/akash/originals/playlist.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770313122372.png"
+  },
+  {
+    "name": "Cineedge HD",
+    "group": "Movies",
+    "url": "https://nomawnoijl.gpcdn.net/akash/cineedge/playlist.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770347851305.png"
+  },
+  {
+    "name": "Islamic TV",
+    "group": "Religious",
+    "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1740553740665.png"
+  },
+  {
+    "name": "Uniques HD",
+    "group": "Movies",
+    "url": "https://nomawnoijl.gpcdn.net/akash/uniques/playlist.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770347327658.png"
+  },
+  {
+    "name": "ARY News",
+    "group": "News",
+    "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1724/output/index.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770531824347.png"
+  },
+  {
+    "name": "Superrix HD",
+    "group": "Movies",
+    "url": "https://nomawnoijl.gpcdn.net/akash/superrix/playlist.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770348388925.png"
+  },
+  {
+    "name": "Crazy Ex",
+    "group": "Sports",
+    "url": "https://nomawnoijl.gpcdn.net/akash/crazy_ex/playlist.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770348753896.png"
+  },
+  {
+    "name": "Bangla Vision",
+    "group": "Entertainment",
+    "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735561344354.png"
+  },
+  {
+    "name": "NTV",
+    "group": "Entertainment",
+    "url": "https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560841094.png"
+  },
+  {
+    "name": "Screem",
+    "group": "Movies",
+    "url": "https://nomawnoijl.gpcdn.net/akash/screem/playlist.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770312098339.png"
+  },
+  {
+    "name": "Sports Legends",
+    "group": "Sports",
+    "url": "https://nomawnoijl.gpcdn.net/akash/sportslegends/playlist.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770377900139.png"
+  },
+  {
+    "name": "Flash Guys HD",
+    "group": "Sports",
+    "url": "https://nomawnoijl.gpcdn.net/akash/flashguys/playlist.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378074527.png"
+  },
+  {
+    "name": "Party Universe",
+    "group": "Music",
+    "url": "https://nomawnoijl.gpcdn.net/akash/partyuniverse/playlist.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378215384.png"
+  },
+  {
+    "name": "Delicious",
+    "group": "Infotainment",
+    "url": "https://nomawnoijl.gpcdn.net/akash/delicious/playlist.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378370876.png"
+  },
+  {
+    "name": "Luxell HD",
+    "group": "Infotainment",
+    "url": "https://nomawnoijl.gpcdn.net/akash/luxell/playlist.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378560772.png"
+  },
+  {
+    "name": "Nikki",
+    "group": "Kids",
+    "url": "https://nomawnoijl.gpcdn.net/akash/nikky/playlist.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378704923.png"
+  },
+  {
+    "name": "Joy",
+    "group": "Kids",
+    "url": "https://nomawnoijl.gpcdn.net/akash/joy/playlist.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378874717.png"
+  },
+  {
+    "name": "BuddyStar HD",
+    "group": "Kids",
+    "url": "https://nomawnoijl.gpcdn.net/akash/buddystar/playlist.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770379038530.png"
+  },
+  {
+    "name": "Funny Junior HD",
+    "group": "Kids",
+    "url": "https://nomawnoijl.gpcdn.net/akash/funnyjunior/playlist.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770379573329.png"
+  },
+  {
+    "name": "Crimes",
+    "group": "Movies",
+    "url": "https://nomawnoijl.gpcdn.net/akash/crimes/playlist.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380126540.png"
+  },
+  {
+    "name": "True Stories",
+    "group": "Movies",
+    "url": "https://nomawnoijl.gpcdn.net/akash/truestories/playlist.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380306806.png"
+  },
+  {
+    "name": "Intelligence",
+    "group": "Movies",
+    "url": "https://nomawnoijl.gpcdn.net/akash/intelligence/playlist.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380460488.png"
+  },
+  {
+    "name": "Sports Range",
+    "group": "Sports",
+    "url": "https://nomawnoijl.gpcdn.net/akash/sportrange/playlist.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380601958.png"
+  },
+  {
+    "name": "Thunder",
+    "group": "Sports",
+    "url": "https://nomawnoijl.gpcdn.net/akash/thunder/playlist.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380791303.png"
+  },
+  {
+    "name": "Fighters",
+    "group": "Sports",
+    "url": "https://nomawnoijl.gpcdn.net/akash/fighter/playlist.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380942670.png"
+  },
+  {
+    "name": "Smarty",
+    "group": "Kids",
+    "url": "https://nomawnoijl.gpcdn.net/akash/smarty/playlist.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770381107924.png"
+  },
+  {
+    "name": "Lucky Family",
+    "group": "Kids",
+    "url": "https://nomawnoijl.gpcdn.net/akash/luckyfamily/playlist.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770381248531.png"
+  },
+  {
+    "name": "Kids Stars",
+    "group": "Kids",
+    "url": "https://nomawnoijl.gpcdn.net/akash/kidsstars/playlist.m3u8",
+    "logo": "https://tstatic.akash-go.com/cms-ui/images/custom-content/1770381398090.png"
+  }
+]
